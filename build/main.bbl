@@ -25,6 +25,44 @@
 P.~Ryka{\l}a, ``The growth of the gaming industry in the context of creative
   industries,'' \emph{Biblioteka Regionalisty}, no.~20, pp. 124--136, 2020.
 
+\bibitem{politowski2021game}
+C.~Politowski, F.~Petrillo, J.~E. Montandon, M.~T. Valente, and Y.-G.
+  Gu{\'e}h{\'e}neuc, ``Are game engines software frameworks? a
+  three-perspective study,'' \emph{Journal of Systems and Software}, vol. 171,
+  p. 110846, 2021.
+
+\bibitem{wijman2021games}
+\BIBentryALTinterwordspacing
+T.~Wijman, ``The games market and beyond in 2021: The year in numbers,''
+  [Online; accessed 1-December-2023]. [Online]. Available:
+  \url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wijman2022games}
+\BIBentryALTinterwordspacing
+------, ``The games market in 2022: The year in numbers,'' [Online; accessed
+  1-December-2023]. [Online]. Available:
+  \url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}
+\BIBentrySTDinterwordspacing
+
+\bibitem{devData}
+\BIBentryALTinterwordspacing
+SlashData, ``The global developer population 2019,'' [Online; accessed
+  1-December-2023]. [Online]. Available:
+  \url{https://slashdata-website-cms.s3.amazonaws.com/sample_reports/EiWEyM5bfZe1Kug_.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{devNation}
+\BIBentryALTinterwordspacing
+------, ``State of the developer nation 23rd edition,'' [Online; accessed
+  18-December-2023]. [Online]. Available:
+  \url{https://slashdata-website-cms.s3.amazonaws.com/sample_reports/dsIe6JlZge_KsHWt.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhu2019model}
+M.~Zhu and A.~I. Wang, ``Model-driven game development: A literature review,''
+  \emph{ACM Computing Surveys (CSUR)}, vol.~52, no.~6, pp. 1--32, 2019.
+
 \bibitem{hendrikx2013procedural}
 M.~Hendrikx, S.~Meijer, J.~Van Der~Velden, and A.~Iosup, ``Procedural content
   generation for games: A survey,'' \emph{ACM Transactions on Multimedia
@@ -59,6 +97,31 @@ R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
 C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
   on Computational Intelligence and AI in Games}, vol.~2, no.~1, pp. 1--16,
   2010.
+
+\bibitem{pascarella2018video}
+L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
+  development different from software development in open source?'' in
+  \emph{Proceedings of the 15th International Conference on Mining Software
+  Repositories}, 2018, pp. 392--402.
+
+\bibitem{chueca2023consolidation}
+J.~Chueca, J.~Ver{\'o}n, J.~Font, F.~P{\'e}rez, and C.~Cetina, ``The
+  consolidation of game software engineering: A systematic literature review of
+  software engineering for industry-scale computer games,'' \emph{Information
+  and Software Technology}, p. 107330, 2023.
+
+\bibitem{domingo2020evaluating}
+{\'A}.~Domingo, J.~Echeverr{\'\i}a, O.~Pastor, and C.~Cetina, ``Evaluating the
+  benefits of model-driven development: Empirical evaluation paper,'' in
+  \emph{Advanced Information Systems Engineering: 32nd International
+  Conference, CAiSE 2020, Grenoble, France, June 8--12, 2020, Proceedings
+  32}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2020, pp. 353--367.
+
+\bibitem{blasco2021evolutionary}
+D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
+  generating software models: The case of kromaia in game software
+  engineering,'' \emph{Journal of Systems and Software}, vol. 171, p. 110804,
+  2021.
 
 \bibitem{weimer2009automatically}
 W.~Weimer, T.~Nguyen, C.~Le~Goues, and S.~Forrest, ``Automatically finding
@@ -225,12 +288,6 @@ L.~T. Pereira, B.~M. Viana, and C.~F. Toledo, ``Procedural enemy generation
   Symposium on Computer Games and Digital Entertainment (SBGames)}.\hskip 1em
   plus 0.5em minus 0.4em\relax IEEE, 2021, pp. 126--135.
 
-\bibitem{blasco2021evolutionary}
-D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
-  generating software models: The case of kromaia in game software
-  engineering,'' \emph{Journal of Systems and Software}, vol. 171, p. 110804,
-  2021.
-
 \bibitem{lindenmayer1968mathematical}
 A.~Lindenmayer, ``Mathematical models for cellular interactions in development
   i. filaments with one-sided inputs,'' \emph{Journal of theoretical biology},
@@ -299,15 +356,5 @@ H.~J. Goldsby and B.~H.~C. Cheng, ``Automatically generating behavioral models
   Engineering Languages and Systems}, K.~Czarnecki, I.~Ober, J.-M. Bruel,
   A.~Uhl, and M.~V{\"o}lter, Eds.\hskip 1em plus 0.5em minus 0.4em\relax
   Berlin, Heidelberg: Springer Berlin Heidelberg, 2008, pp. 568--583.
-
-\bibitem{pascarella2018video}
-L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
-  development different from software development in open source?'' in
-  \emph{Proceedings of the 15th International Conference on Mining Software
-  Repositories}, 2018, pp. 392--402.
-
-\bibitem{zhu2019model}
-M.~Zhu and A.~I. Wang, ``Model-driven game development: A literature review,''
-  \emph{ACM Computing Surveys (CSUR)}, vol.~52, no.~6, pp. 1--32, 2019.
 
 \end{thebibliography}
