@@ -2,11 +2,11 @@
 \label{sec:Approach}
 
 This section will explain how our approach makes use of evolutionary computation to transplant elements within video games content. We first present an overview of our approach and subsequently provide the details of
-the approach. To help the reader, we provide along with the approach explanation a theoretical example of auto-transplantation of content within a simplified version of \sq{bosses} of the video game \CaseStudy{}.
+the approach. To help the reader, we provide along with the approach explanation an example of auto-transplantation of content within a simplified version of \sq{bosses} of the video game \CaseStudy{}.
 
-Figure~\ref{fig:approach} shows an over of our approach.
-Our approach is named after Imhotep, who is considered by many to have written the Edwin Smith papyrus (the oldest known manual of surgery)\footnote{\url{https://www.pastmedicalhistory.co.uk/imhotep-the-first-physician/}}.
-On top of the figure we show the input to our approach, which is the organ to be transplanted from the donor and the hosts where the organ will be transplanted. Afterwards, Imhotep detects the points of the organ that allows the transplantation and the points where the organ can be inserted. To initialize the population of the evolutionary algorithm, the organ is transplanted in a random point and cloned. When the evolutionary algorithm finish the execution we obtain a ranked list by the objective function of the best transplantation between organ and host.
+Figure~\ref{fig:approach} shows an overview of our approach.
+At the top left of the figure we show the input to our approach, which are the organs to be transplanted from the donor and the hosts where the organ will be transplanted. Afterwards, Imhotep detects the points of the organ that allows the transplantation and the points where the organ can be inserted. To initialize the population of the evolutionary algorithm, the organ is transplanted in a random point and cloned. When the evolutionary algorithm finish the execution we obtain a ranked list by the objective function of the best transplantation between organ and host.
+We describe each step on detail in the following subsections. 
 
 \begin{figure}[h]
     \centering
@@ -18,9 +18,9 @@ On top of the figure we show the input to our approach, which is the organ to be
 
 \subsection{Input selection}
 
-The very first step of our approach is the definition of the input. \ApproachName{} requires the developers to define a source model content (donor) with the organ that will be transplanted, and a target model content (host). The models used in \ApproachName{} are models based on SDML as explained in the background section (\ref{sec:Background}). The donor and host from the example are different from the donor and host used in the evaluation, but we think they will help to understand the approach. The donor, organs and host used by \ApproachName{}
+The very first step of our approach is the definition of the input. \ApproachName{} requires the developers to define a source model content (donor) with the organ that will be transplanted, and a target model content (host). The models used in \ApproachName{} are models based on SDML as explained in the background section (\ref{sec:Background}). The donor and host from the example are a simplified version of the donor and host used in the evaluation, which we think they will help to understand the approach.
 
-In our example we present a simplified version of the metamodel, and the corresponding concrete syntax of the model (Fig.~\ref{fig:metamodel+syntax}) from the video game \CaseStudy{}. In this example we use a graphical representation to help the comprehension of the reader. Notice that the original metamodel does not work with a graphical model representation as it is not a requirement on every metamodel. The type of model will depend on the metamodel and models that developers decide on.
+In our example we present a simplified version of the metamodel, and the corresponding concrete syntax of the model (Fig.~\ref{fig:metamodel+syntax}) from the video game \CaseStudy{}. We use a graphical representation to help the comprehension of the reader, however the original metamodel does not work with a graphical model representation as it is not a requirement on every metamodel. The type of model will depend on the metamodel and models that developers decide on.
 
 \begin{figure}[h]
     \centering
@@ -31,18 +31,18 @@ In our example we present a simplified version of the metamodel, and the corresp
 
 Based on the metamodel of our example, we define the inputs as stated. 
 First, we define the source donor, that is a simplified version of an original \sq{boss} from \CaseStudy{}, called \sq{Serpent} (Fig.~\ref{fig:donor}). The original model is a SDML model written on a XML file with approximately 1700 lines of code. Figure~\ref{fig:donor} shows the graphical representation of the donor, differentiating each element of the model with a letter from A to S. It also shows in green the elements selected as organ (the elements H, I, J, K, N, O, P, Q).
-Secondly, we define the host of our example. To that extent, we have created a regular enemy that could appear in \CaseStudy{} following the metamodel (Fig.~\ref{fig:host}.
+Secondly, we define the host of our example. To that extent, we have created a regular enemy that could appear in \CaseStudy{} following the metamodel (Fig.~\ref{fig:host}).
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.45\textwidth]{Figures/donor+organ.png}
-    \caption{Donor with organ selection in doted lines. The letters represent each element of the model.}
+    \includegraphics[width=0.35\textwidth]{Figures/donor+organ.png}
+    \caption{Donor with organ selection in dotted lines. The letters represent each element of the model.}
     \label{fig:donor}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.3\textwidth]{Figures/host.png}
+    \includegraphics[width=0.2\textwidth]{Figures/host.png}
     \caption{Host}
     \label{fig:host}
 \end{figure}
@@ -56,7 +56,7 @@ Following our example the approach will detect the boundaries of the organ, and 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{Figures/donor+organ_boundaries.png}
-    \caption{Definition of organ boundaries. The boundary is represented by a circle crossed.}
+    \caption{Definition of donor boundaries. The boundary is represented by a circle crossed.}
     \label{fig:org_bound}
 \end{figure}
 
@@ -98,13 +98,17 @@ Table~\ref{tab:boundaries} map the compatible boundary connections between organ
 \label{tab:boundaries}
 \end{table}
 
-\subsection{Encoding}
+\subsection{Initialize population}
 
-We use a similar version of Blasco \etal that has been extended to work with transplantations. The size of the encoding in the previous work was 64 and in this work its size is of 150
+In evolutionary algorithms a population is a collection of possible solutions for a problem.
+The encoding is the problem representation that an algorithm is capable to understand. 
+In our work, each individual represents a software model from the game.
+We use a similar encoding version of Blasco \etal~\cite{blasco2021evolutionary} that has been adapted to work with transplantations. The size of the encoding in the previous work was 64 and in this work its size is of 150.
+The initial population of Imhotep contains 100 clones of a same individual, which is composed by a host and an organ placed in a random position.
 
 \subsection{Genetic Operators}
 
-Imhotep has three genetic operations (selection, crossover, and mutation) to generate new individuals. To select the individuals we use the ranking selection, which ranks the population by the objective function and takes the top 10\% of the individuals in the current population. The size of the population is limited to 100, i.e the selection will take 10 individuals to apply the operators.
+Imhotep has three genetic operations (selection, crossover, and mutation) to generate new individuals. To select the individuals we use the ranking selection, which ranks the population by the objective function and takes the top 10\% of the individuals in the current population. The size of the population is limited to 100, \ie{}, the selection will take 10 individuals to apply the operators.
 
 We use a single, random, cut-point crossover. It starts by selecting and splitting two parent solutions at random. When two parent individuals are selected, a random cut point is determined to split them into two sub-vectors.
 Then, the crossover creates two child solutions by putting the first part of the first parent with the second part of the second parent for the first child and putting the first part of the second parent with the second part of the first parent for the second child.
@@ -124,12 +128,12 @@ Figure.~\ref{fig:candidates} shows handmade new individuals that could results f
 
 \subsection{Objective function}
 
-The objective function in \ApproachName{} assess the quality of each individual as a model. First, as done in previous work that use \CaseStudy{}~\cite{blasco2021evolutionary}, the models pass through a validation process followed by a quantitative measurement. In our work we assess quantitatively the objective function by two means; Test-based and Simulation-based objective functions. We use two different objective functions due to the differences in the the state-of-the-art of software transplantation and PCG. The state-of-the-art in software transplantation mainly work with Test-based objective function, while the state-of-the-art in NPCs PCG work with Simulation-based objective function.
+The objective function in \ApproachName{} assesses the quality of each individual as a model. First, as done in previous work that use \CaseStudy{}~\cite{blasco2021evolutionary}, the models pass through a validation process followed by a quantitative measurement. In our work we assess quantitatively the objective function by two means: Test-based and Simulation-based objective functions. We use two different objective functions due to the differences in the the state-of-the-art of software transplantation and PCG. The state-of-the-art in software transplantation mainly work with Test-based objective function, while the state-of-the-art in NPCs PCG work with Simulation-based objective function.
 
 The validation step before the Test-based or Simulation objective function is a requirement that \CaseStudy{} integrates in the game to avoid models with inconsistent data. The validity of the models is performed by a run-time interpreter that is part of the game. When the model is stated as non-valid the value of the objective function will be 0.0.
 
-The models that passes the validation process will then be assess by Test-based and Simulation-based objective function.
-For the Test-based objective function we ask the developers to provide the set of tests that they consider relevant to our work. The developers from \CaseStudy{} provided us a total of 243 test selected under they domain knowledge. The objective value will be retrieved when each individual pass through the 243 tests normalized in a scale of [0, 1] written this limitation. An individual which pass the 243 tests will obtain 1.0, and on the contrary if it does not pass any test will obtain 0.0.
+The models that pass the validation process will then be assess by the Test-based and Simulation-based objective functions.
+For the Test-based objective function we ask the developers to provide the set of tests that they consider relevant to our work. The developers from \CaseStudy{} provided us with a total of 243 tests selected based on their domain knowledge. The objective value will be retrieved when each individual pass through the 243 tests, normalized in a scale of [0, 1]. An individual which passes the 243 tests will obtain 1.0, on the contrary if it does not pass any test it will obtain 0.0.
 
 On the other hand, the Simulation-based objective function as in Blasco \etal~\cite{blasco2021evolutionary} simulates an in game battle between the boss and a player. The information retrieved from the simulation is the data that the developers regard as relevant, using their domain knowledge. Hence, our approach takes into account the percentage of simulated player victories ($F_{Victory}$) and the percentage of simulated player health left once the player wins a duel ($F_{Health}$).
 The calculation of $F_{Victory}$ and $F_{Health}$ is performed in the same
@@ -145,7 +149,7 @@ $F_{Health}$, which refers to completed duels that end in human player victories
 F_{Health} = 1 - \frac{\sum\limits_{d=1}^{V_{P}}\frac{\mid \Theta_{Optimal} - \Theta_{P} \mid}{ \Theta_{Optimal}}}{V_{P}}
 \end{equation}
 
-$F_{Overall}$ is an average fitness value for a boss model that includes the fitness criteria described above. In the end, $F_{Overall}$ is a value in [0, 1] that is used to assess a boss model when our \ApproachName{} approach is applied to the \CaseStudy{} case study.
+$F_{Overall}$ is an average fitness value for a boss model that includes the fitness criteria described above. $F_{Overall}$ can assume a value in [0, 1] which is used to assess a boss model when our \ApproachName{} approach is applied to the \CaseStudy{} case study.
 
 \begin{equation}
 F_{Overall} = min( Validity, \frac{\sum\limits_{i=1}^{N}F_{i}}{N} )

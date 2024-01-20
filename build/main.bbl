@@ -45,34 +45,18 @@ T.~Wijman, ``The games market and beyond in 2021: The year in numbers,''
   \url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}
 \BIBentrySTDinterwordspacing
 
-\bibitem{devData}
-\BIBentryALTinterwordspacing
-SlashData, ``The global developer population 2019,'' [Online; accessed
-  1-December-2023]. [Online]. Available:
-  \url{https://slashdata-website-cms.s3.amazonaws.com/sample_reports/EiWEyM5bfZe1Kug_.pdf}
-\BIBentrySTDinterwordspacing
-
 \bibitem{devNation}
 \BIBentryALTinterwordspacing
-------, ``State of the developer nation 23rd edition,'' [Online; accessed
+SlashData, ``State of the developer nation 23rd edition,'' [Online; accessed
   18-December-2023]. [Online]. Available:
   \url{https://slashdata-website-cms.s3.amazonaws.com/sample_reports/dsIe6JlZge_KsHWt.pdf}
 \BIBentrySTDinterwordspacing
-
-\bibitem{zhu2019model}
-M.~Zhu and A.~I. Wang, ``Model-driven game development: A literature review,''
-  \emph{ACM Computing Surveys (CSUR)}, vol.~52, no.~6, pp. 1--32, 2019.
 
 \bibitem{hendrikx2013procedural}
 M.~Hendrikx, S.~Meijer, J.~Van Der~Velden, and A.~Iosup, ``Procedural content
   generation for games: A survey,'' \emph{ACM Transactions on Multimedia
   Computing, Communications, and Applications (TOMM)}, vol.~9, no.~1, pp.
   1--22, 2013.
-
-\bibitem{Barriga2019}
-N.~A. Barriga, ``{A Short Introduction to Procedural Content Generation
-  Algorithms for Videogames},'' \emph{International Journal on Artificial
-  Intelligence Tools}, vol.~28, no.~2, pp. 1--11, 2019.
 
 \bibitem{barr2015automated}
 E.~T. Barr, M.~Harman, Y.~Jia, A.~Marginean, and J.~Petke, ``Automated software
@@ -86,42 +70,6 @@ M.~Farshbafnadi, S.~Razi, and N.~Rezaei, ``Chapter 7 - transplantation,'' in
   0.4em\relax Academic Press, 2023, pp. 599--674. [Online]. Available:
   \url{https://www.sciencedirect.com/science/article/pii/B9780128180068000086}
 \BIBentrySTDinterwordspacing
-
-\bibitem{gallotta2022evolving}
-R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
-  l-system constrained optimisation evolutionary algorithm,'' in
-  \emph{Proceedings of the Genetic and Evolutionary Computation Conference
-  Companion}, 2022, pp. 711--714.
-
-\bibitem{browne2010evolutionary}
-C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
-  on Computational Intelligence and AI in Games}, vol.~2, no.~1, pp. 1--16,
-  2010.
-
-\bibitem{pascarella2018video}
-L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
-  development different from software development in open source?'' in
-  \emph{Proceedings of the 15th International Conference on Mining Software
-  Repositories}, 2018, pp. 392--402.
-
-\bibitem{chueca2023consolidation}
-J.~Chueca, J.~Ver{\'o}n, J.~Font, F.~P{\'e}rez, and C.~Cetina, ``The
-  consolidation of game software engineering: A systematic literature review of
-  software engineering for industry-scale computer games,'' \emph{Information
-  and Software Technology}, p. 107330, 2023.
-
-\bibitem{domingo2020evaluating}
-{\'A}.~Domingo, J.~Echeverr{\'\i}a, O.~Pastor, and C.~Cetina, ``Evaluating the
-  benefits of model-driven development: Empirical evaluation paper,'' in
-  \emph{Advanced Information Systems Engineering: 32nd International
-  Conference, CAiSE 2020, Grenoble, France, June 8--12, 2020, Proceedings
-  32}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2020, pp. 353--367.
-
-\bibitem{blasco2021evolutionary}
-D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
-  generating software models: The case of kromaia in game software
-  engineering,'' \emph{Journal of Systems and Software}, vol. 171, p. 110804,
-  2021.
 
 \bibitem{weimer2009automatically}
 W.~Weimer, T.~Nguyen, C.~Le~Goues, and S.~Forrest, ``Automatically finding
@@ -150,14 +98,66 @@ S.~Sidiroglou-Douskos, E.~Lahtinen, A.~Eden, F.~Long, and M.~Rinard,
   ``Codecarboncopy,'' in \emph{Proceedings of the 2017 11th Joint Meeting on
   Foundations of Software Engineering}, 2017, pp. 95--105.
 
-\bibitem{marginean2021automated}
-A.~Marginean, ``Automated software transplantation,'' Ph.D. dissertation, UCL
-  (University College London), 2021.
+\bibitem{reid2020optimising}
+B.~Reid, C.~Treude, and M.~Wagner, ``Optimising the fit of stack overflow code
+  snippets into existing code,'' in \emph{Proceedings of the 2020 Genetic and
+  Evolutionary Computation Conference Companion}, 2020, pp. 1945--1953.
+
+\bibitem{pascarella2018video}
+L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
+  development different from software development in open source?'' in
+  \emph{Proceedings of the 15th International Conference on Mining Software
+  Repositories}, 2018, pp. 392--402.
+
+\bibitem{chueca2023consolidation}
+J.~Chueca, J.~Ver{\'o}n, J.~Font, F.~P{\'e}rez, and C.~Cetina, ``The
+  consolidation of game software engineering: A systematic literature review of
+  software engineering for industry-scale computer games,'' \emph{Information
+  and Software Technology}, p. 107330, 2023.
+
+\bibitem{zhu2019model}
+M.~Zhu and A.~I. Wang, ``Model-driven game development: A literature review,''
+  \emph{ACM Computing Surveys (CSUR)}, vol.~52, no.~6, pp. 1--32, 2019.
+
+\bibitem{domingo2020evaluating}
+{\'A}.~Domingo, J.~Echeverr{\'\i}a, O.~Pastor, and C.~Cetina, ``Evaluating the
+  benefits of model-driven development: Empirical evaluation paper,'' in
+  \emph{Advanced Information Systems Engineering: 32nd International
+  Conference, CAiSE 2020, Grenoble, France, June 8--12, 2020, Proceedings
+  32}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2020, pp. 353--367.
+
+\bibitem{blasco2021evolutionary}
+D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
+  generating software models: The case of kromaia in game software
+  engineering,'' \emph{Journal of Systems and Software}, vol. 171, p. 110804,
+  2021.
+
+\bibitem{gallotta2022evolving}
+R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
+  l-system constrained optimisation evolutionary algorithm,'' in
+  \emph{Proceedings of the Genetic and Evolutionary Computation Conference
+  Companion}, 2022, pp. 711--714.
+
+\bibitem{browne2010evolutionary}
+C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
+  on Computational Intelligence and AI in Games}, vol.~2, no.~1, pp. 1--16,
+  2010.
+
+\bibitem{oliveira2011threats}
+M.~Barros and A.~Neto, ``Threats to validity in search-based software
+  engineering empirical studies,'' \emph{RelaTe-DIA}, vol.~5, 01 2011.
 
 \bibitem{miles2012situ}
 C.~Miles, A.~Lakhotia, and A.~Walenstein, ``In situ reuse of logically
   extracted functional components,'' \emph{Journal in Computer Virology},
   vol.~8, pp. 73--84, 2012.
+
+\bibitem{petke2014using}
+J.~Petke, M.~Harman, W.~B. Langdon, and W.~Weimer, ``Using genetic improvement
+  and code transplants to specialise a c++ program to a problem class,'' in
+  \emph{Genetic Programming: 17th European Conference, EuroGP 2014, Granada,
+  Spain, April 23-25, 2014, Revised Selected Papers 17}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Springer, 2014, pp. 137--149.
 
 \bibitem{sidiroglou2015horizontal}
 S.~Sidiroglou-Douskos, E.~Davis, and M.~Rinard, ``Horizontal code transfer via
@@ -186,6 +186,10 @@ Y.~Li, D.~Tarlow, M.~Brockschmidt, and R.~Zemel, ``Gated graph sequence neural
 Y.~Lu, S.~Chaudhuri, C.~Jermaine, and D.~Melski, ``Program splicing,'' in
   \emph{Proceedings of the 40th International Conference on Software
   Engineering}, 2018, pp. 338--349.
+
+\bibitem{marginean2021automated}
+A.~Marginean, ``Automated software transplantation,'' Ph.D. dissertation, UCL
+  (University College London), 2021.
 
 \bibitem{kwon2017cpr}
 Y.~Kwon, W.~Wang, Y.~Zheng, X.~Zhang, and D.~Xu, ``Cpr: cross platform binary
@@ -237,6 +241,11 @@ C.~B. Browne, ``Automatic generation and evaluation of recombination games,''
 \bibitem{yannakakis2018artificial}
 G.~N. Yannakakis and J.~Togelius, \emph{Artificial intelligence and
   games}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2018, vol.~2.
+
+\bibitem{Barriga2019}
+N.~A. Barriga, ``{A Short Introduction to Procedural Content Generation
+  Algorithms for Videogames},'' \emph{International Journal on Artificial
+  Intelligence Tools}, vol.~28, no.~2, pp. 1--11, 2019.
 
 \bibitem{freiknecht2017survey}
 J.~Freiknecht and W.~Effelsberg, ``A survey on the procedural generation of
@@ -292,69 +301,5 @@ L.~T. Pereira, B.~M. Viana, and C.~F. Toledo, ``Procedural enemy generation
 A.~Lindenmayer, ``Mathematical models for cellular interactions in development
   i. filaments with one-sided inputs,'' \emph{Journal of theoretical biology},
   vol.~18, no.~3, pp. 280--299, 1968.
-
-\bibitem{ampatzoglou2010software}
-A.~Ampatzoglou and I.~Stamelos, ``Software engineering research for computer
-  games: A systematic review,'' \emph{Information and Software Technology},
-  vol.~52, no.~9, pp. 888--901, 2010.
-
-\bibitem{reyno2009automatic}
-E.~M. Reyno and J.~{\'A}. Cars{\'\i}~Cubel, ``Automatic prototyping in
-  model-driven game development,'' \emph{Computers in Entertainment (CIE)},
-  vol.~7, no.~2, pp. 1--9, 2009.
-
-\bibitem{Nunez17}
-\BIBentryALTinterwordspacing
-E.~R. N{\'{u}}{\~{n}}ez{-}Vald{\'{e}}z, V.~Garc{\'{\i}}a{-}D{\'{\i}}az,
-  J.~M.~C. Lovelle, Y.~S. Achaerandio, and R.~G. Crespo, ``A model-driven
-  approach to generate and deploy videogames on multiple platforms,'' \emph{J.
-  Ambient Intelligence and Humanized Computing}, vol.~8, no.~3, pp. 435--447,
-  2017. [Online]. Available: \url{https://doi.org/10.1007/s12652-016-0404-1}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Nunez13}
-\BIBentryALTinterwordspacing
-E.~R. N{\'{u}}{\~{n}}ez{-}Vald{\'{e}}z, O.~S. Mart{\'{\i}}nez, B.~C.~P.
-  Garc{\'{\i}}a{-}Bustelo, J.~M.~C. Lovelle, and G.~Infante{-}Hernandez,
-  ``Gade4all: Developing multi-platform videogames based on domain specific
-  languages and model driven engineering,'' \emph{{IJIMAI}}, vol.~2, no.~2, pp.
-  33--42, 2013. [Online]. Available:
-  \url{https://doi.org/10.9781/ijimai.2013.224}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Usman17}
-\BIBentryALTinterwordspacing
-M.~Usman, M.~Z. Iqbal, and M.~U. Khan, ``A product-line model-driven
-  engineering approach for generating feature-based mobile applications,''
-  \emph{Journal of Systems and Software}, vol. 123, pp. 1--32, 2017. [Online].
-  Available: \url{https://doi.org/10.1016/j.jss.2016.09.049}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Solis15}
-\BIBentryALTinterwordspacing
-J.~Sol\'is-Mart\'inez, J.~P. Espada, N.~Garc\'ia{-}Men\'endez, B.~C.~P.
-  Garc\'ia{-}Bustelo, and J.~M.~C. Lovelle, ``{VGPM:} using business process
-  modeling for videogame modeling and code generation in multiple platforms,''
-  \emph{Computer Standards {\&} Interfaces}, vol.~42, pp. 42--52, 2015.
-  [Online]. Available: \url{https://doi.org/10.1016/j.csi.2015.04.009}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Williams11}
-\BIBentryALTinterwordspacing
-J.~R. Williams, S.~M. Poulding, L.~M. Rose, R.~F. Paige, and F.~A.~C. Polack,
-  ``Identifying desirable game character behaviours through the application of
-  evolutionary algorithms to model-driven engineering metamodels,'' in
-  \emph{Search Based Software Engineering - Third International Symposium,
-  {SSBSE} 2011, Szeged, Hungary, September 10-12, 2011. Proceedings}, 2011, pp.
-  112--126. [Online]. Available:
-  \url{https://doi.org/10.1007/978-3-642-23716-4\_13}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Goldsby2008}
-H.~J. Goldsby and B.~H.~C. Cheng, ``Automatically generating behavioral models
-  of adaptive systems to address uncertainty,'' in \emph{Model Driven
-  Engineering Languages and Systems}, K.~Czarnecki, I.~Ober, J.-M. Bruel,
-  A.~Uhl, and M.~V{\"o}lter, Eds.\hskip 1em plus 0.5em minus 0.4em\relax
-  Berlin, Heidelberg: Springer Berlin Heidelberg, 2008, pp. 568--583.
 
 \end{thebibliography}
