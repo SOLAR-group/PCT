@@ -1,23 +1,23 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Related work}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Automated Software Transplantation}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Procedural Content Generation}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{MDE and Game Software Engineering}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.4}{Conclusion}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Background}{}% 7
-\BOOKMARK [2][-]{subsection.3.1}{Game Software Engineering}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.2}{Case Study: Kromaia}{section.3}% 9
-\BOOKMARK [1][-]{section.4}{Our Imhotep Approach}{}% 10
-\BOOKMARK [2][-]{subsection.4.1}{Input selection}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.2}{Boundary detection}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.3}{Boundaries mapping}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.4}{Encoding}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.5}{Genetic Operators}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.6}{Objective function}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Evaluation}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Quality measurements}{section.5}% 18
-\BOOKMARK [1][-]{section.6}{Results}{}% 19
-\BOOKMARK [1][-]{section.7}{Discussion}{}% 20
-\BOOKMARK [1][-]{section.8}{Threats to Validity}{}% 21
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Model-driven video game development}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Kromaia}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Our Imhotep Approach}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Input selection}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Boundary detection}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Boundary mapping}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Initialize population}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Genetic Operators}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.6}{Objective function}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Experimental Design}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Research Questions}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Planning and execution}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.3}{Implementation details}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Results}{}% 16
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 17
+\BOOKMARK [1][-]{section.7}{Threats to Validity}{}% 18
+\BOOKMARK [1][-]{section.8}{Related work}{}% 19
+\BOOKMARK [2][-]{subsection.8.1}{Automated Software Transplantation}{section.8}% 20
+\BOOKMARK [2][-]{subsection.8.2}{Procedural Content Generation}{section.8}% 21
 \BOOKMARK [1][-]{section.9}{Conclusion}{}% 22
-\BOOKMARK [1][-]{section*.11}{References}{}% 23
+\BOOKMARK [1][-]{section*.18}{References}{}% 23

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  23 OCT 2023 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  24 JAN 2024 16:54
 entering extended mode
 **"d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
 ("d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
@@ -1040,8 +1040,12 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+) (Text/1_Introduction.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 16.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1049,49 +1053,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 16.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 16.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 16.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 16.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 16.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 6.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
-) (Text/Introduction.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
- [1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+) [1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-]) (Text/RelatedWork.tex
-Underfull \vbox (badness 1895) has occurred while \output is active []
-
- [2]) (Text/Background.tex [3]
-<Figures/ArchitectureLayers.drawio.png, id=247, 472.76625pt x 251.94125pt>
-File: Figures/ArchitectureLayers.drawio.png Graphic file (type png)
-<use Figures/ArchitectureLayers.drawio.png>
-Package pdftex.def Info: Figures/ArchitectureLayers.drawio.png  used on input line 18.
-(pdftex.def)             Requested size: 232.19843pt x 123.74445pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 52.
+]
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 43.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -1100,79 +1095,120 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
-) (Text/Approach.tex [4 <./Figures/ArchitectureLayers.drawio.png>]
-<Figures/overview.png, id=263, 600.06pt x 375.804pt>
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 43.
+) (Text/2_Background.tex
+
+pdfTeX warning: pdflatex (file ./Figures/fig_bg_OverviewArtifactsVG.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/fig_bg_OverviewArtifactsVG.pdf, id=163, 306.18388pt x 177.7842pt>
+File: Figures/fig_bg_OverviewArtifactsVG.pdf Graphic file (type pdf)
+<use Figures/fig_bg_OverviewArtifactsVG.pdf>
+Package pdftex.def Info: Figures/fig_bg_OverviewArtifactsVG.pdf  used on input line 15.
+(pdftex.def)             Requested size: 232.19843pt x 134.82982pt.
+[2 <./Figures/fig_bg_OverviewArtifactsVG.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/MM_Scenario.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/MM_Scenario.pdf, id=189, 4398.4325pt x 5300.80376pt>
+File: Figures/MM_Scenario.pdf Graphic file (type pdf)
+<use Figures/MM_Scenario.pdf>
+Package pdftex.def Info: Figures/MM_Scenario.pdf  used on input line 28.
+(pdftex.def)             Requested size: 252.0pt x 303.63722pt.
+) (Text/3_Approach.tex
+<Figures/overview.png, id=196, 600.06pt x 367.044pt>
 File: Figures/overview.png Graphic file (type png)
 <use Figures/overview.png>
-Package pdftex.def Info: Figures/overview.png  used on input line 7.
-(pdftex.def)             Requested size: 232.19843pt x 145.42184pt.
-<Figures/metamodel+syntax.png, id=266, 383.469pt x 258.42pt>
+Package pdftex.def Info: Figures/overview.png  used on input line 14.
+(pdftex.def)             Requested size: 232.19843pt x 142.03206pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./Figures/MM_Scenario.pdf>]
+<Figures/metamodel+syntax.png, id=243, 383.469pt x 258.42pt>
 File: Figures/metamodel+syntax.png Graphic file (type png)
 <use Figures/metamodel+syntax.png>
-Package pdftex.def Info: Figures/metamodel+syntax.png  used on input line 21.
-(pdftex.def)             Requested size: 232.19843pt x 156.48456pt.
-<Figures/donor+organ.png, id=270, 397.485pt x 205.86pt>
+Package pdftex.def Info: Figures/metamodel+syntax.png  used on input line 32.
+(pdftex.def)             Requested size: 180.60315pt x 121.70976pt.
+<Figures/donor+organ.png, id=247, 397.485pt x 205.86pt>
 File: Figures/donor+organ.png Graphic file (type png)
 <use Figures/donor+organ.png>
-Package pdftex.def Info: Figures/donor+organ.png  used on input line 32.
-(pdftex.def)             Requested size: 232.19843pt x 120.25955pt.
-<Figures/host.png, id=271, 307.257pt x 217.029pt>
+Package pdftex.def Info: Figures/donor+organ.png  used on input line 42.
+(pdftex.def)             Requested size: 180.60315pt x 93.53766pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/host.png, id=248, 307.257pt x 217.029pt>
 File: Figures/host.png Graphic file (type png)
 <use Figures/host.png>
-Package pdftex.def Info: Figures/host.png  used on input line 39.
-(pdftex.def)             Requested size: 154.80157pt x 109.34212pt.
-<Figures/donor+organ_boundaries.png, id=273, 656.562pt x 290.613pt>
+Package pdftex.def Info: Figures/host.png  used on input line 49.
+(pdftex.def)             Requested size: 103.19843pt x 72.89474pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/donor+organ_boundaries.png, id=251, 656.562pt x 290.613pt>
 File: Figures/donor+organ_boundaries.png Graphic file (type png)
 <use Figures/donor+organ_boundaries.png>
-Package pdftex.def Info: Figures/donor+organ_boundaries.png  used on input line 52.
+Package pdftex.def Info: Figures/donor+organ_boundaries.png  used on input line 62.
 (pdftex.def)             Requested size: 232.19843pt x 102.7759pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./Figures/overview.png> <./Figures/metamodel+syntax.png> <./Figures/donor+organ.png> <./Figures/host.png>]
-<Figures/host_boundaries.png, id=288, 342.735pt x 285.138pt>
+<Figures/host_boundaries.png, id=253, 342.735pt x 285.138pt>
 File: Figures/host_boundaries.png Graphic file (type png)
 <use Figures/host_boundaries.png>
-Package pdftex.def Info: Figures/host_boundaries.png  used on input line 61.
-(pdftex.def)             Requested size: 232.19843pt x 193.18208pt.
+Package pdftex.def Info: Figures/host_boundaries.png  used on input line 71.
+(pdftex.def)             Requested size: 180.60315pt x 150.25659pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./Figures/overview.png> <./Figures/metamodel+syntax.png> <./Figures/donor+organ.png> <./Figures/host.png> <./Figures/donor+organ_boundaries.png>]
+<Figures/encoding.png, id=270, 709.779pt x 158.994pt>
+File: Figures/encoding.png Graphic file (type png)
+<use Figures/encoding.png>
+Package pdftex.def Info: Figures/encoding.png  used on input line 116.
+(pdftex.def)             Requested size: 247.6778pt x 55.48132pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/candidates.png, id=292, 799.131pt x 262.143pt>
+<Figures/candidates.png, id=272, 799.131pt x 262.143pt>
 File: Figures/candidates.png Graphic file (type png)
 <use Figures/candidates.png>
-Package pdftex.def Info: Figures/candidates.png  used on input line 110.
+Package pdftex.def Info: Figures/candidates.png  used on input line 133.
 (pdftex.def)             Requested size: 232.19843pt x 76.16751pt.
-[6 <./Figures/donor+organ_boundaries.png> <./Figures/host_boundaries.png> <./Figures/candidates.png>]) (Text/Evaluation.tex [7]) (Text/Results.tex
-<Figures/Imhotep_with_legend_and_oracle_average-v4.pdf, id=320, 1438.10333pt x 474.69846pt>
-File: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf Graphic file (type pdf)
-<use Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>
-Package pdftex.def Info: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf  used on input line 6.
-(pdftex.def)             Requested size: 516.0pt x 170.32632pt.
-
+[5 <./Figures/host_boundaries.png> <./Figures/encoding.png> <./Figures/candidates.png>]) (Text/4_Evaluation.tex [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (Text/Discussion.tex) (Text/Threats.tex) (Text/Conclusion.tex) ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl" [8] [9 <./Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>])
+<Figures/evaluation_process.png, id=301, 482.238pt x 549.252pt>
+File: Figures/evaluation_process.png Graphic file (type png)
+<use Figures/evaluation_process.png>
+Package pdftex.def Info: Figures/evaluation_process.png  used on input line 38.
+(pdftex.def)             Requested size: 206.39685pt x 235.07585pt.
+) (Text/5_Results.tex
+<Figures/Imhotep_with_legend_and_oracle_average-v4.pdf, id=304, 1438.10333pt x 474.69846pt>
+File: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf Graphic file (type pdf)
+<use Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>
+Package pdftex.def Info: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf  used on input line 7.
+(pdftex.def)             Requested size: 516.0pt x 170.32632pt.
+ [7 <./Figures/evaluation_process.png>]) (Text/6_Discussion.tex) (Text/7_Threats.tex) (Text/8_RelatedWork.tex [8] [9 <./Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>]) (Text/9_Conclusion.tex) ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl" [10])
 - LAST -
-Extra skip:10.55595pt
-Left:156.0pt/1.73193pt
-Right:147.0pt/0.17598pt
-Output:156.0pt
- [10] ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux")
+Extra skip:0.0pt
+Left:165.0pt/1.73193pt
+Right:165.0pt/1.73193pt
+Output:165.5pt
+ [11] ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux")
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BAD828DE1521A2A3E4A15770C3A9772C;1387.
+(rerunfilecheck)             Checksum: 856F1DCCD695C1BA3CE7220D3995B333;1404.
  ) 
 Here is how much of TeX's memory you used:
- 26851 strings out of 480237
- 492823 string characters out of 2879631
- 843678 words of memory out of 3000000
- 42245 multiletter control sequences out of 15000+200000
- 622975 words of font info for 429 fonts, out of 3000000 for 9000
+ 26847 strings out of 480237
+ 493185 string characters out of 2879631
+ 854731 words of memory out of 3000000
+ 42246 multiletter control sequences out of 15000+200000
+ 617383 words of font info for 408 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,18n,98p,1329b,543s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 89i,19n,98p,1577b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
@@ -1184,9 +1220,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (10 pages, 797572 bytes).
+Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (11 pages, 2728331 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 95986 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 539 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 88833 words of extra memory for PDF output out of 89155 (max. 10000000)
 

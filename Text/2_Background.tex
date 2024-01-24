@@ -1,12 +1,14 @@
 \section{Background} \label{sec:Background}
 
+\subsection{Model-driven video game development}
+
 Video games are pieces of software that, like any other software, need to be designed, developed, and maintained over time. However, there are some particularities of video games that make them differ from traditional software, such as the artistic component of the videogame, the complexity of the rendering pipelines, the heterogeneous nature of video game development teams, and the abstract nature of the final purpose of a video game: fun. 
 
 Hence, video games present characteristics that differentiate their development and maintenance from the development and maintenance of classic software. Examples of these differences can be found in how video game developers must contribute to the implementation of different kinds of artifacts (e.g., shaders, meshes, or prefabs) or in the challenges they face when locating bugs or reusing code for the video game~\cite{pascarella2018video, chueca2023consolidation}.
 
-Nowadays, most video games are developed by means of game engines. Game engines are development environments that integrate a graphics engine and a physics engine as well as tools for both to accelerate development. The most popular ones are Unity~\footnote{\url{https://unity.com/}} and Unreal Engine, but it is also possible for a studio to make its own specific engine (e.g., CryEngine~\footnote{\url{https://www.cryengine.com}}). 
+Nowadays, most video games are developed by means of game engines. Game engines are development environments that integrate a graphics engine and a physics engine as well as tools for both to accelerate development. The most popular ones are Unity and Unreal Engine, but it is also possible for a studio to make its own specific engine (e.g., CryEngine~\footnote{\url{https://www.cryengine.com}}). 
 
-One key artifact of game engines are software models. Unreal proposes its own modeling language (Unreal Blueprints), and a recent survey in Model-Driven Game Development~\cite{zhu2019model} reveals that UML and Domain Specific Language (DSL) models are also being adopted by development teams. Developers can use the software models to create video game content instead of using the traditional coding approach. While code allows for more control over the content, software models raise the abstraction level, promoting the use of domain terms and minimizing implementation and technological details. Through software models, developers are freed from a significant part of the implementation details of physics and graphics, and can focus on the content of the game itself (see Figure~\ref{fig:architecture}).
+One key artifact of game engines are software models. Unreal proposes its own modeling language (Unreal Blueprints), and a recent survey in Model-Driven Game Development~\cite{zhu2019model} reveals that UML and Domain Specific Language (DSL) models are also being adopted by development teams. Developers can use the software models to create video game content instead of using the traditional coding approach. While code allows for more control over the content, software models raise the abstraction level, promoting the use of domain terms and minimizing implementation and technological details. Through software models, developers are freed from a significant part of the implementation details of physics and graphics, and can focus on the content of the game itself (see Fig.~\ref{fig:architecture}).
 
 \begin{figure}[h]
     \centering
@@ -15,9 +17,11 @@ One key artifact of game engines are software models. Unreal proposes its own mo
     \label{fig:architecture}
 \end{figure}
 
+\subsection{\CaseStudy{}}
+
 The research presented in this paper is framed within the context of a commercial video game case study, \CaseStudy{}. In particular, our evaluation uses the bosses of the video game to evaluate the approach. Each level of \CaseStudy{} consists of a three-dimensional space where a player-controlled spaceship has to fly from a starting point to a target destination, reaching the goal before being destroyed. The gameplay experience involves exploring floating structures, avoiding asteroids, and finding items along the route, while basic enemies try to damage the spaceship by firing projectiles. If the player manages to reach the destination, the final boss corresponding to that level appears and must be defeated in order to complete the level. 
 
-Bosses can be built either using C++ code or software models. The top part of Figure~\ref{fig:scenario} depicts a boss fight scenario where the player-controlled ship (item A in the figure) is battling The Serpent (item B in the figure), which is the final boss that must defeated in order to complete Level 1. The bottom part of the figure illustrates the two possible development strategies for the boss.
+Bosses can be built either using C++ code or software models. The top part of Figure~\ref{fig:scenario} depicts a boss fight scenario where the player-controlled ship (item A in the figure) is battling The Serpent (item B in the figure), which is the final boss that must defeated in order to complete Level 1. The bottom part of the figure illustrates the two possible development approaches for the boss.
 
 \begin{figure}[h]
     \centering

@@ -124,12 +124,19 @@
 %}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 \usepackage{framed}
+% \newcounter{RQCounter}
+% \newcommand{\RQ}[1]{%
+% 	\stepcounter{RQCounter}
+% 	\begin{framed}%
+% 		\noindent\textbf{Research Question \arabic{RQCounter}: }%
+% 		#1\end{framed}
+% }
+
 \newcounter{RQCounter}
 \newcommand{\RQ}[1]{%
 	\stepcounter{RQCounter}
-	\begin{framed}%
-		\noindent\textbf{Research Question \arabic{RQCounter}: }%
-		#1\end{framed}
+		\textbf{\\RQ\arabic{RQCounter}: }%
+		\textit{#1}
 }
 
 \newcommand{\cmark}{\ding{51}}%

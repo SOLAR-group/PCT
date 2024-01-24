@@ -1,28 +1,26 @@
 \section{Threats to Validity}
 \label{sec:Threats}
 
-To acknowledge the threats to the validity of our work, we use the classification suggested by De Oliveira \etal~\cite{}.
+To acknowledge the threats to the validity of our work, we use the classification suggested by De Oliveira \etal~\cite{oliveira2011threats}.
 
 \textbf{1. Conclusion Validity Threats.}
-To minimize \textit{not accounting for random variation}, we have a total of 645 transplants for each host on each variation of Imhotep and the baseline. Also, each transplant has run over 2 minutes and 30 seconds.
-In order to address the \textit{lack of good descriptive statistics}, we present the standard deviation, min-max range and a box-plot from the results of the experiments realized.
-We tackled the \textit{lack of a meaningful comparison baseline} by comparing our two variants of Imhotep with a recent traditional PCG approach as baseline. 
+To minimize \textit{not accounting for random variation}, we have a total of 645 transplants for each host on each variation of Imhotep and the baseline.
+In order to address the \textit{lack of good descriptive statistics}, we present the standard deviation, min-max range and a box-plot from the results of the experiments realized.We also applied statistical significance (the Quade test and Holm’s post-hoc analysis) and effect size measurements (Cliff’s Delta) following accepted guidelines~\cite{arcuri2013parameter}.
+We tackled the \textit{lack of a meaningful comparison baseline} by comparing our two variants of Imhotep with a recent PCG approach as baseline. 
 
 %o [+] Lack of formal hypothesis and statistical tests: the comparison described in the former paragraph must be based on a formal hypothesis and must be evaluated by a proper statistical test. By proper, we mean a statistical test that adheres to the characteristics of the underlying data under evaluation, through parametric or nonparametric statistical inference procedures.
 
 \textbf{2. Internal Validity Threats.}
-To mitigate \textit{poor parameter settings} we have presented the parameters used in our experiment, and for the PCG baseline we have used the parameters presented by the work.
+%To mitigate \textit{poor parameter settings} we have presented the parameters used in our experiment, and for the PCG baseline we have used the parameters presented by the original work.
 We provide the source code and the artifacts used in our experiments to allow its reproduction as suggested to avoid the \textit{lack of discussion on code instrumentation}.
 We handled the \textit{lack of real problem instances} by selecting a commercial video game as the case study for the evaluation. Likewise, the problem artifacts (donor, organs, and hosts) were directly obtained from the video game developers and the documentation itself. 
 
-
 \textbf{3. Construct Validity Threats.}
-To prevent the \textit{lack of assessing the validity of cost measures} threat, we made a fair comparison between the two variants of our approach and the baseline. Furthermore, we used duration as our metric for the evaluation, which is a metric adopted and \textit{validated} from the literature~\cite{browne2010evolutionary}.
-To mitigate the \textit{lack of discussing the underlying model subjected to optimization}, we use the original SDML of the video game provided by the developers of \CaseStudy{}.
-
+To prevent the \textit{lack of assessing the validity of cost measures} threat, we made a fair comparison between the two variants of our approach and the baseline. Furthermore, we used a metric for the evaluation that is adopted and \textit{validated} by the video game research community~\cite{browne2010evolutionary}.
+%To mitigate the \textit{lack of discussing the underlying model subjected to optimization}, we use the original SDML of the video game provided by the developers of \CaseStudy{}.
 
 \textbf{4. External Validity Threats.}
-To mitigate the \textit{generalization} threat, we designed our approach to be generic and applicable not only to our industrial case study but also for generating content in other different video games. To apply our approach in other video games, three main ingredients are required as in other SBSE approaches: encoding, operations, and fitness function. The operations are widespread crossover and mutation. The encoding and the fitness function depend on the content to generate. Our approach should be replicated with other DSL and video games before assuring its generalization.
+To mitigate the \textit{generalization} threat, we designed our approach to be generic and applicable not only to our industrial case study but also for generating content in other different video games. We can apply our approach to other video games where NPCs are available. These NPCs are available in popular game genres such as car games (rival drivers), FPS games (bots), or RTS games (rival generals). For those cases were there is no NPC, the developers should ponder the trade-off of the cost of developing the NPCs and the benefits of generating content with our approach. Our approach should be replicated with other video games before assuring its generalization.
 To avoid the \textit{lack of a clear object selection strategy} in our experiment, we have selected the instances from a commercial video game, which represents real-world instances.
 
 %o [+] Lack of evaluations for instances of growing size and complexity:Software Engineering techniques are designed to handle systems and teams that may vary in size and complexity. For instance, while a given software project may have a few requirements, other may have thousands. Therefore, a SBSE approach must be evaluated across a breadth of problem instances, both varying in size and complexity, to provide an assessment on the limits of the new technique.
