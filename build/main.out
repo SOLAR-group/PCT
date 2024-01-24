@@ -5,7 +5,7 @@
 \BOOKMARK [1][-]{section.3}{Our Imhotep Approach}{}% 5
 \BOOKMARK [2][-]{subsection.3.1}{Input selection}{section.3}% 6
 \BOOKMARK [2][-]{subsection.3.2}{Boundary detection}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{Boundaries mapping}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Boundary mapping}{section.3}% 8
 \BOOKMARK [2][-]{subsection.3.4}{Initialize population}{section.3}% 9
 \BOOKMARK [2][-]{subsection.3.5}{Genetic Operators}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.6}{Objective function}{section.3}% 11
@@ -20,4 +20,4 @@
 \BOOKMARK [2][-]{subsection.8.1}{Automated Software Transplantation}{section.8}% 20
 \BOOKMARK [2][-]{subsection.8.2}{Procedural Content Generation}{section.8}% 21
 \BOOKMARK [1][-]{section.9}{Conclusion}{}% 22
-\BOOKMARK [1][-]{section*.17}{References}{}% 23
+\BOOKMARK [1][-]{section*.18}{References}{}% 23

@@ -23,45 +23,45 @@ Warning--empty journal in sidiroglou2014automatic
 Warning--empty journal in sidiroglou2015horizontal
 
 Done.
-You've used 52 entries,
+You've used 51 entries,
             4087 wiz_defined-function locations,
-            1107 strings with 17832 characters,
-and the built_in function-call counts, 39656 in all, are:
-= -- 3187
-> -- 961
+            1100 strings with 17577 characters,
+and the built_in function-call counts, 38946 in all, are:
+= -- 3150
+> -- 932
 < -- 319
-+ -- 518
-- -- 174
-* -- 1892
-:= -- 5875
-add.period$ -- 116
-call.type$ -- 52
-change.case$ -- 56
++ -- 504
+- -- 167
+* -- 1856
+:= -- 5782
+add.period$ -- 112
+call.type$ -- 51
+change.case$ -- 55
 chr.to.int$ -- 738
-cite$ -- 60
-duplicate$ -- 2861
-empty$ -- 3258
-format.name$ -- 212
-if$ -- 9298
+cite$ -- 59
+duplicate$ -- 2805
+empty$ -- 3169
+format.name$ -- 204
+if$ -- 9124
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 497
-newline$ -- 187
-num.names$ -- 54
-pop$ -- 1177
+int.to.str$ -- 51
+missing$ -- 482
+newline$ -- 184
+num.names$ -- 53
+pop$ -- 1133
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 3078
+skip$ -- 3027
 stack$ -- 0
-substring$ -- 1838
-swap$ -- 2288
+substring$ -- 1837
+swap$ -- 2255
 text.length$ -- 73
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 52
+type$ -- 51
 warning$ -- 8
-while$ -- 193
-width$ -- 54
-write$ -- 520
+while$ -- 192
+width$ -- 53
+write$ -- 512
 (There were 8 warnings)

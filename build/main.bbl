@@ -103,6 +103,12 @@ B.~Reid, C.~Treude, and M.~Wagner, ``Optimising the fit of stack overflow code
   snippets into existing code,'' in \emph{Proceedings of the 2020 Genetic and
   Evolutionary Computation Conference Companion}, 2020, pp. 1945--1953.
 
+\bibitem{gallotta2022evolving}
+R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
+  l-system constrained optimisation evolutionary algorithm,'' in
+  \emph{Proceedings of the Genetic and Evolutionary Computation Conference
+  Companion}, 2022, pp. 711--714.
+
 \bibitem{pascarella2018video}
 L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
   development different from software development in open source?'' in
@@ -132,11 +138,10 @@ D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
   engineering,'' \emph{Journal of Systems and Software}, vol. 171, p. 110804,
   2021.
 
-\bibitem{gallotta2022evolving}
-R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
-  l-system constrained optimisation evolutionary algorithm,'' in
-  \emph{Proceedings of the Genetic and Evolutionary Computation Conference
-  Companion}, 2022, pp. 711--714.
+\bibitem{arcuri2013parameter}
+A.~Arcuri and G.~Fraser, ``Parameter tuning or default values? an empirical
+  investigation in search-based software engineering,'' \emph{Empirical
+  Software Engineering}, vol.~18, pp. 594--623, 2013.
 
 \bibitem{browne2010evolutionary}
 C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
@@ -273,18 +278,6 @@ J.~Togelius, G.~N. Yannakakis, K.~O. Stanley, and C.~Browne, ``Search-based
   procedural content generation: A taxonomy and survey,'' \emph{IEEE
   Transactions on Computational Intelligence and AI in Games}, vol.~3, no.~3,
   pp. 172--186, 2011.
-
-\bibitem{guarneri2013golem}
-A.~Guarneri, D.~Maggiorini, L.~Ripamonti, and M.~Trubian, ``Golem: generator of
-  life embedded into mmos,'' in \emph{ECAL 2013: The Twelfth European
-  Conference on Artificial Life}.\hskip 1em plus 0.5em minus 0.4em\relax MIT
-  press, 2013, pp. 585--592.
-
-\bibitem{norton2017monsters}
-D.~Norton, L.~A. Ripamonti, M.~Ornaghi, D.~Gadia, and D.~Maggiorini, ``Monsters
-  of darwin: A strategic game based on artificial intelligence and genetic
-  algorithms,'' in \emph{GHITALY}, vol. 1956.\hskip 1em plus 0.5em minus
-  0.4em\relax CEUR-WS, 2017.
 
 \bibitem{ripamonti2021dragon}
 L.~A. Ripamonti, F.~Distefano, M.~Trubian, D.~Maggiorini, and D.~Gadia,
