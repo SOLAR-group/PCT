@@ -109,6 +109,11 @@ R.~Gallotta, K.~Arulkumaran, and L.~Soros, ``Evolving spaceships with a hybrid
   \emph{Proceedings of the Genetic and Evolutionary Computation Conference
   Companion}, 2022, pp. 711--714.
 
+\bibitem{browne2010evolutionary}
+C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
+  on Computational Intelligence and AI in Games}, vol.~2, no.~1, pp. 1--16,
+  2010.
+
 \bibitem{pascarella2018video}
 L.~Pascarella, F.~Palomba, M.~Di~Penta, and A.~Bacchelli, ``How is video game
   development different from software development in open source?'' in
@@ -142,11 +147,6 @@ D.~Blasco, J.~Font, M.~Zamorano, and C.~Cetina, ``An evolutionary approach for
 A.~Arcuri and G.~Fraser, ``Parameter tuning or default values? an empirical
   investigation in search-based software engineering,'' \emph{Empirical
   Software Engineering}, vol.~18, pp. 594--623, 2013.
-
-\bibitem{browne2010evolutionary}
-C.~Browne and F.~Maire, ``Evolutionary game design,'' \emph{IEEE Transactions
-  on Computational Intelligence and AI in Games}, vol.~2, no.~1, pp. 1--16,
-  2010.
 
 \bibitem{oliveira2011threats}
 M.~Barros and A.~Neto, ``Threats to validity in search-based software

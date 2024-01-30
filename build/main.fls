@@ -1320,15 +1320,7 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT .\Text\2_Background.tex
 INPUT .\Text\2_Background.tex
 INPUT .\Text\2_Background.tex
@@ -1340,18 +1332,18 @@ INPUT .\Text\2_Background.tex
 INPUT .\Text\2_Background.tex
 INPUT .\Text\2_Background.tex
 INPUT Text\2_Background.tex
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\Figures\fig_bg_OverviewArtifactsVG.pdf
 INPUT .\Figures\fig_bg_OverviewArtifactsVG.pdf
 INPUT Figures\fig_bg_OverviewArtifactsVG.pdf
 INPUT .\Figures\fig_bg_OverviewArtifactsVG.pdf
 INPUT .\Figures\fig_bg_OverviewArtifactsVG.pdf
 INPUT .\Figures\fig_bg_OverviewArtifactsVG.pdf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\Figures\MM_Scenario.pdf
 INPUT .\Figures\MM_Scenario.pdf
 INPUT Figures\MM_Scenario.pdf
@@ -1453,11 +1445,7 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT .\Figures\evaluation_process.png
 INPUT .\Figures\evaluation_process.png
 INPUT Figures\evaluation_process.png
@@ -1465,6 +1453,8 @@ INPUT .\Figures\evaluation_process.png
 INPUT .\Figures\evaluation_process.png
 INPUT .\Figures\evaluation_process.png
 INPUT .\Figures\evaluation_process.png
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\Text\5_Results.tex
 INPUT .\Text\5_Results.tex
 INPUT .\Text\5_Results.tex
@@ -1476,6 +1466,19 @@ INPUT .\Text\5_Results.tex
 INPUT .\Text\5_Results.tex
 INPUT .\Text\5_Results.tex
 INPUT Text\5_Results.tex
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\Usuario\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\Figures\Imhotep_with_legend_and_oracle_average-v4.pdf
 INPUT .\Figures\Imhotep_with_legend_and_oracle_average-v4.pdf
 INPUT Figures\Imhotep_with_legend_and_oracle_average-v4.pdf
@@ -1515,6 +1518,15 @@ INPUT .\Text\8_RelatedWork.tex
 INPUT .\Text\8_RelatedWork.tex
 INPUT .\Text\8_RelatedWork.tex
 INPUT Text\8_RelatedWork.tex
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1phv.fd
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
 INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
@@ -1530,8 +1542,11 @@ INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.out
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.out

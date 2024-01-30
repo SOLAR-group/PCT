@@ -55,7 +55,7 @@ This simplified example is inspired by the boss shown in Fig.~\ref{fig:scenario}
 
 To transplant an organ into a host we need to find a way to connect them. To do that we use the boundaries between the model elements of the organ and the host. A boundary is a connection point capable of connecting two distinct model elements within a model. The connection is restricted by the rules of the metamodel. In the simplified example in Fig.~\ref{fig:metamodel+syntax}, the Source and Target meta-relationships are the boundaries between the model elements of the models conforming to that metamodel. In other metamodel languages, there will be other meta-relationships with other names that will be the boundaries.
 
-Imhotep automatically identifies the boundaries of the selected organ, and all the boundaries of the host. In the running example, the boundaries of the organ are the connection points between donor and host. The elements that connect with the rest of the donor are H, K, and Q. Fig.~\ref{fig:org_bound} shows the donor, the organ, and the boundaries (boundaries are represented by a circle crossed). The boundaries of the organ are as follows: b11 for the H element; b16 for the K element, and b25 for the Q element.
+\ApproachName{} automatically identifies the boundaries of the selected organ, and all the boundaries of the host. In the running example, the boundaries of the organ are the connection points between donor and host. The elements that connect with the rest of the donor are H, K, and Q. Fig.~\ref{fig:org_bound} shows the donor, the organ, and the boundaries (boundaries are represented by a circle crossed). The boundaries of the organ are as follows: b11 for the H element; b16 for the K element, and b25 for the Q element.
 
 \begin{figure}[h]
     \centering
@@ -75,7 +75,7 @@ On the other hand, the boundaries of the host are all the points where its model
 
 \subsection{Boundary mapping}
 
-In the boundary mapping step, \ApproachName{} determines the mapping between the boundaries of the organ and the host. For each boundary in the organ, Imhotep considers all compatible boundaries of the host, including the possibility of not connecting the boundary to the host boundaries. The boundary compatibility is determined by the metamodel.
+In the boundary mapping step, \ApproachName{} determines the mapping between the boundaries of the organ and the host. For each boundary in the organ, \ApproachName{} considers all compatible boundaries of the host, including the possibility of not connecting the boundary to the host boundaries. The boundary compatibility is determined by the metamodel.
 
 Table~\ref{tab:boundaries} shows a boundary mapping between the organ and the host of the running example. The boundary b11 is a boundary from a \sq{Link} from the model and according to the metamodel it can connect to any \sq{Hull}, \sq{Weapon}, \sq{Weak Point}. The boundaries b16 and b25 are both \sq{Hulls} and they can connect with any \sq{Link}.
 
@@ -109,7 +109,7 @@ The encoding is the problem representation that an algorithm is capable to under
 
 In our work, the encoding requires a binary vector that represents the organ in the donor, and the boundary mapping (see Fig.~\ref{fig:encoding}). In the binary vector, each element from the model is a position from the vector. If a position in the vector has a \sq{1}, it means that the element from the model is part of the organ. On the other hand, each boundary from the organ gets assigned a compatible boundary from the host.
 %In our work, each individual represents a software model from the game. We use a similar encoding version of Blasco \etal~\cite{blasco2021evolutionary} that has been adapted to work with transplantations. The size of the encoding in the previous work was 64 and in this work its size is of 150.
-The initial population of Imhotep contains individuals composed by the host and the organ placed in a random position (a random mapping between the organ boundaries and the compatible organ boundaries).
+The initial population of \ApproachName{} contains individuals composed by the host and the organ placed in a random position (a random mapping between the organ boundaries and the compatible organ boundaries).
 
 \begin{figure}[h]
     \centering
@@ -120,7 +120,7 @@ The initial population of Imhotep contains individuals composed by the host and 
 
 \subsection{Genetic Operators}
 
-Imhotep has genetic operations (selection, crossover, and mutation) to generate new individuals of the population. To select the individuals, we use the ranking selection, which ranks the population by the objective function and takes the top individuals in the current population.
+\ApproachName{} has genetic operations (selection, crossover, and mutation) to generate new individuals of the population. To select the individuals, we use the ranking selection, which ranks the population by the objective function and takes the top individuals in the current population.
 
 We use a single, random, cut-point crossover. It starts by selecting and splitting two parent solutions at random. When two parent individuals are selected, a random cut point is determined to split them into two sub-vectors.
 Then, the crossover creates two child solutions by putting the first part of the first parent with the second part of the second parent for the first child and putting the first part of the second parent with the second part of the first parent for the second child.
