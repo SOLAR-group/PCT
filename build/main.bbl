@@ -148,6 +148,48 @@ A.~Arcuri and G.~Fraser, ``Parameter tuning or default values? an empirical
   investigation in search-based software engineering,'' \emph{Empirical
   Software Engineering}, vol.~18, pp. 594--623, 2013.
 
+\bibitem{Arcuri2014}
+\BIBentryALTinterwordspacing
+A.~Arcuri and L.~C. Briand, ``A hitchhiker's guide to statistical tests for
+  assessing randomized algorithms in software engineering,'' \emph{Softw. Test.
+  Verification Reliab.}, vol.~24, no.~3, pp. 219--250, 2014. [Online].
+  Available: \url{https://doi.org/10.1002/stvr.1486}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Garcia2010}
+\BIBentryALTinterwordspacing
+S.~Garc{\'{\i}}a, A.~Fern{\'{a}}ndez, J.~Luengo, and F.~Herrera, ``Advanced
+  nonparametric tests for multiple comparisons in the design of experiments in
+  computational intelligence and data mining: Experimental analysis of power,''
+  \emph{Inf. Sci.}, vol. 180, no.~10, pp. 2044--2064, 2010. [Online].
+  Available: \url{https://doi.org/10.1016/j.ins.2009.12.010}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Conover1999}
+W.~J. Conover, \emph{Practical Nonparametric Statistics, 3rd Edition}.\hskip
+  1em plus 0.5em minus 0.4em\relax USA: Wiley, 1999.
+
+\bibitem{Vargha2000}
+A.~Vargha and H.~D. Delaney, ``A critique and improvement of the cl common
+  language effect size statistics of mcgraw and wong,'' \emph{Journal of
+  Educational and Behavioral Statistics}, vol.~25, no.~2, pp. 101--132, 2000.
+
+\bibitem{Grissom2005}
+R.~J. Grissom and J.~J. Kim, \emph{Effect sizes for research: A broad practical
+  approach}.\hskip 1em plus 0.5em minus 0.4em\relax New Jersey, United States:
+  Lawrence Erlbaum Associates Publishers, 2005.
+
+\bibitem{Cliff1996}
+N.~Cliff, \emph{Ordinal methods for behavioral data analysis.}\hskip 1em plus
+  0.5em minus 0.4em\relax Lawrence Erlbaum Associates, Inc, 1996.
+
+\bibitem{Romano2006}
+J.~Romano, J.~D. Kromrey, J.~Coraggio, and J.~Skowronek, ``{Appropriate
+  statistics for ordinal level data: Should we really be using t-test and
+  Cohen'sd for evaluating group differences on the NSSE and other surveys?}''
+  in \emph{annual meeting of the Florida Association of Institutional
+  Research}, 2006, pp. 1--3.
+
 \bibitem{oliveira2011threats}
 M.~Barros and A.~Neto, ``Threats to validity in search-based software
   engineering empirical studies,'' \emph{RelaTe-DIA}, vol.~5, 01 2011.
