@@ -1,48 +1,48 @@
 \section{Results}
 \label{sec:Results}
 
-In this section, we present the results obtained in the two variants of the \ApproachName{} approach (with the simulation-based and the test-based objective functions) and the PCG baseline in \CaseStudy{}.
+In this section, we present the results obtained by the two variants of \ApproachName{} (with the simulation-based and the test-based objective functions) and the PCG baseline when used to generate new content for the \CaseStudy{} video game.
 
-\subsection{Research Question 1}
+\subsection{Research Question 1: Solution and Validity}
 
-Table~\ref{tab:results} shows the mean values and standard deviations for Q$_{DURATION}$ for each variant and baseline. Both variants (I$_S$ and I$_T$) obtained better results than the baseline (Base). Specifically, I$_S$ (simulations as objective function) yielded the best results, followed by I$_T$ (tests as objective function) and then baseline.
+The mean values and standard deviations for $Q_{Duration}$for each \ApproachName{} variants and the baseline are presented in Table~\ref{tab:results}. Both variants ($S_{Imhotep}$ and $T_{Imhotep}$) obtained better results than the baseline (Base). Specifically, $S_{Imhotep}$ (simulations as objective function) yielded the best results, followed by $T_{Imhotep}$ (tests as objective function) and then baseline.
 
 \begin{table*}[ht!]
 \centering
-\caption{Mean values and standard deviations for Q$_{DURATION}$ for each variant.}
+\caption{Mean values and standard deviations for $Q_{Duration}$ for each approach.}
 \label{tab:results}
 \begin{tabular}{@{}ccccccc@{}}
 \toprule
-                                   & \multicolumn{6}{c}{\ApproachName{} with simulation-based variant (I$_S$)}                                           \\ \cmidrule(l){2-7} 
+                                   & \multicolumn{6}{c}{\ApproachName{} with simulation-based variant ($S_{Imhotep}$)}                                           \\ \cmidrule(l){2-7} 
                                    & Argos            & Maia              & Orion            & Teuthus           & Vermis            & Overall           \\ \midrule
                                    \rowcolor[HTML]{C0C0C0}
-\multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}{Q$_{DURATION}$}} & 43.92 $\pm$ 9.30 & 43.08 $\pm$ 12.09 & 48.86 $\pm$ 8.69 & 60.78 $\pm$ 7.38  & 69.90 $\pm$ 10.52 & 53.31 $\pm$ 14.26 \\ \midrule
-                                   & \multicolumn{6}{c}{\ApproachName{} with test-based variant (I$_T$)}                                                 \\ \cmidrule(l){2-7} 
+\multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}{$Q_{Duration}$}} & 43.92 $\pm$ 9.30 & 43.08 $\pm$ 12.09 & 48.86 $\pm$ 8.69 & 60.78 $\pm$ 7.38  & 69.90 $\pm$ 10.52 & 53.31 $\pm$ 14.26 \\ \midrule
+                                   & \multicolumn{6}{c}{\ApproachName{} with test-based variant ($T_{Imhotep}$)}                                                 \\ \cmidrule(l){2-7} 
                                    & Argos            & Maia              & Orion            & Teuthus           & Vermis            & Overall           \\ \midrule
-\multicolumn{1}{r}{Q$_{DURATION}$} & 32.17 $\pm$ 6.94 & 29.52 $\pm$ 9.34  & 31.41 $\pm$ 6.83 & 46.33 $\pm$ 10.54 & 42.50 $\pm$ 12.96 & 36.39 $\pm$ 11.72 \\ \midrule
+\multicolumn{1}{r}{$Q_{Duration}$} & 32.17 $\pm$ 6.94 & 29.52 $\pm$ 9.34  & 31.41 $\pm$ 6.83 & 46.33 $\pm$ 10.54 & 42.50 $\pm$ 12.96 & 36.39 $\pm$ 11.72 \\ \midrule
                                    & \multicolumn{6}{c}{PCG Baseline (Base)}                                                                             \\ \cmidrule(l){2-7} 
                                    & Argos            & Maia              & Orion            & Teuthus           & Vermis            & Overall           \\ \midrule
-\multicolumn{1}{r}{Q$_{DURATION}$} & 20.15 $\pm$ 1.86 & 8.43 $\pm$ 1.81   & 32.97 $\pm$ 0.85 & 19.53 $\pm$ 1.88  & 25.48 $\pm$ 3.31  & 21.31 $\pm$ 8.32  \\ \bottomrule
+\multicolumn{1}{r}{$Q_{Duration}$} & 20.15 $\pm$ 1.86 & 8.43 $\pm$ 1.81   & 32.97 $\pm$ 0.85 & 19.53 $\pm$ 1.88  & 25.48 $\pm$ 3.31  & 21.31 $\pm$ 8.32  \\ \bottomrule
 \end{tabular}
 \end{table*}
 
 Figure~\ref{fig:results} shows the results of the evaluation execution of our approach when using the two objective functions (simulation-Based and test-Based) from \ApproachName{} and the Baseline. The executions are grouped by each host (boss of \CaseStudy{}) that has been used in our experiment (Argos, Maia, Orion, Teuthus, and Vermis). The last column, with shaded background, shows the average of all the hosts for each objective function and the baseline. 
 %In addition, the oracle indicates the value obtained by the human-generated final boss models that were obtained from \CaseStudy{}.
 
-Each boxplot is generated from the results of each host obtained from the transplantation of (\ApproachName{}) or generation (baseline). Each boxplot represents 645 values of a specific host-organ transplantation (\ApproachName{}) or 645 generations from a specific host (baseline). Each value in the boxplot is the mean value (between the 30 independent runs) of the quality indicator (Q$_{DURATION}$) for one of the transplants (\ApproachName{}) or generations (baseline).
+Each boxplot is generated from the results of each host obtained from transplantation \ApproachName{} or generation (baseline). Each boxplot represents 645 values of a specific host-organ transplantation (\ApproachName{}) or 645 generations from a specific host (baseline). Each value in the boxplot is the mean value (between the 30 independent runs) of the quality indicator ($Q_{Duration}$) for one of the transplants (\ApproachName{}) or generations (baseline).
 
 %Figure~\ref{fig:results} shows in each column how the quality values obtained for each of the three strategies studied in our evaluation differ from the values for the models generated by the developers, which are represented by the horizontal red dashed lines that cross each host column. The boxplots that are closer to the horizontal lines are more similar in quality to the models produced by the developers. Additionally, the use of boxplots allows for the representation of the different results for the strategies used.
 
 \textbf{RQ$_1$ answer. }
-The variants obtained an average value of 44.85\% in Q$_{DURATION}$, with I$_S$ being the variant that obtained the best results overall (53.31\% in Q$_{DURATION}$). I$_T$ obtained 36.39\% in the overall Q$_{DURATION}$, which also outperformed the baseline. The baseline obtained the worst Q$_{DURATION}$. All in all, the results reveal that leveraging simulations as objective function pays off in the context of PCT, yielding 1.5x better results than test-based variant and 2.5x better results than baseline.
+The variants obtained an average value of 44.85\% in $Q_{Duration}$, with $S_{Imhotep}$ being the variant that obtained the best results overall (53.31\% in $Q_{Duration}$). $T_{Imhotep}$ obtained 36.39\% in the overall $Q_{Duration}$, which also outperformed the baseline. The baseline obtained the worst $Q_{Duration}$. All in all, the results reveal that leveraging simulations as objective function pays off in the context of PCT, yielding 1.5x better results than the test-based variant and 2.5x better results than baseline.
 
-\subsection{Research Question 2}
+\subsection{Research Question 2: Significance}
 
-To properly compare the approaches, all of the data resulting from the empirical analysis was analyzed using statistical methods following the guidelines in~\cite{Arcuri2014}.
+To properly compare the approaches, all of the data resulting from the empirical analysis was analyzed using statistical methods following the guidelines by Arcuri \etal~\cite{Arcuri2014}.
 
 The analysis that we must follow depends on the properties of the data. Since our data does not follow a normal distribution in general, our analysis requires the use of non-parametric techniques. There are several tests for analyzing this kind of data; however, the Quade test has shown that it is more powerful than the others when working with real data~\cite{Garcia2010}. In addition, according to Conover~\cite{Conover1999}, the Quade test has shown better results than the others when the number of algorithms is low (no more than four or five algorithms).
 
-The $p-Values$ obtained are lower than $2.2x10^{-16}$ for Q$_{DURATION}$. Since the $p-Values$ are smaller than 0.05, we can state that there are differences among the algorithms for the quality indicator of Q$_{DURATION}$.
+The obtained $p-values$ for $Q_{Duration}$ are less than $2.2x10^{-16}$. Since the $p-Values$ are smaller than 0.05, we can state that there are differences among the algorithms for the quality indicator of $Q_{Duration}$.
 
 \begin{table}[H]
 \centering
@@ -50,21 +50,20 @@ The $p-Values$ obtained are lower than $2.2x10^{-16}$ for Q$_{DURATION}$. Since 
 \label{tab:postHoc}
 \begin{tabular}{@{}rc@{}}
 \toprule
-               & Q$_{DURATION}$ \\ \midrule
-I$_S$ vs Base  & $<2x10^{-16}$  \\
-I$_S$ vs I$_T$ & $<2x10^{-16}$  \\
-I$_T$ vs Base  & $<2x10^{-16}$  \\ \bottomrule
+               & $Q_{Duration}$ \\ \midrule
+               $S_{Imhotep}$ vs Base  & $<2x10^{-16}$  \\
+               $S_{Imhotep}$ vs $T_{Imhotep}$ & $<2x10^{-16}$  \\
+               $T_{Imhotep}$ vs Base  & $<2x10^{-16}$  \\ \bottomrule
 \end{tabular}
 \end{table}
 
 However, with the Quade test, we cannot know which of the algorithms gives the best performance. In this case, the performance of each algorithm should be individually compared against all of the other alternatives. In order to do this, we perform an additional post hoc analysis. This kind of analysis performs a pair-wise comparison among the results of each algorithm, determining whether statistically significant differences exist among the results of a specific pair of algorithms.
-
-Table~\ref{tab:postHoc} shows the $p-Values$ of the Holm's post hoc analysis for each pair-wise comparison and quality indicator. All of the $p-Values$ obtained in Q$_{DURATION}$ were smaller than their corresponding significance threshold value ($0.05$), indicating that the differences in solution quality between the two variants and the baseline are significant.
+Table~\ref{tab:postHoc} shows the $p-Values$ of the Holm's post hoc analysis for each pair-wise comparison and quality indicator. All of the $p-Values$ obtained in $Q_{Duration}$ were smaller than their corresponding significance threshold value ($0.05$), indicating that the differences in solution quality between the two variants and the baseline are significant.
 
 \textbf{RQ$_2$ answer. }
-Since the Holm's post hoc $p-Values$ for Q$_{DURATION}$ that are shown in Table~\ref{tab:postHoc} are smaller than $0.05$, we can state that there are significant differences between the variants and the baseline.
+Since the Holm's post hoc $p-values$ for $Q_{Duration}$ (shown in Table~\ref{tab:postHoc}) are smaller than $0.05$, we can state that there are significant differences between the variants and the baseline.
 
-\subsection{Research Question 3}
+\subsection{Research Question 3: Magnitude}
 
 When comparing algorithms with a large enough number of runs, statistically significant differences can be obtained even if they are so small as to be of no practical value~\cite{Arcuri2014}. Thus, it is important to assess if an algorithm is statistically better than another and to assess the magnitude of the improvement. Effect size measures are needed to analyze this.
 
@@ -75,30 +74,30 @@ When comparing algorithms with a large enough number of runs, statistically sign
 \begin{tabular}{@{}rc@{}}
 \toprule
                & Â$_{12}$          \\ \cmidrule(l){2-2} 
-               & Q$_{DURATION}$    \\ \midrule
-I$_S$ vs Base  & 0.0121531         \\
-I$_S$ vs I$_T$ & 0.1712710         \\
-I$_T$ vs Base  & 0.1411910         \\ \midrule
+               & $Q_{Duration}$    \\ \midrule
+               $S_{Imhotep}$ vs Base  & 0.0121531         \\
+$S_{Imhotep}$ vs $T_{Imhotep}$ & 0.1712710         \\
+$T_{Imhotep}$ vs Base  & 0.1411910         \\ \midrule
                & Cliff's Delta     \\ \cmidrule(l){2-2} 
-               & Q$_{DURATION}$    \\ \midrule
-I$_S$ vs Base  & 0.9756914 (large) \\
-I$_S$ vs I$_T$ & 0.6574437 (large) \\
-I$_T$ vs Base  & 0.7175939 (large) \\ \bottomrule
+               & $Q_{Duration}$    \\ \midrule
+               $S_{Imhotep}$ vs Base  & 0.9756914 (large) \\
+$S_{Imhotep}$ vs $T_{Imhotep}$ & 0.6574437 (large) \\
+$T_{Imhotep}$ vs Base  & 0.7175939 (large) \\ \bottomrule
 \end{tabular}
 \end{table}
 
 For a non-parametric effect size measure, we use Vargha and Delaney's $\hat{A}_{12}$~\cite{Vargha2000,Grissom2005}. $\hat{A}_{12}$ measures the probability that running one algorithm yields higher values than running another algorithm. If the two algorithms are equivalent, then $\hat{A}_{12}$ will be 0.5.
 
-Table~\ref{tab:effectSize} shows the values of the effect size statistics between pair-wise comparisons of algorithms in \CaseStudy{}. Specifically, the upper part of the table shows the $\hat{A}_{12}$ values, whereas the lower part of the table shows Cliff's Delta~\cite{Cliff1996} values for Q$_{DURATION}$. From the results, we can determine that the performance results obtained by \ApproachName{} with the simulation-based variant, \ApproachName{} with the test-based variant, and the PCG baseline are significant in Q$_{DURATION}$. The magnitude of improvement using \ApproachName{} instead of the baseline can be interpreted as being large based on the magnitude scales~\cite{Romano2006} of the Cliff's Delta values. Hence, \ApproachName{} has an actual impact on performance. The highest differences between \ApproachName{} and the baseline are obtained when the simulation-based variant is used, obtaining better results in Q$_{DURATION}$ for 97\% of the runs.
+Table~\ref{tab:effectSize} shows the values of the effect size statistics between pair-wise comparisons of algorithms in \CaseStudy{}. Specifically, the upper part of the table shows the $\hat{A}_{12}$ values, whereas the lower part of the table shows Cliff's Delta~\cite{Cliff1996} values for $Q_{Duration}$. From the results, we can determine that the performance results obtained by \ApproachName{} with the simulation-based variant, \ApproachName{} with the test-based variant, and the PCG baseline are significant in $Q_{Duration}$. The magnitude of improvement using \ApproachName{} instead of the baseline can be interpreted as being large based on the magnitude scales~\cite{Romano2006} of the Cliff's Delta values. Hence, \ApproachName{} has an actual impact on performance. The highest differences between \ApproachName{} and the baseline are obtained when the simulation-based variant is used, obtaining better results in $Q_{Duration}$ for 97\% of the runs.
 
 \textbf{RQ$_3$ answer. }
-We can draw conclusions about how much the quality of the solution is influenced by each variant of \ApproachName{} compared to baseline from the results of Table~\ref{tab:effectSize}. The results reveal that the magnitude of improvement in Q$_{DURATION}$ using any variant is large compared to the baseline according to the magnitude scales~\cite{Romano2006} of the Cliff's Delta values.
+We can draw conclusions about how much the quality of the solution is influenced by each variant of \ApproachName{} compared to baseline from the results of Table~\ref{tab:effectSize}. The results reveal that the magnitude of improvement in $Q_{Duration}$ using any variant is large compared to the baseline according to the magnitude scales~\cite{Romano2006} of the Cliff's Delta values.
 
 
 \begin{figure*}[ht!]
     \centering
     \includegraphics[width=\textwidth]{Figures/Imhotep_with_legend_and_oracle_average-v4.pdf}
-    \caption{Results of our \ApproachName{} approaches (simulation-based and test-based) and the baseline for the quality measurement (Q$_{DURATION}$).}
+    \caption{Results of our \ApproachName{} approaches (simulation-based and test-based) and the baseline for the quality measurement ($Q_{Duration}$).}
     \label{fig:results}
 \end{figure*}
 

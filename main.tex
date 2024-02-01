@@ -1,29 +1,35 @@
-\documentclass[lettersize,journal]{IEEEtran}
+%\documentclass[lettersize,journal]{IEEEtran}
+\documentclass[sigconf,screen,review,anonymous]{acmart}
 \usepackage[utf8]{inputenc}
 \usepackage{outlines}
 \input{preamble.tex}
 \newcommand{\ApproachName}{{\sc Imhotep}}
 \newcommand{\CaseStudy}{Kromaia}
 
+\acmBooktitle{Companion Proceedings of the 32nd ACM Symposium on the Foundations of Software Engineering (FSE '24), July 15--19, 2024, Porto de Galinhas, Brazil}
+
 \title{Automated Software Transplantation on Procedural Content Generation}
 \author{Mar Zamorano, Carlos Cetina, Federica Sarro}
 
 \begin{document}
 
-\maketitle
-
 \begin{abstract}
-Procedural Content Generation (PCG) aims for the (semi) automatic generation of new content within video games. However, usually the developers have limited control over the generation process.
-We propose the first transplantation algorithm in the field of PCG that allows game developers to choose an organ from a donor and a host that will receive the organ. Through our approach, we aim to search for an appropriate solution to integrate the organ into the host. We also study two distinct objective functions: the one accepted in the literature of  software transplantation (test-based variant), and a novel objective function (simulation-based variant).
+Procedural Content Generation (PCG) aims for the (semi) automatic generation of new content within video games. However, developers usually have limited control over the generation process.
+We propose the first transplantation algorithm in the field of PCG that allows game developers to choose an organ from a donor and a host that will receive the organ. Through our approach, we aim to search for an appropriate solution to integrate the organ into the host. We also study two distinct objective functions: The one accepted in the literature of  software transplantation (test-based variant), and a novel objective function (simulation-based variant).
 In our evaluation, we have transplanted a total of 129 distinct organs from the scenarios of \CaseStudy{} (a commercial video game) into 5 video game bosses as hosts.
 Our simulation-based variant produces results that are 1.5 times superior to those of the test-based variant and 2.5 times superior to the PCG baseline. The statistical analysis confirms the significance of these differences and highlights the substantial magnitude of improvement.
 Furthermore, a focus group with game developers indicated their satisfaction with the generated content.
 Our analysis of the results also reveals organ interactions that have not been  identified previously in the literature.
 \end{abstract}
 
-\begin{IEEEkeywords}
-Automated Software Transplantation, Auto-transplantation, Procedural Content Generation, Search-Based Software Engineering, Model-Driven Engineering
-\end{IEEEkeywords}
+% \begin{IEEEkeywords}
+% Automated Software Transplantation, Auto-transplantation, Procedural Content Generation, Search-Based Software Engineering, Model-Driven Engineering
+% \end{IEEEkeywords}
+
+\keywords{Automated Software Transplantation, Auto-transplantation, Procedural Content Generation, Search-Based Software Engineering, Model-Driven Engineering}
+
+
+\maketitle
 
 \input{Text/1_Introduction}
 \input{Text/2_Background}
@@ -35,8 +41,8 @@ Automated Software Transplantation, Auto-transplantation, Procedural Content Gen
 \input{Text/8_RelatedWork}
 \input{Text/9_Conclusion}
 
-
-\bibliographystyle{IEEEtran}
+\bibliographystyle{ACM-Reference-Format}
+%\bibliographystyle{IEEEtran}
 \bibliography{references}
 
 \end{document}

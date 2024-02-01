@@ -1,67 +1,125 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: build\main.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in wijman2021games
-Warning--empty year in wijman2021games
-Warning--empty journal in wijman2022games
-Warning--empty year in wijman2022games
-Warning--empty journal in devNation
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no number and no volume in allamanis2017smartpaste
+Warning--page numbers missing in both pages and numpages fields in allamanis2017smartpaste
+Warning--empty publisher in barr2015automated
+Warning--empty address in barr2015automated
+Warning--no number and no volume in chueca2023consolidation
+Warning--empty address in Cliff1996
+Warning--empty publisher in domingo2020evaluating
+Warning--empty address in domingo2020evaluating
+Warning--empty address in FARSHBAFNADI2023599
+Warning--page numbers missing in both pages and numpages fields in frade2009breeding
+Warning--empty publisher in gallotta2022evolving
+Warning--empty address in gallotta2022evolving
+Warning--empty publisher in kwon2017cpr
+Warning--empty address in kwon2017cpr
+Warning--empty publisher in kwon2013pietrace
+Warning--empty address in kwon2013pietrace
+Warning--no number and no volume in li2015gated
+Warning--page numbers missing in both pages and numpages fields in li2015gated
+Warning--empty publisher in lu2018program
+Warning--empty address in lu2018program
+Warning--empty publisher in maras2015towards
+Warning--empty address in maras2015towards
+Warning--empty publisher in mora2021flora
+Warning--empty address in mora2021flora
+Warning--empty publisher in pascarella2018video
+Warning--empty address in pascarella2018video
+Warning--empty publisher in pereira2021procedural_enemies
+Warning--empty address in pereira2021procedural_enemies
+Warning--empty publisher in petke2014using
+Warning--empty address in petke2014using
+Warning--empty publisher in reid2020optimising
+Warning--empty address in reid2020optimising
+Warning--empty publisher in Romano2006
+Warning--empty address in Romano2006
+Warning--unusual to have number, but no volume, for rykala2020growth
+Warning--no journal in sidiroglou2015horizontal
+Warning--no number and no volume in sidiroglou2015horizontal
+Warning--page numbers missing in both pages and numpages fields in sidiroglou2015horizontal
+Warning--empty publisher in sidiroglou2017codecarboncopy
+Warning--empty address in sidiroglou2017codecarboncopy
+Warning--no journal in sidiroglou2014automatic
+Warning--no number and no volume in sidiroglou2014automatic
+Warning--page numbers missing in both pages and numpages fields in sidiroglou2014automatic
 Warning--empty year in devNation
-Warning--empty journal in sidiroglou2014automatic
-Warning--empty journal in sidiroglou2015horizontal
-
-Done.
-You've used 58 entries,
-            4087 wiz_defined-function locations,
-            1152 strings with 19086 characters,
-and the built_in function-call counts, 43714 in all, are:
-= -- 3540
-> -- 1031
-< -- 359
-+ -- 558
-- -- 183
-* -- 2075
-:= -- 6515
-add.period$ -- 126
-call.type$ -- 58
-change.case$ -- 59
-chr.to.int$ -- 828
-cite$ -- 66
-duplicate$ -- 3141
-empty$ -- 3579
-format.name$ -- 225
-if$ -- 10244
-int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 538
-newline$ -- 209
-num.names$ -- 60
-pop$ -- 1263
+Warning--no journal in devNation
+Warning--no number and no volume in devNation
+Warning--page numbers missing in both pages and numpages fields in devNation
+Warning--empty publisher in viana2019survey
+Warning--empty address in viana2019survey
+Warning--empty publisher in viana2022illuminating
+Warning--empty address in viana2022illuminating
+Warning--empty publisher in wang2016hunter
+Warning--empty address in wang2016hunter
+Warning--empty publisher in weimer2009automatically
+Warning--empty address in weimer2009automatically
+Warning--empty year in wijman2021games
+Warning--no journal in wijman2021games
+Warning--no number and no volume in wijman2021games
+Warning--page numbers missing in both pages and numpages fields in wijman2021games
+Warning--empty year in wijman2022games
+Warning--no journal in wijman2022games
+Warning--no number and no volume in wijman2022games
+Warning--page numbers missing in both pages and numpages fields in wijman2022games
+Warning--empty publisher in yang2017malware
+Warning--empty address in yang2017malware
+Warning--empty address in yannakakis2018artificial
+Warning--empty publisher in zhang2017automated
+Warning--empty address in zhang2017automated
+You've used 60 entries,
+            5981 wiz_defined-function locations,
+            1827 strings with 30280 characters,
+and the built_in function-call counts, 67349 in all, are:
+= -- 8809
+> -- 1982
+< -- 1
++ -- 670
+- -- 714
+* -- 4550
+:= -- 6368
+add.period$ -- 314
+call.type$ -- 60
+change.case$ -- 418
+chr.to.int$ -- 59
+cite$ -- 128
+duplicate$ -- 6071
+empty$ -- 4272
+format.name$ -- 886
+if$ -- 16737
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 233
+newline$ -- 549
+num.names$ -- 421
+pop$ -- 2483
 preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 3409
+purify$ -- 881
+quote$ -- 0
+skip$ -- 2161
 stack$ -- 0
-substring$ -- 2051
-swap$ -- 2526
-text.length$ -- 83
+substring$ -- 4959
+swap$ -- 590
+text.length$ -- 39
 text.prefix$ -- 0
-top$ -- 5
-type$ -- 58
-warning$ -- 8
-while$ -- 215
-width$ -- 60
-write$ -- 581
-(There were 8 warnings)
+top$ -- 0
+type$ -- 1303
+warning$ -- 68
+while$ -- 405
+width$ -- 0
+write$ -- 1213
+(There were 68 warnings)
