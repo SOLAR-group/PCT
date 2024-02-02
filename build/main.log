@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  2 FEB 2024 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  2 FEB 2024 14:47
 entering extended mode
 **"d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
 ("d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
@@ -1554,59 +1554,54 @@ Missing character: There is no ¹ in font zptmcm7y!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no ¹ in font zptmcm7y!
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 33.
 ) (Text/9_Conclusion.tex [11.11]) Excluding 'acks' comment. ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl"
 LaTeX Info: Redefining \tempurl on input line 100.
-LaTeX Info: Redefining \tempurl on input line 172.
-LaTeX Info: Redefining \tempurl on input line 222.
-LaTeX Info: Redefining \tempurl on input line 275.
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--381
-\T1/ptm/m/n/7 (+20) com / technology / why -[] is -[] rockstar -[] delaying -[] gta -[] 6 -[] here -[] are -[] some -[] possible -[]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \tempurl on input line 186.
+LaTeX Info: Redefining \tempurl on input line 236.
+LaTeX Info: Redefining \tempurl on input line 289.
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--408
+\T1/ptm/m/n/7 (+20) delaying -[] gta -[] 6 -[] here -[] are -[] some -[] possible -[] breakdowns -[] 101681440818791 . html$[][].
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12.12]
-LaTeX Info: Redefining \tempurl on input line 583.
+LaTeX Info: Redefining \tempurl on input line 610.
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--588
+Underfull \hbox (badness 10000) in paragraph at lines 604--615
 [][]$\T1/ptm/m/n/7 (+20) https : / / slashdata -[] website -[] cms . s3 . amazonaws . com / sample _ reports / dsIe6JlZge _
  []
 
-LaTeX Info: Redefining \tempurl on input line 617.
-LaTeX Info: Redefining \tempurl on input line 646.
+LaTeX Info: Redefining \tempurl on input line 644.
+LaTeX Info: Redefining \tempurl on input line 673.
 
-Underfull \hbox (badness 2884) in paragraph at lines 638--649
+Underfull \hbox (badness 2884) in paragraph at lines 665--676
 []\T1/ptm/m/n/7 (+20) András Vargha and Harold D. De-laney. 2000.  A Cri-tique and Im-
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 638--649
+Underfull \hbox (badness 1533) in paragraph at lines 665--676
 \T1/ptm/m/n/7 (+20) prove-ment of the CL Com-mon Lan-guage Ef-fect Size Sta-tis-tics of Mc-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 638--649
+Underfull \hbox (badness 3291) in paragraph at lines 665--676
 \T1/ptm/m/n/7 (+20) Graw and Wong.  \T1/ptm/m/it/7 (+20) Jour-nal of Ed-u-ca-tional and Be-hav-ioral Sta-tis-tics
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 638--649
+Underfull \hbox (badness 4739) in paragraph at lines 665--676
 \T1/ptm/m/n/7 (+20) 25, 2 (2000), 101--132.   [][]$https : / / doi . org / 10 . 3102 / 10769986025002101$[][]
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 710--718
-[]\T1/ptm/m/n/7 (+20) Tom Wi-j-man. 2021.  New-Zoo.  [][]$https : / / newzoo . com / resources / blog / the -[]
+Underfull \hbox (badness 1264) in paragraph at lines 750--758
+[]\T1/ptm/m/n/7 (+20) Tom Wi-j-man. 2022.  The Games Mar-ket in 2022: The Year in Num-
  []
 
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
@@ -1629,13 +1624,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 229BAD0E45932FBD1078C20BFCBA80C4;4563.
  ) 
 Here is how much of TeX's memory you used:
- 36341 strings out of 480237
- 626701 string characters out of 2879631
- 1033294 words of memory out of 3000000
- 51061 multiletter control sequences out of 15000+200000
- 702460 words of font info for 579 fonts, out of 3000000 for 9000
+ 36312 strings out of 480237
+ 625918 string characters out of 2879631
+ 1034198 words of memory out of 3000000
+ 51058 multiletter control sequences out of 15000+200000
+ 680179 words of font info for 563 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 92i,19n,128p,1587b,793s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 92i,19n,128p,1587b,789s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
@@ -1656,10 +1651,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathRM.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTI.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2904273 bytes).
+{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathRM.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2869629 bytes).
 PDF statistics:
- 622 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 119599 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 107311 words of extra memory for PDF output out of 128383 (max. 10000000)
 

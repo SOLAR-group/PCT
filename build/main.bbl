@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{60}
+\begin{thebibliography}{62}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -121,6 +121,20 @@
   models: The case of Kromaia in Game Software Engineering}.
 \newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}
   \bibinfo{volume}{171} (\bibinfo{year}{2021}), \bibinfo{pages}{110804}.
+\newblock
+
+
+\bibitem[Brocchini et~al\mbox{.}(2022)]%
+        {brocchini2022monster}
+\bibfield{author}{\bibinfo{person}{Michele Brocchini}, \bibinfo{person}{Marco
+  Mameli}, \bibinfo{person}{Emanuele Balloni}, \bibinfo{person}{Laura~Della
+  Sciucca}, \bibinfo{person}{Luca Rossi}, \bibinfo{person}{Marina Paolanti},
+  \bibinfo{person}{Emanuele Frontoni}, {and} \bibinfo{person}{Primo
+  Zingaretti}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{MONstEr: A Deep Learning-Based System for the
+  Automatic Generation of Gaming Assets}. In
+  \bibinfo{booktitle}{\emph{International Conference on Image Analysis and
+  Processing}}. Springer, \bibinfo{pages}{280--290}.
 \newblock
 
 
@@ -321,6 +335,18 @@
 \newblock
 
 
+\bibitem[Li et~al\mbox{.}(2020)]%
+        {li2020automatic}
+\bibfield{author}{\bibinfo{person}{Ruizhe Li}, \bibinfo{person}{Masanori
+  Nakayama}, {and} \bibinfo{person}{Issei Fujishiro}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Automatic Generation of 3D Natural Anime-like
+  Non-Player Characters with Machine Learning}. In
+  \bibinfo{booktitle}{\emph{2020 International Conference on Cyberworlds
+  (CW)}}. IEEE, \bibinfo{pages}{110--116}.
+\newblock
+
+
 \bibitem[Li et~al\mbox{.}(2015)]%
         {li2015gated}
 \bibfield{author}{\bibinfo{person}{Yujia Li}, \bibinfo{person}{Daniel Tarlow},
@@ -372,7 +398,8 @@
         {gta6}
 \bibfield{author}{\bibinfo{person}{Tuhin~Das Mahapatra}.}
   \bibinfo{year}{2023}\natexlab{}.
-\newblock \bibinfo{title}{Hindustan Times}.
+\newblock \bibinfo{title}{Why is Rockstar delaying GTA 6? Here are some
+  possible breakdowns}.
 \newblock
   \bibinfo{howpublished}{\url{https://www.hindustantimes.com/technology/why-is-rockstar-delaying-gta-6-here-are-some-possible-breakdowns-101681440818791.html}}.
 \newblock
@@ -686,7 +713,7 @@
         {cyberpunk2077}
 \bibfield{author}{\bibinfo{person}{Steve Watts}.}
   \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{GameSpot}.
+\newblock \bibinfo{title}{All The Cyberpunk 2077 Delays}.
 \newblock
   \bibinfo{howpublished}{\url{https://www.gamespot.com/gallery/all-the-cyberpunk-2077-delays/2900-3618/}}.
 \newblock
@@ -709,7 +736,8 @@
         {wijman2021games}
 \bibfield{author}{\bibinfo{person}{Tom Wijman}.}
   \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{NewZoo}.
+\newblock \bibinfo{title}{The Games Market and Beyond in 2021: The Year in
+  Numbers}.
 \newblock
   \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}}.
 \newblock
@@ -721,7 +749,7 @@
         {wijman2022games}
 \bibfield{author}{\bibinfo{person}{Tom Wijman}.}
   \bibinfo{year}{2022}\natexlab{}.
-\newblock \bibinfo{title}{NewZoo}.
+\newblock \bibinfo{title}{The Games Market in 2022: The Year in Numbers}.
 \newblock
   \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}}.
 \newblock

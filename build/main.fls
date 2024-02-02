@@ -1904,10 +1904,6 @@ INPUT .\Text\8_RelatedWork.tex
 INPUT .\Text\8_RelatedWork.tex
 INPUT .\Text\8_RelatedWork.tex
 INPUT Text\8_RelatedWork.tex
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTB-tlf-t1.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTB-tlf-t1.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumT-tlf-t1.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTI-tlf-t1.tfm
 INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
@@ -1919,10 +1915,6 @@ INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
 INPUT .\Text\9_Conclusion.tex
 INPUT Text\9_Conclusion.tex
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinBiolinumTB-tlf-t1.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTB-tlf-t1--base.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinBiolinumTI-tlf-t1.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTI-tlf-t1--base.tfm
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
 INPUT d:\Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl
@@ -1950,8 +1942,6 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertin
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinBiolinumT.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinBiolinumTB.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinBiolinumTB.pfb
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinBiolinumTI.pfb
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinBiolinumTI.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
