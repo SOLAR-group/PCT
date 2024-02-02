@@ -705,35 +705,28 @@
 \newblock
 
 
-\bibitem[Wijman({[n.\,d.]}a)]%
+\bibitem[Wijman(2021)]%
         {wijman2021games}
 \bibfield{author}{\bibinfo{person}{Tom Wijman}.}
-  \bibinfo{year}{[n.\,d.]}\natexlab{a}.
-\newblock \showarticletitle{The Games Market and Beyond in 2021: The Year in
-  Numbers}.
-\newblock  (\bibinfo{year}{[n.\,d.]}).
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{NewZoo}.
 \newblock
-\urldef\tempurl%
-\url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}
-\showURL{%
-\tempurl}
+  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}}.
 \newblock
-\shownote{[Online; accessed 1-December-2023]}.
+\newblock
+\shownote{Accessed: 01/12/23}.
 
 
-\bibitem[Wijman({[n.\,d.]}b)]%
+\bibitem[Wijman(2022)]%
         {wijman2022games}
 \bibfield{author}{\bibinfo{person}{Tom Wijman}.}
-  \bibinfo{year}{[n.\,d.]}\natexlab{b}.
-\newblock \showarticletitle{The Games Market in 2022: The Year in Numbers}.
-\newblock  (\bibinfo{year}{[n.\,d.]}).
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{NewZoo}.
 \newblock
-\urldef\tempurl%
-\url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}
-\showURL{%
-\tempurl}
+  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}}.
 \newblock
-\shownote{[Online; accessed 1-December-2023]}.
+\newblock
+\shownote{Accessed: 01/12/23}.
 
 
 \bibitem[Yang et~al\mbox{.}(2017)]%

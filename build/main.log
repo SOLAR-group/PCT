@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  1 FEB 2024 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  2 FEB 2024 12:17
 entering extended mode
 **"d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
 ("d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
@@ -1155,16 +1155,13 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \c@RQCounter=\count393
 \emstr=\skip102
 )
-
-Class acmart Warning: Do not put several authors in the same \author macro! on input line 12.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 14.
+Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 11.
 \c@theorem=\count394
-Include comment 'screenonly' Excluding comment 'printonly' Excluding comment 'anonsuppress' Excluding comment 'acks'
+ Include comment 'screenonly' Excluding comment 'printonly' Excluding comment 'anonsuppress' Excluding comment 'acks'
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 14.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -1174,114 +1171,114 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 ) ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux")
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 14.
-LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 14.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 11.
+LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 14.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 14.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 14.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 14.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )<<ot1.cmap>>
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 14.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )<<oml.cmap>>
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 14.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )<<oms.cmap>>
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 14.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )<<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 14.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 14.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 14.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 14.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 14.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 14.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 14.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
 )
 Missing character: There is no ¹ in font zptmcm7y!
-LaTeX Info: Redefining \microtypecontext on input line 14.
+LaTeX Info: Redefining \microtypecontext on input line 11.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 14.
+LaTeX Info: Redefining \showhyphens on input line 11.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 11.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
@@ -1289,9 +1286,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.out") ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.out")
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1366,19 +1363,19 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 69.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbiolinumt-tlf.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 17.28pt on input line 69.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
+(Font)              scaled to size 17.28pt on input line 69.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 69.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -1392,76 +1389,12 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
  (Text/1_Introduction.tex
-Text/1_Introduction.tex:5: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.5 ...s of \$180.3 billion~\cite{wijman2021games}
-                                                  , and in 2022, the estimat...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-Text/1_Introduction.tex:5: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.5 ...s of \$180.3 billion~\cite{wijman2021games}
-                                                  , and in 2022, the estimat...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Text/1_Introduction.tex:5: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.5 ...s of \$180.3 billion~\cite{wijman2021games}
-                                                  , and in 2022, the estimat...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-Text/1_Introduction.tex:5: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.5 ...s of \$180.3 billion~\cite{wijman2021games}
-                                                  , and in 2022, the estimat...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Text/1_Introduction.tex:5: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.5 ...e of \$184.4 billion~\cite{wijman2022games}
-                                                  . Overall, the sum of reve...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-Text/1_Introduction.tex:5: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.5 ...e of \$184.4 billion~\cite{wijman2022games}
-                                                  . Overall, the sum of reve...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Text/1_Introduction.tex:5: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.5 ...e of \$184.4 billion~\cite{wijman2022games}
-                                                  . Overall, the sum of reve...
-I was expecting to see `<', `=', or `>'. Didn't.
-
-Text/1_Introduction.tex:5: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.5 ...e of \$184.4 billion~\cite{wijman2022games}
-                                                  . Overall, the sum of reve...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no ¹ in font zptmcm7y!
@@ -1470,7 +1403,7 @@ Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no ¹ in font zptmcm7y!
-[1.1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+ [1.1{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 ]
 Missing character: There is no ¹ in font zptmcm7y!
@@ -1536,8 +1469,11 @@ Package pdftex.def Info: Figures/donor+host.png  used on input line 42.
 
 Class acmart Warning: A possible image without description on input line 45.
 
-[4.4 <./Figures/overview.png> <./Figures/metamodel+syntax.png> <./Figures/donor+host.png>]
-<Figures/donor+host+boundaries.png, id=295, 921.99pt x 274.407pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4.4 <./Figures/overview.png> <./Figures/metamodel+syntax.png>]
+<Figures/donor+host+boundaries.png, id=294, 921.99pt x 274.407pt>
 File: Figures/donor+host+boundaries.png Graphic file (type png)
 <use Figures/donor+host+boundaries.png>
 Package pdftex.def Info: Figures/donor+host+boundaries.png  used on input line 62.
@@ -1549,7 +1485,7 @@ Class acmart Warning: A possible image without description on input line 65.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/encoding.png, id=299, 709.779pt x 158.994pt>
+<Figures/encoding.png, id=298, 709.779pt x 158.994pt>
 File: Figures/encoding.png Graphic file (type png)
 <use Figures/encoding.png>
 Package pdftex.def Info: Figures/encoding.png  used on input line 116.
@@ -1562,7 +1498,7 @@ Overfull \hbox (1.87193pt too wide) in paragraph at lines 116--117
 
 Class acmart Warning: A possible image without description on input line 119.
 
-<Figures/candidates.png, id=301, 799.131pt x 262.143pt>
+<Figures/candidates.png, id=300, 799.131pt x 262.143pt>
 File: Figures/candidates.png Graphic file (type png)
 <use Figures/candidates.png>
 Package pdftex.def Info: Figures/candidates.png  used on input line 135.
@@ -1573,7 +1509,7 @@ Class acmart Warning: A possible image without description on input line 138.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5.5 <./Figures/donor+host+boundaries.png> <./Figures/encoding.png>]
+[5.5 <./Figures/donor+host.png> <./Figures/donor+host+boundaries.png> <./Figures/encoding.png>]
 Missing character: There is no Í in font zptmcm7v!
 Missing character: There is no ¹ in font zptmcm7y!
 Missing character: There is no Í in font zptmcm7v!
@@ -1626,7 +1562,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 33.
-) (Text/9_Conclusion.tex [11.11]) ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl"
+) (Text/9_Conclusion.tex [11.11]) Excluding 'acks' comment. ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl"
 LaTeX Info: Redefining \tempurl on input line 100.
 LaTeX Info: Redefining \tempurl on input line 172.
 LaTeX Info: Redefining \tempurl on input line 222.
@@ -1668,40 +1604,11 @@ Underfull \hbox (badness 4739) in paragraph at lines 638--649
 \T1/ptm/m/n/7 (+20) 25, 2 (2000), 101--132.   [][]$https : / / doi . org / 10 . 3102 / 10769986025002101$[][]
  []
 
-d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl:709: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.709         {wijman2021games}
-                               
-I was expecting to see `<', `=', or `>'. Didn't.
 
-d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl:709: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.709         {wijman2021games}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Underfull \hbox (badness 1975) in paragraph at lines 710--718
+[]\T1/ptm/m/n/7 (+20) Tom Wi-j-man. 2021.  New-Zoo.  [][]$https : / / newzoo . com / resources / blog / the -[]
+ []
 
-LaTeX Info: Redefining \tempurl on input line 717.
-d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl:725: Missing = inserted for \ifnum.
-<to be read again> 
-                   n
-l.725         {wijman2022games}
-                               
-I was expecting to see `<', `=', or `>'. Didn't.
-
-d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl:725: Missing number, treated as zero.
-<to be read again> 
-                   n
-l.725         {wijman2022games}
-                               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-LaTeX Info: Redefining \tempurl on input line 732.
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
@@ -1722,10 +1629,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 229BAD0E45932FBD1078C20BFCBA80C4;4563.
  ) 
 Here is how much of TeX's memory you used:
- 36340 strings out of 480237
- 626694 string characters out of 2879631
- 1033820 words of memory out of 3000000
- 51060 multiletter control sequences out of 15000+200000
+ 36341 strings out of 480237
+ 626701 string characters out of 2879631
+ 1034296 words of memory out of 3000000
+ 51061 multiletter control sequences out of 15000+200000
  702460 words of font info for 579 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
  92i,19n,128p,1587b,793s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1750,7 +1657,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathRM.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTI.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2904391 bytes).
+Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2904257 bytes).
 PDF statistics:
  622 PDF objects out of 1000 (max. 8388607)
  133 named destinations out of 1000 (max. 500000)
