@@ -113,7 +113,7 @@ The initial population of \ApproachName{} contains individuals composed by the h
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.48\textwidth]{Figures/encoding.png}
+    \includegraphics[width=0.47\textwidth]{Figures/encoding.png}
     \caption{Example of encoding.}
     \label{fig:encoding}
 \end{figure}
@@ -125,7 +125,7 @@ The initial population of \ApproachName{} contains individuals composed by the h
 To select the individuals, we use the ranking selection, which ranks the population by the objective function and takes the top individuals in the current population.
 
 We use a single, random, cut-point crossover, which starts by selecting and splitting two parent solutions at random. When two parent individuals are selected, a random cut point is determined to split them into two sub-vectors.
-Then, the crossover creates two children solutions by combining the first part of the first parent with the second part of the second parent for the first child and putting the first part of the second parent with the second part of the first parent for the second child.
+Then, the crossover creates two children solutions by combining the first part of the first parent with the second part of the second parent for the first child, and the first part of the second parent with the second part of the first parent for the second child.
 Finally, the new individual has a probability to mutate any value of the encoding. 
 
 Fig.~\ref{fig:candidates} shows example of new individuals that could results from our running example. For simplicity, these individuals have unaltered organs, but illustrate different boundary mappings between organ and host.
@@ -139,13 +139,13 @@ Fig.~\ref{fig:candidates} shows example of new individuals that could results fr
 
 \subsection{Objective function}
 
-Our work proposes to harness video games' NPCs to run simulations that provide data to assess the transplantations. The first thing that differentiates video games from traditional software is that the basic requirement of video games is \sq{fun}. \sq{Fun} is an abstract concept and the developers are in charge of interpreting it. In fact, different developers may have different interpretations. For some game developers, \sq{fun} is achieved with a difficult game that is very rewarding when progress is made (e.g., Dark Souls). While for other developers, \sq{fun} is achieved by effortlessly killing enemies (e.g., Dynasty Warriors). Therefore, we argue that the developer intent is key for content generation.
+Our work proposes to harness video games' NPCs to run simulations that provide data to assess the transplantations. The first thing that differentiates video games from traditional software is that the basic requirement of video games is \sq{fun}. \sq{Fun} is an abstract concept and the developers are in charge of interpreting it. In fact, different developers may have different interpretations. For some game developers, \sq{fun} is achieved with a difficult game that is very rewarding when progress is made (e.g., Dark Souls~\cite{darksouls}). While for other developers, \sq{fun} is achieved by effortlessly killing enemies (e.g., Dynasty Warriors~\cite{dynastywarriors}). Therefore, we argue that the developer intent is key for content generation.
 
 Specifically, we propose to introduce the generated content (each individual in the population) into a simulation of the video game. The simulation produces a data trace of the events that have occurred. Using the data from the trace, we can check how well aligned are the events with the intention of the developers. In the running example, the simulation is a duel between a spaceship and a boss. The simulation generates data about the duel, such as the damage inflicted. The intention of the developers may be that the duel ends with the victory of the spaceship with a remaining life of less than 10\%.
 
 Our proposal does not require ad hoc development of simulations. We propose that the simulations leverage mainly the NPCs (but also more video game elements, such as scenarios or items like weapons or powerups). NPCs are naturally developed during the development process of a video game. In other words, NPCs are integral components of  most video game genres such as First-Person Shooter (FPS), Real-Time Strategy (RTS), our racing games. We aim two goals with the aforementioned. On the one hand, it makes the use of simulations cheaper, i.e. it does not involve additional development costs, and secondly, it facilitates fidelity to the video game compared to ad hoc development. In the running example, during the simulation, the generated content is the boss, who can be accompanied by more NPCs acting as secondary enemies. Additionally, the spaceship that confronts the boss is an NPC representing an allied ship. Finally, the scenario, and items such as weapons or powerups also belong to the game itself.
 
-In this work, the Simulation-based variant of \ApproachName{} assesses the transplants through a simulation of a game battle between the boss (Host') and a NPC spaceship. The information retrieved from the simulation is the data that the developers regard as relevant, using their domain knowledge. Hence, our approach takes into account  the percentage of simulated player victories ($F_{Victory}$) and the percentage of simulated player health left once the player wins a duel ($F_{Health}$).
+In this work, the Simulation-based \ApproachName{} (\simhotep{}) assesses the transplants through a simulation of a game battle between the boss (Host') and a NPC spaceship. The information retrieved from the simulation is the data that the developers regard as relevant, using their domain knowledge. Hence, our approach takes into account  the percentage of simulated player victories ($F_{Victory}$) and the percentage of simulated player health left once the player wins a duel ($F_{Health}$).
 The calculation of $F_{Victory}$ and $F_{Health}$ is performed in the same way as Blasco \etal~\cite{blasco2021evolutionary}, as described below:
 
 $F_{Victory}$ is calculated as the difference between the number of human player victories ($V_{P}$) and the optimal number of victories (33\%, according to the developers of \CaseStudy{} and their criteria) ($V_{Optimal}$):

@@ -77,45 +77,45 @@ Warning--empty address in yang2017malware
 Warning--empty address in yannakakis2018artificial
 Warning--empty publisher in zhang2017automated
 Warning--empty address in zhang2017automated
-You've used 62 entries,
+You've used 64 entries,
             5981 wiz_defined-function locations,
-            1837 strings with 30894 characters,
-and the built_in function-call counts, 70102 in all, are:
-= -- 9154
-> -- 2086
+            1845 strings with 31136 characters,
+and the built_in function-call counts, 71558 in all, are:
+= -- 9324
+> -- 2120
 < -- 1
-+ -- 704
-- -- 748
-* -- 4732
-:= -- 6634
-add.period$ -- 324
-call.type$ -- 62
-change.case$ -- 437
-chr.to.int$ -- 62
-cite$ -- 126
-duplicate$ -- 6324
-empty$ -- 4437
-format.name$ -- 928
-if$ -- 17377
++ -- 712
+- -- 762
+* -- 4810
+:= -- 6792
+add.period$ -- 336
+call.type$ -- 64
+change.case$ -- 447
+chr.to.int$ -- 64
+cite$ -- 128
+duplicate$ -- 6464
+empty$ -- 4537
+format.name$ -- 942
+if$ -- 17697
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 235
-newline$ -- 555
-num.names$ -- 436
-pop$ -- 2538
+newline$ -- 575
+num.names$ -- 450
+pop$ -- 2578
 preamble$ -- 1
-purify$ -- 927
+purify$ -- 953
 quote$ -- 0
-skip$ -- 2289
+skip$ -- 2347
 stack$ -- 0
-substring$ -- 5204
-swap$ -- 618
+substring$ -- 5314
+swap$ -- 626
 text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1394
+type$ -- 1454
 warning$ -- 64
-while$ -- 418
+while$ -- 432
 width$ -- 0
-write$ -- 1245
+write$ -- 1287
 (There were 64 warnings)

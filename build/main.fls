@@ -1733,6 +1733,12 @@ INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\L
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinBiolinumT-tlf-t1--base.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc8t.vf
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
@@ -1821,12 +1827,6 @@ INPUT .\Text\4_Evaluation.tex
 INPUT .\Text\4_Evaluation.tex
 INPUT .\Text\4_Evaluation.tex
 INPUT Text\4_Evaluation.tex
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\nxlmia.vf
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\LibertineMathRM.tfm
 INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txmiaSTbb.tfm
