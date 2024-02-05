@@ -37,6 +37,7 @@ Warning--no number and no volume in li2015gated
 Warning--page numbers missing in both pages and numpages fields in li2015gated
 Warning--empty publisher in lu2018program
 Warning--empty address in lu2018program
+Warning--no number and no volume in mann1947test
 Warning--empty publisher in maras2015towards
 Warning--empty address in maras2015towards
 Warning--empty publisher in mora2021flora
@@ -77,45 +78,45 @@ Warning--empty address in yang2017malware
 Warning--empty address in yannakakis2018artificial
 Warning--empty publisher in zhang2017automated
 Warning--empty address in zhang2017automated
-You've used 64 entries,
+You've used 63 entries,
             5981 wiz_defined-function locations,
-            1845 strings with 31136 characters,
-and the built_in function-call counts, 71558 in all, are:
-= -- 9324
-> -- 2120
+            1836 strings with 30858 characters,
+and the built_in function-call counts, 70708 in all, are:
+= -- 9235
+> -- 2095
 < -- 1
-+ -- 712
-- -- 762
-* -- 4810
-:= -- 6792
-add.period$ -- 336
-call.type$ -- 64
-change.case$ -- 447
-chr.to.int$ -- 64
++ -- 706
+- -- 757
+* -- 4742
+:= -- 6702
+add.period$ -- 330
+call.type$ -- 63
+change.case$ -- 440
+chr.to.int$ -- 63
 cite$ -- 128
-duplicate$ -- 6464
-empty$ -- 4537
-format.name$ -- 942
-if$ -- 17697
+duplicate$ -- 6381
+empty$ -- 4480
+format.name$ -- 937
+if$ -- 17508
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 235
-newline$ -- 575
-num.names$ -- 450
-pop$ -- 2578
+missing$ -- 233
+newline$ -- 564
+num.names$ -- 443
+pop$ -- 2553
 preamble$ -- 1
-purify$ -- 953
+purify$ -- 938
 quote$ -- 0
-skip$ -- 2347
+skip$ -- 2317
 stack$ -- 0
-substring$ -- 5314
-swap$ -- 626
+substring$ -- 5237
+swap$ -- 615
 text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1454
-warning$ -- 64
-while$ -- 432
+type$ -- 1439
+warning$ -- 65
+while$ -- 429
 width$ -- 0
-write$ -- 1287
-(There were 64 warnings)
+write$ -- 1264
+(There were 65 warnings)

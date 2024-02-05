@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  5 FEB 2024 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.29)  5 FEB 2024 16:29
 entering extended mode
 **"d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
 ("d:/Users/Usuario/OneDrive - UNIVERSIDAD SAN JORGE/PhD/PCT/Repository/main.tex"
@@ -33,7 +33,6 @@ Package acmart Info: Not using timestamp mode on input line 153.
 Package acmart Info: Not using authordraft mode on input line 163.
 Package acmart Info: Using screen mode on input line 178.
 Package acmart Info: Using review mode on input line 178.
-Package acmart Info: Using anonymous mode on input line 178.
 Class acmart Info: Using format sigconf, number 4 on input line 178.
 Class acmart Info: Using fontsize 9pt on input line 277.
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsart.cls
@@ -1158,7 +1157,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 Package hyperref Info: Option `colorlinks' set `true' on input line 13.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 13.
 \c@theorem=\count394
- Include comment 'screenonly' Excluding comment 'printonly' Excluding comment 'anonsuppress' Excluding comment 'acks'
+ Include comment 'screenonly' Excluding comment 'printonly' Include comment 'anonsuppress'
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13.
@@ -1375,10 +1374,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 71.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 71.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1388,11 +1383,21 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 71.
+ (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
  (Text/1_Introduction.tex
+Underfull \vbox (badness 1603) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
 Missing character: There is no π in font zptmcm7y!
@@ -1411,14 +1416,11 @@ Missing character: There is no π in font zptmcm7y!
 Missing character: There is no π in font zptmcm7y!
 Missing character: There is no π in font zptmcm7y!
 Missing character: There is no π in font zptmcm7y!
-
-Underfull \vbox (badness 1442) has occurred while \output is active []
-
 ) (Text/2_Background.tex
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 7.
+(Font)              scaled to size 9.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 7.
+(Font)              scaled to size 7.0pt on input line 1.
  [2.2]
 Missing character: There is no π in font zptmcm7y!
 
@@ -1433,6 +1435,9 @@ Package pdftex.def Info: Figures/fig_bg_OverviewArtifactsVG.pdf  used on input l
 Class acmart Warning: A possible image without description on input line 18.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 pdfTeX warning: pdflatex (file ./Figures/MM_Scenario.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 <Figures/MM_Scenario.pdf, id=211, 4398.4325pt x 5300.80376pt>
@@ -1444,7 +1449,9 @@ Package pdftex.def Info: Figures/MM_Scenario.pdf  used on input line 28.
 Class acmart Warning: A possible image without description on input line 31.
 
 [3.3 <./Figures/fig_bg_OverviewArtifactsVG.pdf> <./Figures/MM_Scenario.pdf>]) (Text/3_Approach.tex
-<Figures/overview.png, id=273, 600.06pt x 367.044pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Figures/overview.png, id=272, 600.06pt x 367.044pt>
 File: Figures/overview.png Graphic file (type png)
 <use Figures/overview.png>
 Package pdftex.def Info: Figures/overview.png  used on input line 14.
@@ -1453,10 +1460,7 @@ Package pdftex.def Info: Figures/overview.png  used on input line 14.
 
 Class acmart Warning: A possible image without description on input line 17.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/metamodel+syntax.png, id=277, 383.469pt x 258.42pt>
+<Figures/metamodel+syntax.png, id=276, 383.469pt x 258.42pt>
 File: Figures/metamodel+syntax.png Graphic file (type png)
 <use Figures/metamodel+syntax.png>
 Package pdftex.def Info: Figures/metamodel+syntax.png  used on input line 32.
@@ -1464,7 +1468,7 @@ Package pdftex.def Info: Figures/metamodel+syntax.png  used on input line 32.
 
 Class acmart Warning: A possible image without description on input line 35.
 
-<Figures/donor+host.png, id=281, 690.507pt x 241.119pt>
+<Figures/donor+host.png, id=280, 690.507pt x 241.119pt>
 File: Figures/donor+host.png Graphic file (type png)
 <use Figures/donor+host.png>
 Package pdftex.def Info: Figures/donor+host.png  used on input line 42.
@@ -1472,8 +1476,8 @@ Package pdftex.def Info: Figures/donor+host.png  used on input line 42.
 
 Class acmart Warning: A possible image without description on input line 45.
 
-[4.4 <./Figures/overview.png> <./Figures/metamodel+syntax.png> <./Figures/donor+host.png>]
-<Figures/donor+host+boundaries.png, id=295, 921.99pt x 274.407pt>
+[4.4 <./Figures/overview.png> <./Figures/metamodel+syntax.png>]
+<Figures/donor+host+boundaries.png, id=294, 921.99pt x 274.407pt>
 File: Figures/donor+host+boundaries.png Graphic file (type png)
 <use Figures/donor+host+boundaries.png>
 Package pdftex.def Info: Figures/donor+host+boundaries.png  used on input line 62.
@@ -1482,10 +1486,7 @@ Package pdftex.def Info: Figures/donor+host+boundaries.png  used on input line 6
 
 Class acmart Warning: A possible image without description on input line 65.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/encoding.png, id=299, 709.779pt x 158.994pt>
+<Figures/encoding.png, id=298, 709.779pt x 158.994pt>
 File: Figures/encoding.png Graphic file (type png)
 <use Figures/encoding.png>
 Package pdftex.def Info: Figures/encoding.png  used on input line 116.
@@ -1493,25 +1494,25 @@ Package pdftex.def Info: Figures/encoding.png  used on input line 116.
 
 Class acmart Warning: A possible image without description on input line 119.
 
-<Figures/candidates.png, id=301, 799.131pt x 262.143pt>
+[5.5 <./Figures/donor+host.png> <./Figures/donor+host+boundaries.png> <./Figures/encoding.png>]
+<Figures/candidates.png, id=310, 799.131pt x 262.143pt>
 File: Figures/candidates.png Graphic file (type png)
 <use Figures/candidates.png>
 Package pdftex.def Info: Figures/candidates.png  used on input line 135.
 (pdftex.def)             Requested size: 227.83119pt x 74.73552pt.
 
+
 Class acmart Warning: A possible image without description on input line 138.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5.5 <./Figures/donor+host+boundaries.png> <./Figures/encoding.png>]
 Missing character: There is no Õ in font zptmcm7v!
 Missing character: There is no π in font zptmcm7y!
 Missing character: There is no Õ in font zptmcm7v!
 Missing character: There is no ∫ in font zptmcm7y!
 ) (Text/4_Evaluation.tex [6.6 <./Figures/candidates.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Missing character: There is no Õ in font zptmcm7v!
-<Figures/evaluation_process.png, id=334, 482.238pt x 549.252pt>
+<Figures/evaluation_process.png, id=333, 482.238pt x 549.252pt>
 File: Figures/evaluation_process.png Graphic file (type png)
 <use Figures/evaluation_process.png>
 Package pdftex.def Info: Figures/evaluation_process.png  used on input line 47.
@@ -1520,90 +1521,155 @@ Package pdftex.def Info: Figures/evaluation_process.png  used on input line 47.
 
 Class acmart Warning: A possible image without description on input line 50.
 
+[7.7 <./Figures/evaluation_process.png>]) (Text/5_Results.tex
+Missing character: There is no ù in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no ù in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no œ in font zptmcm7y!
+Missing character: There is no ∫ in font zptmcm7y!
+Missing character: There is no ù in font zptmcm7y!
+Missing character: There is no ∫ in font zptmcm7y!
+Missing character: There is no ù in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no ∫ in font zptmcm7y!
+Missing character: There is no ª in font zptmcm7y!
+Missing character: There is no ∫ in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no º in font zptmcm7y!
+Missing character: There is no ª in font zptmcm7y!
+Missing character: There is no ∫ in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no º in font zptmcm7y!
+Missing character: There is no ª in font zptmcm7y!
+Missing character: There is no º in font zptmcm7y!
+Missing character: There is no ª in font zptmcm7y!
+Missing character: There is no º in font zptmcm7y!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
+Missing character: There is no π in font zptmcm7y!
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Text/5_Results.tex [7.7 <./Figures/evaluation_process.png>]
-
-LaTeX Warning: Reference `tab:postHoc' on page 8 undefined on input line 62.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
 
 
-LaTeX Warning: Reference `tab:postHoc' on page 8 undefined on input line 65.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 39.
 
 
-LaTeX Warning: Reference `tab:effectSize' on page 8 undefined on input line 93.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 39.
+
+Missing character: There is no π in font zptmcm7y!
+Missing character: There is no π in font zptmcm7y!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
 
 
-LaTeX Warning: Reference `tab:effectSize' on page 8 undefined on input line 96.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 60.
 
-<Figures/Imhotep_with_legend_and_oracle_average-v4.pdf, id=358, 1084.05pt x 361.35pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+Missing character: There is no π in font zptmcm7y!
+
+LaTeX Warning: Reference `tab:postHoc' on page 8 undefined on input line 100.
+
+
+LaTeX Warning: Reference `tab:postHoc' on page 8 undefined on input line 103.
+
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 131.
+
+[8.8]
+
+LaTeX Warning: Reference `' on page 9 undefined on input line 134.
+
+<Figures/Imhotep_with_legend_and_oracle_average-v4.pdf, id=371, 1084.05pt x 361.35pt>
 File: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf Graphic file (type pdf)
 <use Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>
-Package pdftex.def Info: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf  used on input line 101.
+Package pdftex.def Info: Figures/Imhotep_with_legend_and_oracle_average-v4.pdf  used on input line 139.
 (pdftex.def)             Requested size: 506.295pt x 168.76485pt.
 
-Class acmart Warning: A possible image without description on input line 104.
+Class acmart Warning: A possible image without description on input line 142.
 
-) (Text/6_Discussion.tex [8.8]
+) (Text/6_Discussion.tex
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+ [9.9]
 Missing character: There is no π in font zptmcm7y!
 Missing character: There is no π in font zptmcm7y!
 Missing character: There is no π in font zptmcm7y!
- [9.9 <./Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>]) (Text/7_Threats.tex
+) (Text/7_Threats.tex
 Missing character: There is no π in font zptmcm7y!
-) (Text/8_RelatedWork.tex
+) (Text/8_RelatedWork.tex [10.10 <./Figures/Imhotep_with_legend_and_oracle_average-v4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10.10]
 Missing character: There is no π in font zptmcm7y!
-) (Text/9_Conclusion.tex
+) (Text/9_Conclusion.tex [11.11]
 Missing character: There is no π in font zptmcm7y!
-) Excluding 'acks' comment. ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl"
-Underfull \vbox (badness 3428) has occurred while \output is active []
+) Processing 'acks' comment.
+\openout3 = `comment.cut'.
 
- [11.11]
+ Comment 'acks' writing to comment.cut. Straight input of comment.cut. ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\comment.cut") ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.bbl"
 LaTeX Info: Redefining \tempurl on input line 100.
 LaTeX Info: Redefining \tempurl on input line 186.
-LaTeX Info: Redefining \tempurl on input line 236.
-LaTeX Info: Redefining \tempurl on input line 289.
+LaTeX Info: Redefining \tempurl on input line 226.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--420
+Underfull \hbox (badness 10000) in paragraph at lines 384--393
 \T1/ptm/m/n/7 (+20) delaying -[] gta -[] 6 -[] here -[] are -[] some -[] possible -[] breakdowns -[] 101681440818791 . html$[][].
  []
 
-LaTeX Info: Redefining \tempurl on input line 634.
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--639
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12.12]
+LaTeX Info: Redefining \tempurl on input line 618.
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--623
 [][]$\T1/ptm/m/n/7 (+20) https : / / slashdata -[] website -[] cms . s3 . amazonaws . com / sample _ reports / dsIe6JlZge _
  []
 
-LaTeX Info: Redefining \tempurl on input line 668.
-[12.12]
-LaTeX Info: Redefining \tempurl on input line 697.
+LaTeX Info: Redefining \tempurl on input line 652.
+LaTeX Info: Redefining \tempurl on input line 681.
 
-Underfull \hbox (badness 2884) in paragraph at lines 689--700
+Underfull \hbox (badness 2884) in paragraph at lines 673--684
 []\T1/ptm/m/n/7 (+20) Andr·s Vargha and Harold D. De-laney. 2000.  A Cri-tique and Im-
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 689--700
+Underfull \hbox (badness 1533) in paragraph at lines 673--684
 \T1/ptm/m/n/7 (+20) prove-ment of the CL Com-mon Lan-guage Ef-fect Size Sta-tis-tics of Mc-
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 689--700
+Underfull \hbox (badness 3291) in paragraph at lines 673--684
 \T1/ptm/m/n/7 (+20) Graw and Wong.  \T1/ptm/m/it/7 (+20) Jour-nal of Ed-u-ca-tional and Be-hav-ioral Sta-tis-tics
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 689--700
+Underfull \hbox (badness 4739) in paragraph at lines 673--684
 \T1/ptm/m/n/7 (+20) 25, 2 (2000), 101--132.   [][]$https : / / doi . org / 10 . 3102 / 10769986025002101$[][]
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 774--782
+Underfull \hbox (badness 1264) in paragraph at lines 758--766
 []\T1/ptm/m/n/7 (+20) Tom Wi-j-man. 2022.  The Games Mar-ket in 2022: The Year in Num-
  []
 
@@ -1619,24 +1685,25 @@ Class acmart Warning: Some images may lack descriptions.
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
 
-Overfull \vbox (1.01544pt too high) has occurred while \output is active []
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
- [13.13] ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux")
+[13.13] ("d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.aux")
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 049DB84E8FA3BB66A209D43AA3AF00CD;4563.
+(rerunfilecheck)             Checksum: 6D83FB5DB670149AC51D7EBDC5AD8839;4485.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 36301 strings out of 480237
- 625894 string characters out of 2879631
- 1037969 words of memory out of 3000000
- 51065 multiletter control sequences out of 15000+200000
- 679128 words of font info for 550 fonts, out of 3000000 for 9000
+ 36449 strings out of 480237
+ 628553 string characters out of 2879631
+ 1045929 words of memory out of 3000000
+ 51161 multiletter control sequences out of 15000+200000
+ 697742 words of font info for 606 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 92i,19n,128p,1577b,829s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 92i,19n,128p,1577b,787s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
@@ -1658,9 +1725,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathRM.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2869568 bytes).
+Output written on "d:/Users\Usuario\OneDrive - UNIVERSIDAD SAN JORGE\PhD\PCT\Repository\build\main.pdf" (13 pages, 2877206 bytes).
 PDF statistics:
- 622 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 107311 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 623 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 123183 words of extra memory for PDF output out of 128383 (max. 10000000)
 

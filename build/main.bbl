@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{64}
+\begin{thebibliography}{63}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -187,16 +187,6 @@
 \showDOI{\tempurl}
 
 
-\bibitem[Conover(1999)]%
-        {Conover1999}
-\bibfield{author}{\bibinfo{person}{William~Jay Conover}.}
-  \bibinfo{year}{1999}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Practical Nonparametric Statistics, 3rd
-  Edition}}.
-\newblock \bibinfo{publisher}{Wiley}, \bibinfo{address}{USA}.
-\newblock
-
-
 \bibitem[De~Kegel and Haahr(2019)]%
         {de2019procedural}
 \bibfield{author}{\bibinfo{person}{Barbara De~Kegel} {and}
@@ -271,23 +261,6 @@
   \bibinfo{booktitle}{\emph{Proceedings of the Genetic and Evolutionary
   Computation Conference Companion}}. \bibinfo{pages}{711--714}.
 \newblock
-
-
-\bibitem[Garc{\'{\i}}a et~al\mbox{.}(2010)]%
-        {Garcia2010}
-\bibfield{author}{\bibinfo{person}{Salvador Garc{\'{\i}}a},
-  \bibinfo{person}{Alberto Fern{\'{a}}ndez}, \bibinfo{person}{Juli{\'{a}}n
-  Luengo}, {and} \bibinfo{person}{Francisco Herrera}.}
-  \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Advanced nonparametric tests for multiple
-  comparisons in the design of experiments in computational intelligence and
-  data mining: Experimental analysis of power}.
-\newblock \bibinfo{journal}{\emph{Inf. Sci.}} \bibinfo{volume}{180},
-  \bibinfo{number}{10} (\bibinfo{year}{2010}), \bibinfo{pages}{2044--2064}.
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.1016/J.INS.2009.12.010}
-\showDOI{\tempurl}
 
 
 \bibitem[Grissom and Kim(2005)]%
@@ -417,6 +390,17 @@
 \newblock
 \newblock
 \shownote{Accessed: 01/02/24}.
+
+
+\bibitem[Mann and Whitney(1947)]%
+        {mann1947test}
+\bibfield{author}{\bibinfo{person}{Henry~B Mann} {and}
+  \bibinfo{person}{Donald~R Whitney}.} \bibinfo{year}{1947}\natexlab{}.
+\newblock \showarticletitle{On a test of whether one of two random variables is
+  stochastically larger than the other}.
+\newblock \bibinfo{journal}{\emph{The annals of mathematical statistics}}
+  (\bibinfo{year}{1947}), \bibinfo{pages}{50--60}.
+\newblock
 
 
 \bibitem[Maras et~al\mbox{.}(2015)]%
