@@ -1,18 +1,18 @@
 \section{Results}
 \label{sec:Results}
 
-In this section, we present the results obtained by running \ApproachName and the SBPCG baseline on \CaseStudy{}.
-Table~\ref{tab:results} shows the mean values and standard deviations for $Q_{Duration}$ for each \ApproachName{} variant and the SBPCG baseline, while Figure~\ref{fig:results} shows the results in form of boxplots, grouped per host (i.e., the boss of \CaseStudy{}) used in our experiment, namely Argos, Maia, Orion, Teuthus, and Vermis) and overall (last set of boxplots with shaded background).  
+In this section, we present the results obtained by running \ApproachName{} and the SBPCG baseline on \CaseStudy{}.
+Table~\ref{tab:resultsMeanStDevRQ12} shows the mean values and standard deviations for $Q_{Duration}$ for each \ApproachName{} variant and the SBPCG baseline, while Figure~\ref{fig:results} shows the results in form of boxplots, grouped per host (i.e., the boss of \CaseStudy{}) used in our experiment, (namely Argos, Maia, Orion, Teuthus, and Vermis) and overall (last set of boxplots with shaded background).  
 %The last group of three boxplots, with shaded background, shows the average of all the hosts for each objective function and the baseline. 
-Each boxplot is generated from the results of each host obtained from transplantation \ApproachName{} ( (\simhotep{} and \timhotep{}) ) or search-based PCG (Base). Each boxplot represents 645 values of a specific host-organ transplantation (\ApproachName{}) or 645 generations from a specific host (Base). Each value in the boxplot is the mean value (between the 30 independent runs) of the quality indicator ($Q_{Duration}$) for one of the transplants (\ApproachName{}) or generations (Base). 
+Each boxplot is generated from the results of each host obtained from transplantation \ApproachName{} (\simhotep{} and \timhotep{}) or search-based PCG (Base). Each boxplot represents 645 values of a specific host-organ transplantation (\ApproachName{}) or 645 generations from a specific host (Base). Each value in the boxplot is the mean value (between the 30 independent runs) of the quality indicator ($Q_{Duration}$) for one of the transplants (\ApproachName{}) or generations (Base). 
 
-We can observe that both variants (\simhotep{} and \timhotep{}) obtained better results than the SBPCG baseline (Base). Specifically, $S_{Imhotep}$ yielded the best results, followed by $T_{Imhotep}$ and then Base. The variants obtained an average value of 44.85\% in $Q_{Duration}$, with \simhotep{} being the variant that obtained the best results overall (53.31\% in $Q_{Duration}$). \timhotep obtained 36.39\% in the overall $Q_{Duration}$, which also outperformed the baseline. The baseline obtained the worst $Q_{Duration}$. Overall, the results reveal that leveraging simulations as objective function pays off in the context of PCT, yielding 1.5x better results than the test-based variant and 2.5x better results than baseline.
+We can observe that both variants (\simhotep{} and \timhotep{}) obtained better results than the SBPCG baseline (Base). Specifically, \simhotep{} yielded the best results, followed by \timhotep{} and then Base. The variants obtained an average value of 44.85\% in $Q_{Duration}$, with \simhotep{} being the variant that obtained the best results overall (53.31\% in $Q_{Duration}$). \timhotep obtained 36.39\% in the overall $Q_{Duration}$, which also outperformed the baseline. The baseline obtained the worst $Q_{Duration}$. Overall, the results reveal that leveraging simulations as objective function pays off in the context of PCT, yielding 1.5x better results than the \timhotep{} and 2.5x better results than baseline.
 
 
 \begin{table*}[tb]
 \centering
-\caption{Mean values and standard deviations for $Q_{Duration}$ for each approach.}
-\label{tab:resultsWilcEffRQ1}
+\caption{RQ1-RQ2. Mean values and standard deviations for $Q_{Duration}$ for each approach.}
+\label{tab:resultsMeanStDevRQ12}
 \begin{tabular}{@{}ccccccc@{}}
 \toprule
     %& \multicolumn{6}{c}{\ApproachName{} with simulation-based variant ($S_{Imhotep}$)}                                           \\ \cmidrule(l){2-7} 
@@ -29,15 +29,15 @@ We can observe that both variants (\simhotep{} and \timhotep{}) obtained better 
 \end{table*}
 
 
-When analysing whether there is statistical significant differences among the results obtained by \simhotep{}  and Base. we found that the obtained $p-values$ for $Q_{Duration}$ are always lower than $4.01x10^{-23}$  (see Table \ref{tab:resultsWilcEffRQ1}). This is below the significance threshold value, so we can comfortably state that \simhotep{} provides significant better values for $Q_{Duration}$ with respect to Base. We also observe that all the  A12 effect size values are large (see Table \ref{tab:resultsWilcEffRQ1}), thus confirming the practical magnitude of such a difference.
+When analysing whether there is statistical significant differences among the results obtained by \simhotep{} and Base. We found that the obtained $p-values$ for $Q_{Duration}$ are always lower than $4.01x10^{-23}$  (see Table \ref{tab:resultsWilcEffRQ1}). This is below the significance threshold value, so we can comfortably state that \simhotep{} provides significant better values for $Q_{Duration}$ with respect to Base. We also observe that all the  A12 effect size values are large (see Table \ref{tab:resultsWilcEffRQ1}), thus confirming the practical magnitude of such a difference.
 Therefore in answering RQ1 we can conclude that:
 
-\textbf{Answer to RQ$_1$:}   XXXXXX
+\textbf{Answer to RQ$_1$:} \simhotep{} performance far surpasses the baseline, exhibiting a remarkable enhancement of 250\% over the baseline results.
 
 
 \begin{table}[tb]
 	\centering
-	\caption{Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. Base per host and overall. Â$_{12}$: Large -- L.}
+	\caption{RQ1. Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. Base per host and overall. Â$_{12}$: Large -- L.}
 	\label{tab:resultsWilcEffRQ1}
 	\begin{tabular}{@{}lr@{}}
 		\toprule
@@ -54,7 +54,7 @@ Therefore in answering RQ1 we can conclude that:
 
 \begin{table}[tb]
     \centering
-    \caption{Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. \timhotep{} per host and overall.. Â$_{12}$: Large -- L.}
+    \caption{RQ2. Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. \timhotep{} per host and overall.. Â$_{12}$: Large -- L.}
 	\label{tab:resultsWilcEffRQ2}
     \begin{tabular}{@{}rc@{}}
     \toprule
@@ -71,34 +71,11 @@ Therefore in answering RQ1 we can conclude that:
     
 As for the comparison between \simhotep{} and \timhotep{},  we observe that all the $p-values$ achieved when comparing the $Q_{Duration}$ distributions provided by the two variants are smaller than their corresponding significance threshold, indicating that the difference in solution quality between the two variants is statistically significant and in favour of \simhotep{}, and always with a large A12 effect size (see Table \ref{tab:resultsWilcEffRQ2}). Therefore in answering RQ2 we can conclude that:
 
-\textbf{Answer to RQ$_2$:} \simhotep{} provides significantly better results
-
-%\subsection{Research Question 3: Magnitude}
-
-
-% \begin{table}[H]
-% \centering
-% \caption{Effect size measures for comparing each pair of algorithms in \CaseStudy{}.}
-% \label{tab:effectSize}
-% \begin{tabular}{@{}rc@{}}
-% \toprule
-% $S_{Imhotep}$ vs      & Â$_{12}$          \\ \cmidrule(l){2-2} 
-%                %& $Q_{Duration}$    \\ \midrule
-% Baseline  & 0.0121531         \\
-% $T_{Imhotep}$ & 0.1712710         \\
-% % & 0.1411910         \\ \midrule
-% %                & Cliff's Delta     \\ \cmidrule(l){2-2} 
-% %                & $Q_{Duration}$    \\ \midrule
-% %                $S_{Imhotep}$ vs Base  & 0.9756914 (large) \\
-% % $S_{Imhotep}$ vs $T_{Imhotep}$ & 0.6574437 (large) \\
-% % $T_{Imhotep}$ vs Base  & 0.7175939 (large) \\ 
-% \bottomrule
-% \end{tabular}
-% \end{table}
+\textbf{Answer to RQ$_2$:} \simhotep{} provides significantly better results than \timhotep{} in the context of content generating through transplantation. The efficacy of \simhotep{} demonstrates a 150\% enhancement compared to the outcomes of \timhotep{}.
 
 \begin{figure*}[tb]
     \centering
     \includegraphics[width=\textwidth]{Figures/Imhotep_with_legend_and_oracle_average-v4.pdf}
-    \caption{Results of our \ApproachName{} approaches (simulation-based and test-based) and the baseline for the quality measurement ($Q_{Duration}$).}
+    \caption{RQ1-RQ2. Results of our \ApproachName{} approaches (simulation-based and test-based) and the baseline for the quality measurement ($Q_{Duration}$).}
     \label{fig:results}
 \end{figure*}

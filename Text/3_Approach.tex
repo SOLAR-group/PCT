@@ -9,7 +9,7 @@ At the top left of the figure we show the input to our approach, namely the orga
 In video games, software models are popular (compared to classic software) possibly because they facilitate the participation of non-programmers (e.g., artists) in the development process. Therefore, our \ApproachName{} approach is designed to work with models. Although we illustrate the running example with the SDML models of the case study, our approach is generic and can be used with other modelling languages because it exploits the idea of boundaries between model elements.
 Next, we describe each step of \ApproachName{} in the following subsections.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{Figures/overview.png}
     \caption{Overview of our \ApproachName{} approach.}
@@ -27,7 +27,7 @@ In our running example we present a simplified version of the metamodel, and the
 Hulls, weak points, and weapons are attached between them through \sq{Links}.
 %We use a graphical representation to help the comprehension of the reader, however the original metamodel does not work with a graphical model representation as it is not a requirement on every metamodel. The type of model will depend on the metamodel and models that developers decide on.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.33\textwidth]{Figures/metamodel+syntax.png}
     \caption{Simplified metamodel with the corresponding concrete syntax of the model.}
@@ -37,7 +37,7 @@ Hulls, weak points, and weapons are attached between them through \sq{Links}.
 In the running example, the source donor model is a simplified version of an original \sq{boss} from \CaseStudy{}, called \sq{Serpent}. Fig.~\ref{fig:donor_host} (a) shows the graphical representation of the donor's model, differentiating each element of the model with a letter from A to S. It also shows with dashed lines the elements selected as organ (the elements H, I, J, K, N, O, P, Q).
 This simplified example is inspired by the boss shown in Fig.~\ref{fig:scenario} with letter B. In the running example, the host is a model of a regular enemy that could appear in \CaseStudy{}. Fig.~\ref{fig:donor_host} (b) shows the graphical representation of the host model.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{Figures/donor+host.png}
     \caption{(a) Donor model with organ selection in dashed lines. (b) Host model.}
@@ -57,7 +57,7 @@ To transplant an organ into a host we need to find a way to connect them. To do 
 
 \ApproachName{} automatically identifies the boundaries of the selected organ, and all the boundaries of the host. In the running example, the boundaries of the organ are the connection points between donor and host. The elements that connect with the rest of the donor are H, K, and Q. Fig.~\ref{fig:org_bound} (a) shows the donor, the organ, and the boundaries (boundaries are represented by a circle crossed). The boundaries of the organ are as follows: b11 for the H element; b16 for the K element, and b25 for the Q element.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.47\textwidth]{Figures/donor+host+boundaries.png}
     \caption{(a) Donor model boundaries. (b) Host model boundaries. The boundary is represented by a circle crossed.}
@@ -79,7 +79,7 @@ In the boundary mapping step, \ApproachName{} determines the mapping between the
 
 Table~\ref{tab:boundaries} shows a boundary mapping between the organ and the host of the running example. The boundary b11 is a boundary from a \sq{Link} from the model and according to the metamodel it can connect to any \sq{Hull}, \sq{Weapon}, \sq{Weak Point}. The boundaries b16 and b25 are both \sq{Hulls} and they can connect with any \sq{Link}.
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \resizebox{0.25\textwidth}{!}{
 \begin{tabular}{|c|ll|}
@@ -111,7 +111,7 @@ In our work, the encoding requires a binary vector that represents the organ in 
 %In our work, each individual represents a software model from the game. We use a similar encoding version of Blasco \etal~\cite{blasco2021evolutionary} that has been adapted to work with transplantations. The size of the encoding in the previous work was 64 and in this work its size is of 150.
 The initial population of \ApproachName{} contains individuals composed by the host and the organ placed in a random position (a random mapping between the organ boundaries and the compatible organ boundaries).
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.47\textwidth]{Figures/encoding.png}
     \caption{Example of encoding.}
@@ -130,7 +130,7 @@ Finally, the new individual has a probability to mutate any value of the encodin
 
 Fig.~\ref{fig:candidates} shows example of new individuals that could results from our running example. For simplicity, these individuals have unaltered organs, but illustrate different boundary mappings between organ and host.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.45\textwidth]{Figures/candidates.png}
     \caption{Example of individuals.}
@@ -158,7 +158,7 @@ $F_{Health}$, which refers to completed duels that end in spaceship victories, i
 F_{Health} = 1 - \frac{\sum\limits_{d=1}^{V_{P}}\frac{\mid \Theta_{Optimal} - \Theta_{P} \mid}{ \Theta_{Optimal}}}{V_{P}}
 \end{equation}
 
-$F_{Overall}$ is an average fitness value for a boss model that includes the fitness criteria described above. $F_{Overall}$ also includes a validation part. The validation part is to avoid models with inconsistencies. The validity of the models is performed by a run-time interpreter that is part of the game. When the model is stated as non-valid the value of Validity will be 0. $F_{Overall}$ can assume a value in [0, 1] which is used to assess a boss model when our \ApproachName{} approach is applied to the \CaseStudy{} case study.
+$F_{Overall}$ is an average objective value for a boss model that includes the objective criteria described above. $F_{Overall}$ also includes a validation part. The validation part is to avoid models with inconsistencies. The validity of the models is performed by a run-time interpreter that is part of the game. When the model is stated as non-valid the value of Validity will be 0. $F_{Overall}$ can assume a value in [0, 1] which is used to assess a boss model when our \ApproachName{} approach is applied to the \CaseStudy{} case study.
 
 \begin{equation}
 F_{Overall} = min( Validity, \frac{\sum\limits_{i=1}^{N}F_{i}}{N} )

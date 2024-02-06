@@ -20,7 +20,6 @@ Warning--empty address in barr2015automated
 Warning--empty publisher in brocchini2022monster
 Warning--empty address in brocchini2022monster
 Warning--no number and no volume in chueca2023consolidation
-Warning--empty address in Cliff1996
 Warning--empty publisher in domingo2020evaluating
 Warning--empty address in domingo2020evaluating
 Warning--empty address in FARSHBAFNADI2023599
@@ -50,8 +49,6 @@ Warning--empty publisher in petke2014using
 Warning--empty address in petke2014using
 Warning--empty publisher in reid2020optimising
 Warning--empty address in reid2020optimising
-Warning--empty publisher in Romano2006
-Warning--empty address in Romano2006
 Warning--unusual to have number, but no volume, for rykala2020growth
 Warning--no journal in sidiroglou2015horizontal
 Warning--no number and no volume in sidiroglou2015horizontal
@@ -78,45 +75,45 @@ Warning--empty address in yang2017malware
 Warning--empty address in yannakakis2018artificial
 Warning--empty publisher in zhang2017automated
 Warning--empty address in zhang2017automated
-You've used 63 entries,
+You've used 57 entries,
             5981 wiz_defined-function locations,
-            1836 strings with 30858 characters,
-and the built_in function-call counts, 70708 in all, are:
-= -- 9235
-> -- 2095
-< -- 1
-+ -- 706
-- -- 757
-* -- 4742
-:= -- 6702
-add.period$ -- 330
-call.type$ -- 63
-change.case$ -- 440
-chr.to.int$ -- 63
-cite$ -- 128
-duplicate$ -- 6381
-empty$ -- 4480
-format.name$ -- 937
-if$ -- 17508
+            1796 strings with 29557 characters,
+and the built_in function-call counts, 65104 in all, are:
+= -- 8560
+> -- 1943
+< -- 0
++ -- 653
+- -- 686
+* -- 4386
+:= -- 6123
+add.period$ -- 295
+call.type$ -- 57
+change.case$ -- 405
+chr.to.int$ -- 57
+cite$ -- 119
+duplicate$ -- 5867
+empty$ -- 4116
+format.name$ -- 864
+if$ -- 16215
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 233
-newline$ -- 564
-num.names$ -- 443
-pop$ -- 2553
+missing$ -- 220
+newline$ -- 506
+num.names$ -- 401
+pop$ -- 2369
 preamble$ -- 1
-purify$ -- 938
+purify$ -- 855
 quote$ -- 0
-skip$ -- 2317
+skip$ -- 2126
 stack$ -- 0
-substring$ -- 5237
-swap$ -- 615
-text.length$ -- 39
+substring$ -- 4800
+swap$ -- 572
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1439
-warning$ -- 65
-while$ -- 429
+type$ -- 1303
+warning$ -- 62
+while$ -- 383
 width$ -- 0
-write$ -- 1264
-(There were 65 warnings)
+write$ -- 1138
+(There were 62 warnings)

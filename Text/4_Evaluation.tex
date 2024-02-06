@@ -12,7 +12,7 @@ Through this section, we present the research questions that we aim to answer, t
 
 We followed the work by Gallota \etal~\cite{gallotta2022evolving} as a search-based  PCG baseline. Gallota \etal proposed a hybrid Evolutionary Algorithm for generating NPCs. Specifically, their approach combines an L-system with a Feasible Infeasible Two Population Evolutionary Algorithm. We choose Gallota \etal as PCG baseline because (1) this work is specific for spaceships that can play the role of bosses which is comparable to the content of our case study, and (2) it achieves the best state-of-the-art results for this type of content. 
 
-Moreover,  since we propose for the first time the use of simulation as fitness function to guide the search for transplantation, \simhotep, it is natural to compare it with the established practice in the software transplantation field, which is constituted by the use of test suite to guide the transplantation. This motivates our second research question:
+Moreover,  since we propose for the first time the use of simulation as objective function to guide the search for transplantation, \simhotep, it is natural to compare it with the established practice in the software transplantation field, which is constituted by the use of test suite to guide the transplantation. This motivates our second research question:
 
 \textbf{RQ$_2$: }\textit{To what extend using a simulation-based objective function to guide the transplantation is more effective of using a test-based one?}
 
@@ -32,7 +32,7 @@ We used five different hosts (Vermis, Teuthus, Argos, Orion, and Maia), which ar
 Each organ was transplanted individually to each boss. Each variant of \ApproachName{} provided a total of 645 new individuals (5 hosts * 129 organs) as output, 645 new individuals from \simhotep{} and 645 individuals from \timhotep{}. In the case of the SBPCG baseline (which relies on the L-system to generate the content instead of transplanting organs), to make it a fair comparison, the baseline was executed 129 times with each one of the 5 different hosts to obtain 645 new individuals. In addition, we executed 30 independent runs (to account for random variation as suggested by Arcuri and Fraser~\cite{arcuri2013parameter}). Hence, we obtain a total of 58050 independent runs (645*3*30).
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{Figures/evaluation_process.png}
     \caption{Overview of the evaluation process.}
@@ -47,10 +47,10 @@ The simulated player, developed by the developers of  \CaseStudy{}, possesses th
 The automated measurement is $Q_{Duration}$ which was proven to achieve good results~\cite{browne2010evolutionary}. The duration of duels between simulated players and bosses units is expected to be around a certain optimal value. For the \CaseStudy{} case study, through tests and questionnaires with players, the developers determined that concentration and engagement for an average boss reach their peak at approximately 10 minutes ($T_{Optimal}$), whereas the maximum accepted time was estimated to be 20 minutes ($2*T_{Optimal}$). Significant deviations from that reference value are good design-flaw indicators: short games are probably too easy; and duels that go on a lot longer than expected tend to make players lose interest. The criterion $Q_{Duration}$ is a measure of the average difference between the duration of each duel ($T_{d}$) and the desired, optimal duration ($T_{Optimal}$):
 
 \begin{equation}
-	Q_{Duration} =  1 - \frac{\sum\limits_{d=1}^{Duels}\frac{\mid T_{Optimal} - T_{d} \mid}{T_{Optimal}}}{Duels} 
+    Q_{Duration} =  1 - \frac{\sum\limits_{d=1}^{Duels}\frac{\mid T_{Optimal} - T_{d} \mid}{T_{Optimal}}}{Duels} 
 \end{equation}
 
-Based on the equation above, the higher the Q_{Duration} achieved by a given approach, the better are the solutions it produced.
+Based on the equation above, the higher the $Q_{Duration}$ achieved by a given approach, the better are the solutions it produced.
 
 In order to measure whether there is any statistical significance difference between the results obtained by the different approaches we perform the Mann-Whitney U~\cite{mann1947test} setting the confidence limit, $\alpha$, at 0.05, and applying the Bonferroni correction ($\alpha/K$, where K is the number of hypotheses) when multiple hypotheses are tested.  
 Unlike parametric tests, the Mann-Whitney U raises the bar for significance, by making no assumptions about underlying data distributions. We performed a one-sided test since we are interested in knowing if our proposed approach, \simhotep{}, would be better than the others. In such a case, the one-sided p-value interpretation would be straightforward. Specifically, for RQ1 we test the following null hypothesis: 

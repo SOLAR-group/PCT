@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{63}
+\begin{thebibliography}{57}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -174,19 +174,6 @@
 \newblock
 
 
-\bibitem[Cliff(1996)]%
-        {Cliff1996}
-\bibfield{author}{\bibinfo{person}{Norman Cliff}.}
-  \bibinfo{year}{1996}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Ordinal methods for behavioral data
-  analysis.}}
-\newblock \bibinfo{publisher}{Lawrence Erlbaum Associates, Inc}. 212 pages.
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.4324/9781315806730}
-\showDOI{\tempurl}
-
-
 \bibitem[De~Kegel and Haahr(2019)]%
         {de2019procedural}
 \bibfield{author}{\bibinfo{person}{Barbara De~Kegel} {and}
@@ -260,17 +247,6 @@
   constrained optimisation evolutionary algorithm}. In
   \bibinfo{booktitle}{\emph{Proceedings of the Genetic and Evolutionary
   Computation Conference Companion}}. \bibinfo{pages}{711--714}.
-\newblock
-
-
-\bibitem[Grissom and Kim(2005)]%
-        {Grissom2005}
-\bibfield{author}{\bibinfo{person}{Robert~J. Grissom} {and}
-  \bibinfo{person}{John~J. Kim}.} \bibinfo{year}{2005}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Effect sizes for research: A broad
-  practical approach}}.
-\newblock \bibinfo{publisher}{Lawrence Erlbaum Associates Publishers},
-  \bibinfo{address}{New Jersey, United States}.
 \newblock
 
 
@@ -549,19 +525,6 @@
 \newblock
 
 
-\bibitem[Romano et~al\mbox{.}(2006)]%
-        {Romano2006}
-\bibfield{author}{\bibinfo{person}{Jeanine Romano}, \bibinfo{person}{Jeffrey~D.
-  Kromrey}, \bibinfo{person}{Jesse Coraggio}, {and} \bibinfo{person}{Jeff
-  Skowronek}.} \bibinfo{year}{2006}\natexlab{}.
-\newblock \showarticletitle{{Appropriate statistics for ordinal level data:
-  Should we really be using t-test and Cohen'sd for evaluating group
-  differences on the NSSE and other surveys?}}. In
-  \bibinfo{booktitle}{\emph{annual meeting of the Florida Association of
-  Institutional Research}}. \bibinfo{pages}{1--3}.
-\newblock
-
-
 \bibitem[Ryka{\l}a(2020)]%
         {rykala2020growth}
 \bibfield{author}{\bibinfo{person}{Piotr Ryka{\l}a}.}
@@ -667,22 +630,6 @@
 \newblock
 
 
-\bibitem[Vargha and Delaney(2000)]%
-        {Vargha2000}
-\bibfield{author}{\bibinfo{person}{András Vargha} {and}
-  \bibinfo{person}{Harold~D. Delaney}.} \bibinfo{year}{2000}\natexlab{}.
-\newblock \showarticletitle{A Critique and Improvement of the CL Common
-  Language Effect Size Statistics of McGraw and Wong}.
-\newblock \bibinfo{journal}{\emph{Journal of Educational and Behavioral
-  Statistics}} \bibinfo{volume}{25}, \bibinfo{number}{2}
-  (\bibinfo{year}{2000}), \bibinfo{pages}{101--132}.
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.3102/10769986025002101}
-\showDOI{\tempurl}
-\showeprint{http://jeb.sagepub.com/content/25/2/101.full.pdf+html}
-
-
 \bibitem[Viana and dos Santos(2019)]%
         {viana2019survey}
 \bibfield{author}{\bibinfo{person}{Breno~MF Viana} {and}
@@ -738,31 +685,6 @@
   programming}. In \bibinfo{booktitle}{\emph{2009 IEEE 31st International
   Conference on Software Engineering}}. IEEE, \bibinfo{pages}{364--374}.
 \newblock
-
-
-\bibitem[Wijman(2021)]%
-        {wijman2021games}
-\bibfield{author}{\bibinfo{person}{Tom Wijman}.}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{The Games Market and Beyond in 2021: The Year in
-  Numbers}.
-\newblock
-  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}}.
-\newblock
-\newblock
-\shownote{Accessed: 01/12/23}.
-
-
-\bibitem[Wijman(2022)]%
-        {wijman2022games}
-\bibfield{author}{\bibinfo{person}{Tom Wijman}.}
-  \bibinfo{year}{2022}\natexlab{}.
-\newblock \bibinfo{title}{The Games Market in 2022: The Year in Numbers}.
-\newblock
-  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}}.
-\newblock
-\newblock
-\shownote{Accessed: 01/12/23}.
 
 
 \bibitem[Yang et~al\mbox{.}(2017)]%
