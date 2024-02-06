@@ -14,27 +14,46 @@ We followed the work by Gallota \etal~\cite{gallotta2022evolving} as a search-ba
 
 Moreover,  since we propose for the first time the use of simulation as objective function to guide the search for transplantation, \simhotep, it is natural to compare it with the established practice in the software transplantation field, which is constituted by the use of test suite to guide the transplantation. This motivates our second research question:
 
-\textbf{RQ$_2$: }\textit{To what extend using a simulation-based objective function to guide the transplantation is more effective of using a test-based one?}
+\textbf{RQ$_2$: }\textit{To what extend using a simulation-based objective function to guide the transplantation is more effective than a test-based one?}
 
-To answer RQ2 we empirically compare \ApproachName guided by the simulation-based objective function as described in Section 3.6 (which we refer to \simhotep{} as from now on) with  a test-based variant of \ApproachName{} (called \timhotep{}). In this variant, we evaluate the objective function based on the number of test cases that are passed by the transplanted software. 
+To answer RQ2 we empirically compare \ApproachName guided by the simulation-based objective function as described in Section 3.6 (which we refer to as \simhotep{} from now on) with  a test-based variant of \ApproachName{} (called \timhotep{}). \timhotep{} uses an objective function based on the number of test cases that are passed by the transplanted software. 
 The reason for comparing this variant is that in traditional software transplantation the best results have been achieved by using the test suite as the objective function. 
 \CaseStudy{}'s developers provided us with a test suite relevant to the game, consisting of a total of 243 tests selected based on their domain knowledge. 
-Therefore the value of \timhotep{}'s objective function is computed by running each individual through the 243 tests, recording the number of tests passed and normalizing this value in a scale of [0, 1]. 
-An individual which passes the 243 tests will obtain an objective function score of 1, on the contrary if it does not pass any test it will obtain an objective function score of 0.  
+Therefore the value of \timhotep{}'s objective function is computed by running each individual through the 243 tests, recording the number of tests passed and normalizing this value in a scale of [0, 1]. An individual which passes the 243 tests will obtain an objective function score of 1, on the contrary if it does not pass any test it will obtain an objective function score of 0.  
 As in \simhotep{},  each individual also needs to constitute a valid boss (i.e., solution), receiving a score of 0 if it does not represent a valid one (see Section 3.6).
 
-Fig.~\ref{fig:evaluation} shows an overview of the empirical evaluation we carried out to assess \ApproachName for the \CaseStudy's case study.
+\subsection{Evaluation Process and Settings}
+Fig.~\ref{fig:evaluation} shows an overview of the empirical evaluation we carried out to assess \ApproachName for the \CaseStudy's case study. The white background part at the top shows the assets of the game itself (content) and the game development (test suite) that are used by the approaches. The grey background part in the middle shows the inputs and outputs of the three approaches (the two \ApproachName{} variants and the baseline). Finally, the white background part at the bottom shows the evaluation of the results of the approaches.
 
-The white background part at the top shows the assets of the game itself (content) and the game development (test suite) that are used by the approaches. The grey background part in the middle shows the inputs and outputs of the three approaches (the two \ApproachName{} variants and the baseline). Finally, the white background part at the bottom shows the evaluation of the results of the approaches.
+We used five different hosts (i.e., Vermis, Teuthus, Argos, Orion, and Maia), which are the full set of original bosses from \CaseStudy{}. As donors, \CaseStudy{}'s developers considered all \CaseStudy{}'s scenarios to identify 129 organs. Each host has more than a thousand model elements. Organs have an average of 255 model elements. Each organ was transplanted individually to each boss. Each variant of \ApproachName{} provided a total of 645 new individuals (5 hosts * 129 organs) as output, 645 new individuals from \simhotep{} and 645 individuals from \timhotep{}. In the case of the SBPCG baseline (which relies on the L-system to generate the content instead of transplanting organs), to make it a fair comparison, the baseline was executed 129 times with each one of the 5 different hosts to obtain 645 new individuals. In addition, we executed 30 independent runs (to account for random variation as suggested by Arcuri and Fraser~\cite{arcuri2013parameter}). Hence, we obtain a total of 58050 independent runs (645*3*30).
 
-We used five different hosts (Vermis, Teuthus, Argos, Orion, and Maia), which are the full set of original bosses from \CaseStudy{}. As donors, \CaseStudy{}'s developers considered all \CaseStudy{}'s scenarios to identify 129 organs. Each host has more than a thousand model elements. Organs have an average of 255 model elements.
+We chose the parameters shown in Table~\ref{tab:evaluation_parameters} to calibrate  \ApproachName{}. We established the stop condition at 2 minutes and 30 seconds, ensuring that the approaches run long enough to obtain suitable solutions. The focus of this paper is not to tune the values to improve the performance of the approaches when applied to a specific problem, but rather to compare their performance in terms of solution quality on a level playing field. 
+The implementation uses the Java(TM) SE Runtime Environment (JDK 1.8) and Java as the programming language. All experiments were run using two PCs with the following specifications: Intel Core i7-8750H, 16GB; and  2x Intel(R) Xeon(R) CPU X5660, 64GB.
 
-Each organ was transplanted individually to each boss. Each variant of \ApproachName{} provided a total of 645 new individuals (5 hosts * 129 organs) as output, 645 new individuals from \simhotep{} and 645 individuals from \timhotep{}. In the case of the SBPCG baseline (which relies on the L-system to generate the content instead of transplanting organs), to make it a fair comparison, the baseline was executed 129 times with each one of the 5 different hosts to obtain 645 new individuals. In addition, we executed 30 independent runs (to account for random variation as suggested by Arcuri and Fraser~\cite{arcuri2013parameter}). Hence, we obtain a total of 58050 independent runs (645*3*30).
+For purposes of replicability and extension of our work, the source code and the data are publicly available at \url{https://anonymous.4open.science/r/Imhotep/}.
+
+\begin{table}[tb]
+	\centering    
+	\caption{\ApproachName{} parameter settings}
+	\resizebox{.45\columnwidth}{!}{
+		\begin{tabular}{ll}
+			\hline
+			\bf{Parameter description}            & \bf{Value}  \\ \hline
+			Stop Criterion                   & 2m 30s \\
+			Population size                  & 100    \\
+			Number of parents                & 2      \\
+			Number of offspring              & 2      \\
+			Crossover probability            & 1      \\
+			Mutation probability             & 1/150 \\ \hline
+		\end{tabular}
+	}
+	\label{tab:evaluation_parameters}
+\end{table}
 
 
-\begin{figure}[ht]
+\begin{figure}[tn]
     \centering
-    \includegraphics[width=0.4\textwidth]{Figures/evaluation_process.png}
+    \includegraphics[width=0.3\textwidth]{Figures/evaluation_process.png}
     \caption{Overview of the evaluation process.}
     \label{fig:evaluation}
 \end{figure}
@@ -50,28 +69,15 @@ The automated measurement is $Q_{Duration}$ which was proven to achieve good res
     Q_{Duration} =  1 - \frac{\sum\limits_{d=1}^{Duels}\frac{\mid T_{Optimal} - T_{d} \mid}{T_{Optimal}}}{Duels} 
 \end{equation}
 
-Based on the equation above, the higher the $Q_{Duration}$ achieved by a given approach, the better are the solutions it produced.
+Based on the equation above, the higher the $Q_{Duration}$ achieved by a given approach, the better the solutions it produced.
 
 In order to measure whether there is any statistical significance difference between the results obtained by the different approaches we perform the Mann-Whitney U~\cite{mann1947test} setting the confidence limit, $\alpha$, at 0.05, and applying the Bonferroni correction ($\alpha/K$, where K is the number of hypotheses) when multiple hypotheses are tested.  
-Unlike parametric tests, the Mann-Whitney U raises the bar for significance, by making no assumptions about underlying data distributions. We performed a one-sided test since we are interested in knowing if our proposed approach, \simhotep{}, would be better than the others. In such a case, the one-sided p-value interpretation would be straightforward. Specifically, for RQ1 we test the following null hypothesis: 
+Unlike parametric tests, the Mann-Whitney U raises the bar for significance, by making no assumptions about underlying data distributions. We performed a one-sided test since we are interested in knowing if our proposed approach, \simhotep{}, would be better than the others. In such a case, the one-sided p-value interpretation would be straightforward. Specifically, for RQ1 we test the following null hypothesis: \textit{The distribution of $Q_{Duration}$ values produced by  \simhotep{}  is better (i.e., higher) than that produced by the SBPCG baseline}.
+If the test rejects the Null Hypothesis, the alternative hypothesis would be accepted: \textit{The distribution of $Q_{Duration}$ values produced by \simhotep{} is not better (i.e., not higher) than that produced by the SBPCG baseline}.
 
-\textbf{Null Hypothesis}
-\textit{The distribution of $Q_{Duration}$ values produced by  \simhotep{}  is better (i.e., higher) than that produced by the SBPCG baseline.}
-
+Similarly for RQ2 we test the following null hypothesis: \textit{The distribution of $Q_{Duration}$ values produced by  \simhotep{}  is better (i.e., higher) than that produced by \timhotep{}.}
 If the test rejects the Null Hypothesis, the alternative hypothesis would be accepted:
-
-\textbf{Alternative Hypothesis}
-\textit{The distribution of $Q_{Duration}$ values produced by \simhotep{} s not better (i.e., not higher) than that produced by the SBPCG baseline..}
-
-Similarly for RQ2 we test the following null hypothesis: 
-
-\textbf{Null Hypothesis}
-\textit{The distribution of $Q_{Duration}$ values produced by  \simhotep{}  is better (i.e., higher) than that produced by \timhotep{}.}
-
-If the test rejects the Null Hypothesis, the alternative hypothesis would be accepted:
-
-\textbf{Alternative Hypothesis}
-\textit{The distribution of $Q_{Duration}$ values produced by \simhotep{}  is not better (i.e., not higher) than that produced by \timhotep{}.}
+\textit{The distribution of $Q_{Duration}$ values produced by \simhotep{}  is not better (i.e., not higher) than that produced by \timhotep{}}.
 
 Moreover, we used effect size to assess whether the statistical significance has practical significance effect size~\cite{Arcuri2014}. To this end we use the Vargha and Delaney's Â$_{12}$ non-parametric effect size measure, as it is recommended to use a standardised measure rather than a pooled one like the Cohen's $d$ when not all samples are normally distributed~\cite{Arcuri2014}, as in our case. 
 The Â$_{12}$ statistic measures the probability that an algorithm $A$ yields greater values for a given performance measure $M$ than another algorithm $B$, based on the following equation: 
@@ -82,30 +88,7 @@ The Â$_{12}$ statistic measures the probability that an algorithm $A$ yields gr
 
 \noindent where $R_1$ is the rank sum of the first data group we are comparing, and $m$ and $n$ are the number of observations in the first and second data sample, respectively. Values between $(0.44, 0.56)$ represent negligible differences, values between $[0.56, 0.64)$ and $(0.36, 0.44]$ represent small differences, values between $[0.64, 0.71)$ and $(0.29, 0:44]$ represent medium differences, and values between $[0.0, 0.29]$ and $[0.71, 1.0]$ represent large differences.
 
-\subsection{Implementation details}
-We chose the parameters shown in Table~\ref{tab:evaluation_parameters} to calibrate  \ApproachName{}. We established the stop condition at 2 minutes and 30 seconds, ensuring that the approaches run long enough to obtain suitable solutions. The focus of this paper is not to tune the values to improve the performance of the approaches when applied to a specific problem, but rather to compare their performance in terms of solution quality on a level playing field.
-
-The evaluation of \ApproachName{} and the SBPCG baseline was done using two PCs with the following specifications: Intel Core i7-8750H, 16GB; and  2x Intel(R) Xeon(R) CPU X5660, 64GB.
-The implementation uses the Java(TM) SE Runtime Environment (JDK 1.8) and Java as the programming language. 
-
-For purposes of replicability and extension of our work, the source code and the data are publicly available at \url{https://anonymous.4open.science/r/Imhotep/}.
-
-\begin{table}[tb]
-    \centering    
-    \caption{\ApproachName{} parameter settings}
-    \begin{tabular}{ll}
-        \hline
-        \bf{Parameter description}            & \bf{Value}  \\ \hline
-        Stop Criterion                   & 2m 30s \\
-        Population size                  & 100    \\
-        Number of parents                & 2      \\
-        Number of offspring              & 2      \\
-        Crossover probability            & 1      \\
-        Mutation probability             & 1/150 \\ \hline
-    \end{tabular}
-
-    \label{tab:evaluation_parameters}
-    \end{table}
+%\subsection{Implementation details}
 
 % \subsection{Quality measurements}
 % \label{subsec:Measurements}
