@@ -4,8 +4,8 @@
 \usepackage{outlines}
 \input{preamble.tex}
 \newcommand{\ApproachName}{{\sc Imhotep}}
-\newcommand{\simhotep}{$S_{Imhotep}$}
-\newcommand{\timhotep}{$T_{Imhotep}$}
+\newcommand{\simhotep}{$Imhotep_{S}$}
+\newcommand{\timhotep}{$Imhotep_{T}$}
 \newcommand{\CaseStudy}{Kromaia}
 
 \acmBooktitle{Companion Proceedings of the 32nd ACM Symposium on the Foundations of Software Engineering (FSE '24), July 15--19, 2024, Porto de Galinhas, Brazil}
@@ -54,11 +54,14 @@
 
 \begin{abstract}
 Procedural Content Generation (PCG) aims for the (semi) automatic generation of new content within video games. However, developers usually have limited control over the generation process.
-We propose the first transplantation algorithm in the field of PCG that allows game developers to choose an organ from a donor and a host that will receive the organ. Through our approach, we aim to search for an appropriate solution to integrate the organ into the host. We also study two distinct objective functions: The one accepted in the literature of  software transplantation (test-based variant), and a novel objective function (simulation-based variant).
-In our evaluation, we have transplanted a total of 129 distinct organs from the scenarios of \CaseStudy{} (a commercial video game) into 5 video game bosses as hosts.
-Our simulation-based variant produces results that are 1.5 times superior to those of the test-based variant and 2.5 times superior to the PCG baseline. The statistical analysis confirms the significance of these differences and highlights the substantial magnitude of improvement.
-Furthermore, a focus group with game developers indicated their satisfaction with the generated content.
-Our analysis of the results also reveals organ interactions that have not been  identified previously in the literature.
+We propose the first transplantation algorithm in the field of PCG, dubbed \ApproachName, that allows game developers to choose an organ from a donor and a host that will receive the organ. 
+Through our approach, we aim to search for an appropriate solution to integrate the organ into the host. 
+We also study two distinct objective functions: A novel one proposed herein which is based on simulation, and the test-based one, which is widely used in the literature of software transplantation.
+In our empirical evaluation, we transplant a total of 129 distinct organs from the scenarios of \CaseStudy{} (a commercial video game) into five video game bosses as hosts.
+The results show that the simulation-based \ApproachName produces results that are 1.5 times superior to those of its test-based variant, and 2.5 times superior to the PCG baseline. 
+The statistical analysis confirms the significance of these differences and highlights the substantial magnitude of improvement. 
+Furthermore, our analysis of the results also reveals organ interactions that have not been  identified previously in the literature.
+Finally, a focus group with game developers indicated their satisfaction with the generated content and willingness to use it in their game development activity.
 \end{abstract}
 
 % \begin{IEEEkeywords}
