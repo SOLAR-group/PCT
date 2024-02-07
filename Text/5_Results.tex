@@ -30,9 +30,29 @@ When analysing whether there is statistical significant differences among the re
 \noindent \textbf{Answer to RQ$_1$} \simhotep{} performance far surpasses the baseline with statistically significant results and large effect size in all cases, and exhibiting a remarkable overall enhancement of 250\%.
 
 \begin{table}[tb]	
-\caption{RQ1. Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. Base per host and overall. Â$_{12}$: Large -- L.}
-	\label{tab:resultsWilcEffRQ1}
+\caption{(a) RQ1-RQ2. Mean values and standard deviations for $Q_{Duration}$ for each approach per Host and Overall. (b) Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. Base (RQ1) and \simhotep{} Vs. \timhotep{} (RQ2) per host and overall. Â$_{12}$: Large -- L.}
+	\label{tab:resultsRQ12}
+\begin{subtable}{.5\columnwidth}
+    \caption{Mean values and standard deviations.}
+    \label{tab:resultsMeanStDevRQ12}
+    \centering
+    \resizebox{\columnwidth}{!}{
+	\begin{tabular}{@{}lccc@{}}
+		\toprule  & \simhotep{} & \timhotep{} & Base        \\ \cmidrule(l){2-4} 
+		Boss & Mean $\pm$ StDev & Mean $\pm$ StDe & Mean $\pm$ StDe  \\ \midrule 
+		Argos  & 43.92 $\pm$ 9.30  & 32.17 $\pm$ 6.94 & 20.15 $\pm$ 1.86 \\
+		Maia  & 43.08 $\pm$ 12.09  & 29.52 $\pm$ 9.34 & 8.43 $\pm$ 1.81   \\
+		Orion  & 48.86 $\pm$ 8.69 & 31.41 $\pm$ 6.83 & 32.97 $\pm$ 0.85 \\
+		Teuthus & 60.78 $\pm$ 7.38  & 46.33 $\pm$ 10.54 & 19.53 $\pm$ 1.88  \\
+		Vermis   & 69.90 $\pm$ 10.52 & 42.50 $\pm$ 12.96 & 25.48 $\pm$ 3.31  \\
+        \rowcolor[HTML]{F3F3F3}
+		Overall & 53.31 $\pm$ 14.26 & 36.39 $\pm$ 11.72 & 21.31 $\pm$ 8.32   \\
+		\bottomrule
+	\end{tabular}}
+\end{subtable}
 \begin{subtable}{.48\columnwidth}
+    \caption{Mann-Withney U pair-wise / Vargha-Delaney Â$_{12}$.}
+ 	\label{tab:resultsWilcEffRQ1}
     \centering
     \resizebox{\columnwidth}{!}{
 	\begin{tabular}{@{}lcc@{}}
@@ -44,22 +64,8 @@ When analysing whether there is statistical significant differences among the re
 		Orion   & $4.01x10^{-23}$  / 0.98 (L)  & $4.95x10^{-22}$ / 0.95 (L)\\
 		Teuthus & $3.25x10^{-23}$  /  1.0 (L)  & $3.60x10^{-18}$ / 0.87 (L)  \\
 		Vermis  & $3.25x10^{-23}$  /  1.0 (L)  & $8.86x10^{-23}$ / 0.95 (L)  \\
+        \rowcolor[HTML]{F3F3F3}
 		Overall & $1.41x10^{-107}$ / 0.98 (L)  & $6.58x10^{-93}$ / 0.82 (L) \\
-		\bottomrule
-	\end{tabular}}
-\end{subtable}
-\begin{subtable}{.5\columnwidth}
-    \centering
-    \resizebox{\columnwidth}{!}{
-	\begin{tabular}{@{}lccc@{}}
-		\toprule  & \simhotep{} & \timhotep{} & Base        \\ \cmidrule(l){2-4} 
-		Boss & Mean $\pm$ StDev & Mean $\pm$ StDe & Mean $\pm$ StDe  \\ \midrule 
-		Argos  & 43.92 $\pm$ 9.30  & 32.17 $\pm$ 6.94 & 20.15 $\pm$ 1.86 \\
-		Maia  & 43.08 $\pm$ 12.09  & 29.52 $\pm$ 9.34 & 8.43 $\pm$ 1.81   \\
-		Orion  & 48.86 $\pm$ 8.69 & 31.41 $\pm$ 6.83 & 32.97 $\pm$ 0.85 \\
-		Teuthus & 60.78 $\pm$ 7.38  & 46.33 $\pm$ 10.54 & 19.53 $\pm$ 1.88  \\
-		Vermis   & 69.90 $\pm$ 10.52 & 42.50 $\pm$ 12.96 & 25.48 $\pm$ 3.31  \\
-		Overall & 53.31 $\pm$ 14.26 & 36.39 $\pm$ 11.72 & 21.31 $\pm$ 8.32   \\
 		\bottomrule
 	\end{tabular}}
 \end{subtable}
@@ -124,7 +130,7 @@ When analysing whether there is statistical significant differences among the re
 % }
 %     \end{table}
     
-As for the comparison between \simhotep{} and \timhotep{} (RQ2),  we observe that all the $p-values$ achieved when comparing the $Q_{Duration}$ distributions provided by the two \ApproachName{} variants are smaller than the significance threshold, thus indicating that the difference in solution quality is statistically significant in favour of \simhotep{}, and always with a large A12 effect size (see Table \ref{tab:resultsWilcEffRQ2}). Therefore, we conclude that:
+As for the comparison between \simhotep{} and \timhotep{} (RQ2),  we observe that all the $p-values$ achieved when comparing the $Q_{Duration}$ distributions provided by the two \ApproachName{} variants are smaller than the significance threshold, thus indicating that the difference in solution quality is statistically significant in favour of \simhotep{}, and always with a large A12 effect size (see Table \ref{tab:resultsWilcEffRQ1}). Therefore, we conclude that:
 
 \noindent  \textbf{Answer to RQ$_2$} \simhotep{} provides significantly better results than \timhotep{} in the context of automated content generation through transplantation, with a large effect size in all cases examined. The efficacy of \simhotep{} demonstrates a 150\% enhancement overall compared to the outcomes of \timhotep{}.
 

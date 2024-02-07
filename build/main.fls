@@ -1911,6 +1911,9 @@ INPUT .\Text\6_Discussion.tex
 INPUT .\Text\6_Discussion.tex
 INPUT .\Text\6_Discussion.tex
 INPUT Text\6_Discussion.tex
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\Usuario\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\Text\7_Threats.tex
 INPUT .\Text\7_Threats.tex
 INPUT .\Text\7_Threats.tex
