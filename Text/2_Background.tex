@@ -6,13 +6,13 @@ Video games are pieces of software that, like any other software, need to be des
 
 %Hence, video games present characteristics that differentiate their development and maintenance from the development and maintenance of classic software. Examples of these differences can be found in how video game developers must contribute to the implementation of different kinds of artifacts (e.g., shaders, meshes, or prefabs) or in the challenges they face when locating bugs or reusing code~\cite{pascarella2018video, chueca2023consolidation}.
 
-Nowadays, most video games are developed by means of game engines. Game engines are development environments that integrate a graphics engine and a physics engine as well as tools for both to accelerate development. The most popular ones are Unity and Unreal Engine, but it is also possible for a studio to make its own specific engine (e.g., CryEngine~\footnote{\url{https://www.cryengine.com}}). 
+Nowadays, most video games are developed by means of game engines. Game engines are development environments that integrate a graphics engine and a physics engine as well as tools for both to accelerate development. The most popular ones are Unity and Unreal Engine, but it is also possible for a studio to make its own specific engine (e.g., CryEngine~\cite{cryengine}). 
 
 One key artifact of game engines are software models. Unreal proposes its own modeling language (Unreal Blueprints)~\cite{unrealblueprint}, Unity propposes Unity Visual Scripting~\cite{unityscripting}, and a recent survey in Model-Driven Game Development~\cite{zhu2019model} reveals that UML and Domain Specific Language (DSL) models are also being adopted by development teams. Developers can use the software models to create video game content instead of using the traditional coding approach. While code allows for more control over the content, software models raise the abstraction level, thus promoting the use of domain terms and minimizing implementation and technological details. Through software models, developers are freed from a significant part of the implementation details of physics and graphics, and can focus on the content of the game itself (see Figure.~\ref{fig:architecture}).
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.4\textwidth]{Figures/fig_bg_OverviewArtifactsVG.pdf}
+    \includegraphics[width=0.25\textwidth]{Figures/fig_bg_OverviewArtifactsVG.pdf}
     \caption{Overview of video game artifacts.}
     \label{fig:architecture}
 \end{figure}

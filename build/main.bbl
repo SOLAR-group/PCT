@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{46}
+\begin{thebibliography}{51}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,21 +37,83 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[unr({[n.\,d.]})]%
-        {unrealblueprint}
+\bibitem[cry({[n.\,d.]})]%
+        {cryengine}
  \bibinfo{year}{[n.\,d.]}\natexlab{}.
-\newblock
-  \bibinfo{howpublished}{\url{https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/GettingStarted/}}.
+\newblock \bibinfo{title}{CryEngine}.
+\newblock \bibinfo{howpublished}{\url{https://www.cryengine.com}}.
 \newblock
 \newblock
 \shownote{Accessed: 01/02/24}.
 
 
-\bibitem[uni({[n.\,d.]})]%
-        {unityscripting}
+\bibitem[ent({[n.\,d.]})]%
+        {entaltoweb}
  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{Entalto Studios}.
+\newblock \bibinfo{howpublished}{\url{https://www.entaltostudios.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[kra({[n.\,d.]})]%
+        {krakenweb}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{Kraken Empire}.
+\newblock \bibinfo{howpublished}{\url{https://www.krakenempire.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[spe({[n.\,d.]})]%
+        {speedtreeweb}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{Speed Tree}.
+\newblock \bibinfo{howpublished}{\url{https://store.speedtree.com}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[uni({[n.\,d.]}a)]%
+        {unityweb}
+ \bibinfo{year}{[n.\,d.]}\natexlab{a}.
+\newblock \bibinfo{title}{Unity}.
+\newblock \bibinfo{howpublished}{\url{https://unity.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[uni({[n.\,d.]}b)]%
+        {unityscripting}
+ \bibinfo{year}{[n.\,d.]}\natexlab{b}.
+\newblock \bibinfo{title}{Unity Scripting}.
 \newblock
   \bibinfo{howpublished}{\url{https://unity.com/features/unity-visual-scripting}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[unr({[n.\,d.]}a)]%
+        {unrealweb}
+ \bibinfo{year}{[n.\,d.]}\natexlab{a}.
+\newblock \bibinfo{title}{Unreal}.
+\newblock \bibinfo{howpublished}{\url{https://www.unrealengine.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[unr({[n.\,d.]}b)]%
+        {unrealblueprint}
+ \bibinfo{year}{[n.\,d.]}\natexlab{b}.
+\newblock \bibinfo{title}{Unreal Blueprint}.
+\newblock
+  \bibinfo{howpublished}{\url{https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/GettingStarted/}}.
 \newblock
 \newblock
 \shownote{Accessed: 01/02/24}.
@@ -215,16 +277,6 @@
   independent trace program}. In \bibinfo{booktitle}{\emph{Proceedings of the
   26th ACM SIGSOFT International Symposium on Software Testing and Analysis}}.
   \bibinfo{pages}{158--169}.
-\newblock
-
-
-\bibitem[Kwon et~al\mbox{.}(2013)]%
-        {kwon2013pietrace}
-\bibfield{author}{\bibinfo{person}{Yonghwi Kwon}, \bibinfo{person}{Xiangyu
-  Zhang}, {and} \bibinfo{person}{Dongyan Xu}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Pietrace: Platform independent executable trace}.
-  In \bibinfo{booktitle}{\emph{2013 28th IEEE/ACM International Conference on
-  Automated Software Engineering (ASE)}}. IEEE, \bibinfo{pages}{48--58}.
 \newblock
 
 
