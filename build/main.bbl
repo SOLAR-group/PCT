@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{57}
+\begin{thebibliography}{60}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,6 +36,26 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[unr({[n.\,d.]})]%
+        {unrealblueprint}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock
+  \bibinfo{howpublished}{\url{https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/GettingStarted/}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
+
+\bibitem[uni({[n.\,d.]})]%
+        {unityscripting}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock
+  \bibinfo{howpublished}{\url{https://unity.com/features/unity-visual-scripting}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/02/24}.
+
 
 \bibitem[Allamanis and Brockschmidt(2017)]%
         {allamanis2017smartpaste}
@@ -182,19 +202,6 @@
 \newblock \bibinfo{journal}{\emph{IEEE Transactions on Games}}
   \bibinfo{volume}{12}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
   \bibinfo{pages}{21--40}.
-\newblock
-
-
-\bibitem[Domingo et~al\mbox{.}(2020)]%
-        {domingo2020evaluating}
-\bibfield{author}{\bibinfo{person}{{\'A}frica Domingo}, \bibinfo{person}{Jorge
-  Echeverr{\'\i}a}, \bibinfo{person}{Oscar Pastor}, {and}
-  \bibinfo{person}{Carlos Cetina}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Evaluating the Benefits of Model-Driven
-  Development: Empirical Evaluation Paper}. In
-  \bibinfo{booktitle}{\emph{Advanced Information Systems Engineering: 32nd
-  International Conference, CAiSE 2020, Grenoble, France, June 8--12, 2020,
-  Proceedings 32}}. Springer, \bibinfo{pages}{353--367}.
 \newblock
 
 
@@ -685,6 +692,31 @@
   programming}. In \bibinfo{booktitle}{\emph{2009 IEEE 31st International
   Conference on Software Engineering}}. IEEE, \bibinfo{pages}{364--374}.
 \newblock
+
+
+\bibitem[Wijman(2021)]%
+        {wijman2021games}
+\bibfield{author}{\bibinfo{person}{Tom Wijman}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{The Games Market and Beyond in 2021: The Year in
+  Numbers}.
+\newblock
+  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2021-the-year-in-numbers-esports-cloud-gaming}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/12/23}.
+
+
+\bibitem[Wijman(2022)]%
+        {wijman2022games}
+\bibfield{author}{\bibinfo{person}{Tom Wijman}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{The Games Market in 2022: The Year in Numbers}.
+\newblock
+  \bibinfo{howpublished}{\url{https://newzoo.com/resources/blog/the-games-market-in-2022-the-year-in-numbers}}.
+\newblock
+\newblock
+\shownote{Accessed: 01/12/23}.
 
 
 \bibitem[Yang et~al\mbox{.}(2017)]%

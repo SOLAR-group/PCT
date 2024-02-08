@@ -9,10 +9,26 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Database file #1: references.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in unrealblueprint
+Warning--no author, editor, organization, or key in unrealblueprint
+Warning--to sort, need author or key in unrealblueprint
+Warning--no key, author in unityscripting
+Warning--no author, editor, organization, or key in unityscripting
+Warning--to sort, need author or key in unityscripting
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--no key, author in unityscripting
+Warning--no key, author in unityscripting
+Warning--no key, author in unrealblueprint
+Warning--no key, author in unrealblueprint
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in unrealblueprint
+Warning--empty author in unrealblueprint
+Warning--empty year in unrealblueprint
+Warning--no key, author in unityscripting
+Warning--empty author in unityscripting
+Warning--empty year in unityscripting
 Warning--no number and no volume in allamanis2017smartpaste
 Warning--page numbers missing in both pages and numpages fields in allamanis2017smartpaste
 Warning--empty publisher in barr2015automated
@@ -20,8 +36,6 @@ Warning--empty address in barr2015automated
 Warning--empty publisher in brocchini2022monster
 Warning--empty address in brocchini2022monster
 Warning--no number and no volume in chueca2023consolidation
-Warning--empty publisher in domingo2020evaluating
-Warning--empty address in domingo2020evaluating
 Warning--empty address in FARSHBAFNADI2023599
 Warning--page numbers missing in both pages and numpages fields in frade2009breeding
 Warning--empty publisher in gallotta2022evolving
@@ -75,45 +89,45 @@ Warning--empty address in yang2017malware
 Warning--empty address in yannakakis2018artificial
 Warning--empty publisher in zhang2017automated
 Warning--empty address in zhang2017automated
-You've used 57 entries,
+You've used 60 entries,
             5981 wiz_defined-function locations,
-            1796 strings with 29557 characters,
-and the built_in function-call counts, 65104 in all, are:
-= -- 8560
-> -- 1943
+            1803 strings with 29760 characters,
+and the built_in function-call counts, 66517 in all, are:
+= -- 8691
+> -- 1938
 < -- 0
-+ -- 653
-- -- 686
-* -- 4386
-:= -- 6123
-add.period$ -- 295
-call.type$ -- 57
-change.case$ -- 405
-chr.to.int$ -- 57
-cite$ -- 119
-duplicate$ -- 5867
-empty$ -- 4116
-format.name$ -- 864
-if$ -- 16215
++ -- 654
+- -- 688
+* -- 4456
+:= -- 6240
+add.period$ -- 310
+call.type$ -- 60
+change.case$ -- 415
+chr.to.int$ -- 60
+cite$ -- 144
+duplicate$ -- 6021
+empty$ -- 4237
+format.name$ -- 862
+if$ -- 16537
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 220
-newline$ -- 506
-num.names$ -- 401
-pop$ -- 2369
+missing$ -- 215
+newline$ -- 537
+num.names$ -- 408
+pop$ -- 2474
 preamble$ -- 1
-purify$ -- 855
+purify$ -- 879
 quote$ -- 0
-skip$ -- 2126
+skip$ -- 2172
 stack$ -- 0
-substring$ -- 4800
-swap$ -- 572
+substring$ -- 4864
+swap$ -- 575
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1303
-warning$ -- 62
-while$ -- 383
+type$ -- 1393
+warning$ -- 76
+while$ -- 391
 width$ -- 0
-write$ -- 1138
-(There were 62 warnings)
+write$ -- 1197
+(There were 76 warnings)
