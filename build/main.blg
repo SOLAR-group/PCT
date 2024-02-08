@@ -37,7 +37,6 @@ Warning--empty publisher in brocchini2022monster
 Warning--empty address in brocchini2022monster
 Warning--no number and no volume in chueca2023consolidation
 Warning--empty address in FARSHBAFNADI2023599
-Warning--page numbers missing in both pages and numpages fields in frade2009breeding
 Warning--empty publisher in gallotta2022evolving
 Warning--empty address in gallotta2022evolving
 Warning--empty publisher in kwon2017cpr
@@ -46,15 +45,11 @@ Warning--empty publisher in kwon2013pietrace
 Warning--empty address in kwon2013pietrace
 Warning--empty publisher in li2020automatic
 Warning--empty address in li2020automatic
-Warning--no number and no volume in li2015gated
-Warning--page numbers missing in both pages and numpages fields in li2015gated
 Warning--empty publisher in lu2018program
 Warning--empty address in lu2018program
 Warning--no number and no volume in mann1947test
 Warning--empty publisher in maras2015towards
 Warning--empty address in maras2015towards
-Warning--empty publisher in mora2021flora
-Warning--empty address in mora2021flora
 Warning--empty publisher in pascarella2018video
 Warning--empty address in pascarella2018video
 Warning--empty publisher in pereira2021procedural_enemies
@@ -76,8 +71,6 @@ Warning--empty year in devNation
 Warning--no journal in devNation
 Warning--no number and no volume in devNation
 Warning--page numbers missing in both pages and numpages fields in devNation
-Warning--empty publisher in viana2019survey
-Warning--empty address in viana2019survey
 Warning--empty publisher in viana2022illuminating
 Warning--empty address in viana2022illuminating
 Warning--empty publisher in wang2016hunter
@@ -86,48 +79,47 @@ Warning--empty publisher in weimer2009automatically
 Warning--empty address in weimer2009automatically
 Warning--empty publisher in yang2017malware
 Warning--empty address in yang2017malware
-Warning--empty address in yannakakis2018artificial
 Warning--empty publisher in zhang2017automated
 Warning--empty address in zhang2017automated
-You've used 60 entries,
+You've used 46 entries,
             5981 wiz_defined-function locations,
-            1803 strings with 29760 characters,
-and the built_in function-call counts, 66517 in all, are:
-= -- 8691
-> -- 1938
+            1724 strings with 27217 characters,
+and the built_in function-call counts, 50646 in all, are:
+= -- 6356
+> -- 1444
 < -- 0
-+ -- 654
-- -- 688
-* -- 4456
-:= -- 6240
-add.period$ -- 310
-call.type$ -- 60
-change.case$ -- 415
-chr.to.int$ -- 60
-cite$ -- 144
-duplicate$ -- 6021
-empty$ -- 4237
-format.name$ -- 862
-if$ -- 16537
++ -- 484
+- -- 508
+* -- 3360
+:= -- 4746
+add.period$ -- 237
+call.type$ -- 46
+change.case$ -- 315
+chr.to.int$ -- 46
+cite$ -- 122
+duplicate$ -- 4692
+empty$ -- 3296
+format.name$ -- 634
+if$ -- 12474
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 215
-newline$ -- 537
-num.names$ -- 408
-pop$ -- 2474
+missing$ -- 163
+newline$ -- 417
+num.names$ -- 310
+pop$ -- 1965
 preamble$ -- 1
-purify$ -- 879
+purify$ -- 668
 quote$ -- 0
-skip$ -- 2172
+skip$ -- 1712
 stack$ -- 0
-substring$ -- 4864
-swap$ -- 575
+substring$ -- 3763
+swap$ -- 452
 text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1393
-warning$ -- 76
-while$ -- 391
+type$ -- 1128
+warning$ -- 68
+while$ -- 295
 width$ -- 0
-write$ -- 1197
-(There were 76 warnings)
+write$ -- 922
+(There were 68 warnings)
