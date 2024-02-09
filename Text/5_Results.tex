@@ -23,20 +23,20 @@ We can observe that both variants (\simhotep{} and \timhotep{}) obtained better 
 % }
 % \end{table*}
 
-When analysing whether there is statistical significant differences among the results obtained by \simhotep{} and Base. We found that the obtained $p-values$ for $Q_{Duration}$ are always lower than $4.01x10^{-23}$  (see Table \ref{tab:resultsWilcEffRQ1}). This is below the significance threshold value, so we can comfortably state that \simhotep{} provides significant better values for $Q_{Duration}$ with respect to Base. We also observe that all the  A12 effect size values are large (see Table \ref{tab:resultsWilcEffRQ1}), thus confirming the practical magnitude of such a difference. Thus, we conclude that:
+When analysing whether there is statistical significant differences among the results obtained by \simhotep{} and Base. We found that the obtained p-values for $Q_{Duration}$ are always lower than $4.01x10^{-23}$  (see Table \ref{tab:resultsWilcEffRQ1}). This is below the significance threshold value, so we can comfortably state that \simhotep{} provides significant better values for $Q_{Duration}$ with respect to Base. We also observe that all the  A12 effect size values are large (see Table \ref{tab:resultsWilcEffRQ1}), thus confirming the practical magnitude of such a difference. Thus, we conclude that:
 
-\noindent \textbf{Answer to RQ$_1$} \simhotep{} performance far surpasses the baseline with statistically significant results and large effect size in all cases, and exhibiting a remarkable overall enhancement of 250\% over SBPCG.
+\noindent \textbf{Answer to RQ$_1$} \simhotep{} performance far surpasses SBPCG with statistically significant difference and large effect size in all cases, exhibiting a remarkable overall enhancement of 250\% over SBPCG.
 
 \begin{table}[tb]	
-\caption{(a) RQ1-RQ2. Mean values and standard deviations for $Q_{Duration}$ for each approach per Host and Overall. (b) Mann-Withney U pair-wise test results / Vargha-Delaney Â$_{12}$ effect sizes obtained comparing \simhotep{} Vs. Base (RQ1) and \simhotep{} Vs. \timhotep{} (RQ2) per host and overall. Â$_{12}$: Large -- L.}
+\caption{RQ1-RQ2. (a) Mean value and standard deviation for $Q_{Duration}$ obtained by each approach per boss and overall. (b) Wilcoxon test and Vargha-Delaney Â$_{12}$ results obtained by comparing \simhotep{} Vs. SBPCG (RQ1) and \simhotep{} Vs. \timhotep{} (RQ2) per boss and overall. Â$_{12}$: Large -- L.}
 	\label{tab:resultsRQ12}
 \begin{subtable}{.5\columnwidth}
-    \caption{Mean values and standard deviations.}
+    \caption{Mean and standard deviation}
     \label{tab:resultsMeanStDevRQ12}
     \centering
     \resizebox{\columnwidth}{!}{
 	\begin{tabular}{@{}lccc@{}}
-		\toprule  & \simhotep{} & \timhotep{} & Base        \\ \cmidrule(l){2-4} 
+		\toprule  & \simhotep{} & \timhotep{} & SBPCG     \\ \cmidrule(l){2-4} 
 		Boss & Mean $\pm$ StDev & Mean $\pm$ StDe & Mean $\pm$ StDe  \\ \midrule 
 		Argos  & 43.92 $\pm$ 9.30  & 32.17 $\pm$ 6.94 & 20.15 $\pm$ 1.86 \\
 		Maia  & 43.08 $\pm$ 12.09  & 29.52 $\pm$ 9.34 & 8.43 $\pm$ 1.81   \\
@@ -49,7 +49,7 @@ When analysing whether there is statistical significant differences among the re
 	\end{tabular}}
 \end{subtable}
 \begin{subtable}{.48\columnwidth}
-    \caption{Mann-Withney U pair-wise / Vargha-Delaney Â$_{12}$.}
+    \caption{Wilcoxon /  Â$_{12}$}
  	\label{tab:resultsWilcEffRQ1}
     \centering
     \resizebox{\columnwidth}{!}{
@@ -128,13 +128,13 @@ When analysing whether there is statistical significant differences among the re
 % }
 %     \end{table}
     
-As for the comparison between \simhotep{} and \timhotep{} (RQ2),  we observe that all the $p-values$ achieved when comparing the $Q_{Duration}$ distributions provided by the two \ApproachName{} variants are smaller than the significance threshold, thus indicating that the difference in solution quality is statistically significant in favour of \simhotep{}, and always with a large A12 effect size (see Table \ref{tab:resultsWilcEffRQ1}). Therefore, we conclude that:
+As for the comparison between \simhotep{} and \timhotep{} (RQ2),  we observe that all the p-values achieved when comparing the $Q_{Duration}$ distributions provided by the two \ApproachName{} variants are smaller than the significance threshold, thus indicating that the difference in solution quality is statistically significant in favour of \simhotep{}, and always with a large A12 effect size (see Table \ref{tab:resultsWilcEffRQ1}). Therefore, we conclude that:
 
 \noindent  \textbf{Answer to RQ$_2$} \simhotep{} provides significantly better results than \timhotep{} in the context of automated content generation through transplantation, with a large effect size in all cases examined. The efficacy of \simhotep{} demonstrates a 150\% enhancement overall compared to the outcomes of \timhotep{}.
 
 \begin{figure*}[tb]
     \centering
     \includegraphics[width=0.8\textwidth]{Figures/Imhotep_with_legend_and_oracle_average-v4.pdf}
-    \caption{Results of our \ApproachName{} (\simhotep{} and \timhotep{}) and the SBPCT baseline for the quality measurement ($Q_{Duration}$).}
+    \caption{Results of \ApproachName{} (\simhotep{} and \timhotep{}) and the SBPCG benchmark in terms of the quality measurement ($Q_{Duration}$).}
     \label{fig:results}
 \end{figure*}
