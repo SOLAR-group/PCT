@@ -1,17 +1,17 @@
 \section{Our \ApproachName{} Approach} 
 \label{sec:Approach}
 
-This section explains how our \ApproachName{} approach makes use of evolutionary computation to transplant organs within video games content. We first present an overview of our approach and subsequently provide the details of the approach. To help the reader, we provide along with the approach explanation an example of transplantation of content within a simplified version of \sq{bosses} of the video game \CaseStudy{}.
+%This section explains how our \ApproachName{} approach makes use of evolutionary computation to transplant organs within video games content. We first present an overview of our approach and subsequently provide the details of the approach. To help the reader, we provide along with the approach explanation an example of transplantation of content within a simplified version of \sq{bosses} of the video game \CaseStudy{}.
 
 Figure.~\ref{fig:approach} shows an overview of our approach.
-At the top left of the figure we show the input to our approach, namely the organ to be transplanted from the donor and the host where the organ will be transplanted into. Afterwards, \ApproachName{} detects the points of the organ that allows the transplantation and the points where the organ can be inserted into the host. To initialize the population of the evolutionary algorithm, the organ is cloned and transplanted in a random point. Genetic operations generate potential solutions for transplantation, while the objective function asseses the quality of these solutions. This process of generating and assessing is repeated until a specific stop condition is met. When the evolutionary algorithm finishes the execution we obtain a ranked list based on the given objective function of the best transplantations between organ and host.
+At the top left of the figure we show the input to our approach, namely the organ to be transplanted from the donor and the host where the organ will be transplanted into. Afterwards, \ApproachName{} detects the points of the organ that allows the transplantation and the points where the organ can be inserted into the host. To initialize the population of the evolutionary algorithm, the organ is cloned and transplanted in a random point. Genetic operations generate potential solutions for transplantation, while the objective function asseses the quality of these solutions. This process of generating and assessing is repeated until a specific stop condition is met. When the evolutionary algorithm finishes the execution, we obtain a ranked list based on the given objective function of the best transplantations between organ and host.
 
 In video games, software models are popular (compared to classic software) possibly because they facilitate the participation of non-programmers (e.g., artists) in the development process. Therefore, our \ApproachName{} approach is designed to work with models. Although we illustrate the running example with the SDML models of the case study, our approach is generic and can be used with other modelling languages because it exploits the idea of boundaries between model elements.
 Next, we describe each step of \ApproachName{} in the following subsections.
 
 \begin{figure}[tb]
     \centering
-    \includegraphics[width=0.25\textwidth]{Figures/overview.png}
+    \includegraphics[width=0.35\textwidth]{Figures/overview.png}
     \caption{Overview of our \ApproachName{} approach.}
     \label{fig:approach}
 \end{figure}
@@ -29,7 +29,7 @@ Hulls, weak points, and weapons are attached between them through \sq{Links}.
 
 \begin{figure}[tb]
     \centering
-    \includegraphics[width=0.25\textwidth]{Figures/metamodel+syntax.png}
+    \includegraphics[width=0.35\textwidth]{Figures/metamodel+syntax.png}
     \caption{Simplified metamodel with the corresponding concrete syntax of the model.}
     \label{fig:metamodel+syntax}
 \end{figure}
@@ -53,7 +53,7 @@ This simplified example is inspired by the boss shown in Figure.~\ref{fig:scenar
 
 \subsection{Boundary detection}
 
-To transplant an organ into a host we need to find a way to connect them. To do that we use the boundaries between the model elements of the organ and the host. A boundary is a connection point capable of connecting two distinct model elements within a model. The connection is restricted by the rules of the metamodel. In the simplified example in Figure.~\ref{fig:metamodel+syntax}, the Source and Target meta-relationships are the boundaries between the model elements of the models conforming to that metamodel. In other metamodel languages, there will be other meta-relationships with other names that will be the boundaries.
+To transplant an organ into a host we need to find a way to connect them. To do that we use the boundaries between the model elements of the organ and the host. A boundary is a connection point capable of connecting two distinct model elements within a model. The connection is restricted by the rules of the metamodel. In the simplified example in Figure.~\ref{fig:metamodel+syntax}, the Source and Target meta-relationships are the boundaries between the model elements of the models conforming to that metamodel. In other model languages, there will be other meta-relationships with other names that will be the boundaries.
 
 \ApproachName{} automatically identifies the boundaries of the selected organ, and all the boundaries of the host. In the running example, the boundaries of the organ are the connection points between donor and host. The elements that connect with the rest of the donor are H, K, and Q. Figure.~\ref{fig:org_bound} (a) shows the donor, the organ, and the boundaries (boundaries are represented by a circle crossed). The boundaries of the organ are as follows: b11 for the H element; b16 for the K element, and b25 for the Q element.
 
@@ -77,7 +77,7 @@ On the other hand, the boundaries of the host are all the points where its model
 
 In the boundary mapping step, \ApproachName{} determines the mapping between the boundaries of the organ and the host. For each boundary in the organ, \ApproachName{} considers all compatible boundaries of the host, including the possibility of not connecting the boundary to the host boundaries. The boundary compatibility is determined by the metamodel.
 
-Table~\ref{tab:boundaries} shows a boundary mapping between the organ and the host of the running example. The boundary b11 is a boundary from a \sq{Link} from the model and according to the metamodel it can connect to any \sq{Hull}, \sq{Weapon}, \sq{Weak Point}. The boundaries b16 and b25 are both \sq{Hulls} and they can connect with any \sq{Link}.
+Table~\ref{tab:boundaries} shows a boundary mapping between the organ and the host of the running example. The boundary b11 is a boundary from a \sq{Link} from the model and according to the metamodel it can connect to any \sq{Hull}, \sq{Weapon}, and \sq{Weak Point}. The boundaries b16 and b25 are both \sq{Hulls} and they can connect with any \sq{Link}.
 
 \begin{table}[tb]
 \centering
@@ -98,13 +98,13 @@ Table~\ref{tab:boundaries} shows a boundary mapping between the organ and the ho
 \multirow{-6}{*}{\begin{tabular}[c]{@{}c@{}}b16\\    \\ b25\end{tabular}} 
 & \multicolumn{2}{c|}{Not connected} \\ \hline
 \end{tabular}}
-\caption{Mapping of compatible boundaries between organ and host.}
+\caption{Mapping of compatible organ-host boundaries.}
 \label{tab:boundaries}
 \end{table}
 
 \subsection{Initialize population}
 
-In evolutionary algorithms a population is a collection of possible solutions for a problem.
+In evolutionary algorithms, a population is a collection of possible solutions for a problem.
 The encoding is the problem representation that an algorithm is capable to understand. 
 
 In our work, the encoding requires a binary vector that represents the organ in the donor, and the boundary mapping (see Figure.~\ref{fig:encoding}). In the binary vector, each element from the model is a position from the vector. If a position in the vector has a \sq{1}, it means that the element from the model is part of the organ. On the other hand, each boundary from the organ gets assigned a compatible boundary from the host.
@@ -161,7 +161,7 @@ F_{Health} = 1 - \frac{\sum\limits_{d=1}^{V_{P}}\frac{\mid \Theta_{Optimal} - \T
 $F_{Overall}$ is an average objective value for a boss model that includes the objective criteria described above. $F_{Overall}$ also includes a validation part. The validation part is to avoid models with inconsistencies. The validity of the models is performed by a run-time interpreter that is part of the game. When the model is stated as non-valid the value of Validity will be 0. $F_{Overall}$ can assume a value in [0, 1] which is used to assess a boss model when our \ApproachName{} approach is applied to the \CaseStudy{} case study.
 
 \begin{equation}
-F_{Overall} = min( Validity, \frac{\sum\limits_{i=1}^{N}F_{i}}{N} )
+F_{Overall} = min \left ( Validity, \frac{\sum\limits_{i=1}^{N}F_{i}}{N} \right )
 \end{equation}
 
 
