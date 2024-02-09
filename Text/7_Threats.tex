@@ -3,12 +3,12 @@
 
 To tackle possible threats to the validity of our work, we follow the classification suggested by De Oliveira \etal~\cite{oliveira2011threats}.
 
- \textbf{Conclusion Validity.}
+\noindent \textbf{Conclusion Validity.}
 To minimize \textit{not accounting for random variation}, we run each of the approach (\ie \simhotep, \timhotep and SBPCG) 30 times. Also, we make sure to assess the same number of solutions (\ie 645 new bosses) for each of the approaches, so to make the comparison fair. In order to address the \textit{lack of good descriptive statistics}, we present the standard deviation and a box-plot of the results. We also applied statistical significance tests (Mann-Whitney U) and effect size measurements ($\hat{A}_{12}$) following accepted guidelines~\cite{arcuri2013parameter}. We tackled the \textit{lack of a meaningful comparison baseline} by comparing \ApproachName{} to a recent and most relevant Search-Based PCG approach as a benchmark, as detailed in Section \ref{fig:evaluation}. 
 
 \noindent \textbf{Internal Validity.}
 %To mitigate \textit{poor parameter settings} we have presented the parameters used in our experiment, and for the PCG baseline we have used the parameters presented by the original work.
-We provide the source code and the artefacts used in our experiments to allow for reproduction and replication, as suggested to avoid the \textit{lack of discussion on code instrumentation}.
+We provide the source code and the artefacts used in our experiments to allow for reproduction and replication and avoid the \textit{lack of discussion on code instrumentation}.
 We handled the \textit{lack of real problem instances} by using a commercial video game as the case study for our evaluation and by working closely with its developers in a real-world industrial setting. 
 Likewise, the problem artefacts (donor, organs and hosts) were directly obtained from the video game developers and the documentation itself. 
 
