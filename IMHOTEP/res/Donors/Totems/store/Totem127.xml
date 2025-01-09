@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="500" InitialScaleY="500" InitialScaleZ="500"
+           DestructionDelay="1" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="1">
+
+    <!-- Column ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000001000000000000000010110" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      <MarkersSets Number="1">
+        <MarkersSet>
+          <ForcedProgram ProgramId="1" CycleDuration="1" TimeMultiplier="8" />
+          <Markers Number="35">
+            <MarkerData ModelFileName="beacon_I_0.mesh" />
+            <MarkerData ModelFileName="beacon_I_1.mesh" />
+            <MarkerData ModelFileName="beacon_I_2.mesh" />
+            <MarkerData ModelFileName="beacon_I_3.mesh" />
+            <MarkerData ModelFileName="beacon_I_4.mesh" />
+            <MarkerData ModelFileName="beacon_I_5.mesh" />
+            <MarkerData ModelFileName="beacon_I_6.mesh" />
+            <MarkerData ModelFileName="beacon_I_7.mesh" />
+            <MarkerData ModelFileName="beacon_I_8.mesh" />
+            <MarkerData ModelFileName="beacon_I_9.mesh" />
+            <MarkerData ModelFileName="beacon_I_10.mesh" />
+            <MarkerData ModelFileName="beacon_I_11.mesh" />
+            <MarkerData ModelFileName="beacon_I_12.mesh" />
+            <MarkerData ModelFileName="beacon_I_13.mesh" />
+            <MarkerData ModelFileName="beacon_I_14.mesh" />
+            <MarkerData ModelFileName="beacon_I_15.mesh" />
+            <MarkerData ModelFileName="beacon_I_16.mesh" />
+            <MarkerData ModelFileName="beacon_I_17.mesh" />
+            <MarkerData ModelFileName="beacon_I_18.mesh" />
+            <MarkerData ModelFileName="beacon_I_19.mesh" />
+            <MarkerData ModelFileName="beacon_I_20.mesh" />
+            <MarkerData ModelFileName="beacon_I_21.mesh" />
+            <MarkerData ModelFileName="beacon_I_22.mesh" />
+            <MarkerData ModelFileName="beacon_I_23.mesh" />
+            <MarkerData ModelFileName="beacon_I_24.mesh" />
+            <MarkerData ModelFileName="beacon_I_25.mesh" />
+            <MarkerData ModelFileName="beacon_I_26.mesh" />
+            <MarkerData ModelFileName="beacon_I_27.mesh" />
+            <MarkerData ModelFileName="beacon_I_28.mesh" />
+            <MarkerData ModelFileName="beacon_I_29.mesh" />
+            <MarkerData ModelFileName="beacon_I_30.mesh" />
+            <MarkerData ModelFileName="beacon_I_31.mesh" />
+            <MarkerData ModelFileName="beacon_I_32.mesh" />
+            <MarkerData ModelFileName="beacon_I_33.mesh" />
+            <MarkerData ModelFileName="beacon_I_34.mesh" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+    </Hull>
+
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0" SacredPositionOffsetZ="0" />
+  <!--***************************************************************************************************************-->
+</TOTEM>

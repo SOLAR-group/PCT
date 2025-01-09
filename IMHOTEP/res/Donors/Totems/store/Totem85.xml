@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="100" InitialScaleY="100" InitialScaleZ="100"
+           DestructionDelay="30" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="16">
+
+    <!-- Main ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="altar_II_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="altar_II_0.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #1 (Fixed) ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.9" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #2 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.1"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #3 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.22"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #4 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.35"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #5 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.47"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #6 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.59"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>   
+  
+    <!-- Link #7 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.71"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #8 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.83"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #9 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="0.95"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #10 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.07"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #11 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.19"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #12 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.31"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #13 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.43"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Link #14 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="chain_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.55"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0.001" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+    <!-- Mobile Part ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0.93" PositionZ="1.67"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="chain_I_0.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="1">
+
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="-1" HullIndexSecond="15"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="1" LinkMovementFunctionType="1" LinkMovementControlState="0"
+                         MovementDistancePositive="0.7" MovementDistanceNegative="-0.7" MovementSpeed="0.3" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="1" MovementAxisZ="0" />
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="14" HullIndexSecond="15" Destructible="0"
+                  DestructionDelay="0" EffectMultiplierKill="0.0000001" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000001001" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+    </LINKS>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  </HULL>
+
+
+
+
+
+
+
+  <!--***************************************************************************************************************-->
+  <WEAPONRYWEAPONSAI Number="1">
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" ScaleX="0.1" ScaleY="0.1" ScaleZ="0.1"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="" ObjectMaterial="0" ObjectMass="0" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000001010000000000000000010110" EffectsMaskDestroy="00000000000000000000000000000000" />
+      <ComponentData HullIndexParent="15"
+                     LocalDirectionX="0" LocalDirectionY="1" LocalDirectionZ="0" />
+      <MobileObjects Number="1" MobilityType="3">
+        <MobileObject ModelFileName="turret_II_0.mesh" LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+      </MobileObjects>
+      <WeaponData WeaponPriority="0" WeaponBehaviour="2" ReloadTime="0.2" HasLock="0"
+                  AffectorType="-1"
+                  AffectorScaleFactor="1" AffectorPowerFactor="1"
+                  AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" />
+      <WeaponWithCannonsData MaximumTurretAngle="100" AccelerationAngular="10" MaximumSpeedAngular="10"
+                             FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0"
+                             ReachDestinationAtFullAngularSpeed="0" AimApplyingForceToParentHull="0" />
+      <WeaponCompoundObjectData MaximumAmmo="-1" Dispersion="0.01" ProjectileTimeToLive="0"
+                                ProjectileScaleTime="0.2"
+                                ProjectileInitialScaleX="0.01" ProjectileInitialScaleY="0.01" ProjectileInitialScaleZ="0.01"
+                                ProjectileFinalScaleX="0.2" ProjectileFinalScaleY="0.2" ProjectileFinalScaleZ="0.2"
+                                ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150"
+                                ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" />
+      <WeaponProjectileData ProjectileType="15" ProjectilePower="100" />
+      <Cannons Number="2" FiringTurnMaximum="16" >
+        <WeaponCannon>
+          <WeaponCannonData FiringTurnStart="0" FiringTurnEnd="0" Roll="0"
+                            FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.12"
+                            FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" />
+        </WeaponCannon>
+        <WeaponCannon>
+          <WeaponCannonData FiringTurnStart="4" FiringTurnEnd="4" Roll="0"
+                            FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.12"
+                            FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" />
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+  </WEAPONRYWEAPONSAI>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0" SacredPositionOffsetZ="0" />
+  <UseAntagonistColour />
+  <!--***************************************************************************************************************-->
+
+</TOTEM>

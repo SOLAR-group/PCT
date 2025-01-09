@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="300" InitialScaleY="300" InitialScaleZ="300"
+           DestructionDelay="1" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="1">
+    <Hull HullType="0">
+      <ObjectData ModelFileName="eidolon0.mesh" ScaleX="300" ScaleY="300" ScaleZ="300" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="3">
+          <!--Head ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="hexagonalprism.obj"
+                                    ComponentScaleX="0.2109105" ComponentScaleY="0.281216" ComponentScaleZ="0.2109105"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.562432" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Body ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="hexagonalprism.obj"
+                                    ComponentScaleX="0.2952755" ComponentScaleY="0.281216" ComponentScaleZ="0.2952755"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Feet ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="hexagonalprism.obj"
+                                    ComponentScaleX="0.37964" ComponentScaleY="0.281216" ComponentScaleZ="0.37964"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.562432" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000001000000000000000010110" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      <MarkersSets Number="1">
+        <MarkersSet>
+          <Markers Number="8">
+            <MarkerData ModelFileName="eidolon0l0.mesh" />
+            <MarkerData ModelFileName="eidolon0l1.mesh" />
+            <MarkerData ModelFileName="eidolon0l2.mesh" />
+            <MarkerData ModelFileName="eidolon0l3.mesh" />
+            <MarkerData ModelFileName="eidolon0l4.mesh" />
+            <MarkerData ModelFileName="eidolon0l5.mesh" />
+            <MarkerData ModelFileName="eidolon0l6.mesh" />
+            <MarkerData ModelFileName="eidolon0l7.mesh" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+    </Hull>
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="1">
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="-1" HullIndexSecond="0" 
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="0" LinkMovementFunctionType="1" LinkMovementControlState="0"
+                         MovementDistancePositive="-1" MovementDistanceNegative="-1" MovementSpeed="20" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="1" MovementAxisZ="0" />
+      </Link>
+
+    </LINKS>
+
+
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0.95" SacredPositionOffsetZ="0" />
+  <!--***************************************************************************************************************-->
+</TOTEM>

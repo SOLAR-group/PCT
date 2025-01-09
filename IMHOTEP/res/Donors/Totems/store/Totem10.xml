@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <PROMPTER HullIndex="0"
+            LocalPositionX="0" LocalPositionY="1.0" LocalPositionZ="0"
+            FontName="Latin" MaterialSchemeName="Glow" CharacterHeight="0.024" IsUsedAsBillboard="0" IsCursorUsed="0" IsShadowUsed="1"/>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.01" AngularVelocityLossPerSecond="0.01" InitialScaleX="50" InitialScaleY="50" InitialScaleZ="50"
+           DestructionDelay="1" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="7">
+
+   <!-- Top panel (Main hull) ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_2.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="0" PositionY="44.5" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_2.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+  <!-- Lock ***************************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="weakpoint1.obj" ObjectMass="100" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="5" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="0000000000000000000000000001001" EffectsMaskDestroy="00000000000000000000000000000000" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="1" />
+    </Hull>
+    
+   <!-- Bottom panel ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_0.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="0" PositionY="-28.1697" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_0.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+   <!-- Front panel ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_1.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="0" PositionY="0" PositionZ="28.1697"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_1.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+   <!-- Back panel ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_1.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="0" PositionY="0" PositionZ="-28.1697"
+                  OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_1.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+   <!-- Right panel ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_1.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="-28.1697" PositionY="0" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_1.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+   <!-- Left panel ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="box_IV_1.mesh" ScaleX="50" ScaleY="50" ScaleZ="50"
+                  PositionX="28.1697" PositionY="0" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="box_I_1.obj" ObjectMass="0.0075" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="1000" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+   
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="6">
+
+      <!-- Top panel (Main hull) - Lock ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="0" HullIndexSecond="1" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+      <!-- Lock - Bottom panel ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="1" HullIndexSecond="2" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+      <!-- Lock - Front panel ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="1" HullIndexSecond="3" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+      <!-- Lock - Back panel ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="1" HullIndexSecond="4" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+      <!-- Lock - Right panel ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="1" HullIndexSecond="5" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+      <!-- Lock - Left panel ***************************************************************************************************************-->
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="1" HullIndexSecond="6" 
+                  Destructible="1" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000101" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+    </LINKS>
+    <!--***************************************************************************************************************-->
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0" SacredPositionOffsetZ="0" />
+  <!--<SoulsData SoulsCost="6" />-->
+  <DamageChanneling />
+  <UseNeutralColour />
+  <!--***************************************************************************************************************-->
+</TOTEM>

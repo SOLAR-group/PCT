@@ -1,0 +1,602 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="250" InitialScaleY="250" InitialScaleZ="250"
+           DestructionDelay="3600" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="31">
+
+    <!-- Top ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="1.019" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_0.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Top ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_1.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0.475" PositionY="0.447" PositionZ="0"
+                  OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_1.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Top ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_1.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-0.475" PositionY="0.447" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_1.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Bottom ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_2.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0.236" PositionY="-0.553" PositionZ="0"
+                  OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_2.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Bottom ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_2.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-0.236" PositionY="-0.553" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_2.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+
+
+
+
+
+
+    <!-- Left Chain #1 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0.733" PositionY="0.234" PositionZ="0"
+                  OrientationW="0.653" OrientationX="0.653" OrientationY="-0.270" OrientationZ="-0.270" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #1 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-0.733" PositionY="0.234" PositionZ="0"
+                  OrientationW="0.653" OrientationX="0.653" OrientationY="0.270" OrientationZ="0.270" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #2 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0.906" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #2 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-0.906" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #3 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="1.106" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #3 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-1.106" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #4 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="1.306" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #4 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-1.306" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #5 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="1.506" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #5 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-1.506" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #6 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="1.706" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #6 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-1.706" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #7 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="1.906" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #7 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-1.906" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #8 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.106" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #8 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.106" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #9 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.306" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #9 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.306" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #10 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.506" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #10 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.506" PositionY="0.113" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Chain #11 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.706" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Chain #11 ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_3.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.706" PositionY="0.113" PositionZ="0"
+                  OrientationW="0.7071" OrientationX="0.7071" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_3.bcs" ObjectMass="0.0016" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Gargoyle ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_4.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.876" PositionY="0.433" PositionZ="-0.12"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_4.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Gargoyle ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="amphora_I_4.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.876" PositionY="0.433" PositionZ="-0.12"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="amphora_I_4.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Left Column ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="column_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="2.876" PositionY="0.433" PositionZ="-0.34"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="column_I_0.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <!-- Right Column ***************************************************************************************************************-->
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="column_I_0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="-2.876" PositionY="0.433" PositionZ="-0.34"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="column_I_0.bcs" ObjectMass="0" ObjectMaterial="5" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="4">
+
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="0" HullIndexSecond="1" Destructible="0"
+                  DestructionDelay="0" EffectMultiplierKill="0.0000001" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000001001" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="0" HullIndexSecond="2" Destructible="0"
+                  DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="0" HullIndexSecond="3" Destructible="0"
+                  DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+      <Link LinkType="0">
+        <LinkData HullIndexFirst="0" HullIndexSecond="4" Destructible="0"
+                  DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+      </Link>
+
+
+
+
+      <!-- Left Chain #1 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="1" HullIndexSecond="5"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="0.526" PositionFirstY="0.350" PositionFirstZ="0"
+                      PositionSecondX="0.612" PositionSecondY="0.355" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Right Chain #1 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="2" HullIndexSecond="6"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="-0.526" PositionFirstY="0.350" PositionFirstZ="0"
+                      PositionSecondX="-0.612" PositionSecondY="0.355" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+      
+      <!-- Left Chain #2 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="5" HullIndexSecond="7"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="0.725" PositionFirstY="0.242" PositionFirstZ="0"
+                      PositionSecondX="0.906" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+      
+      <!-- Right Chain #2 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="6" HullIndexSecond="8"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="-0.725" PositionFirstY="0.242" PositionFirstZ="0"
+                      PositionSecondX="-0.906" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Left Chain #3 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="7" HullIndexSecond="9"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="0.906" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="1.106" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Right Chain #3 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="8" HullIndexSecond="10"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="-0.906" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="-1.106" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Left Chain #4 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="9" HullIndexSecond="11"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="1.106" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="1.306" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Right Chain #4 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="10" HullIndexSecond="12"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="-1.106" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="-1.306" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Left Chain #5 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="11" HullIndexSecond="13"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="1.306" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="1.506" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+      <!-- Right Chain #5 ***************************************************************************************************************-->
+
+      <Link LinkType="1">
+        <LinkData HullIndexFirst="12" HullIndexSecond="14"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkRopeData PositionFirstX="-1.306" PositionFirstY="0.113" PositionFirstZ="0"
+                      PositionSecondX="-1.506" PositionSecondY="0.113" PositionSecondZ="0"
+                      RopeType="1" RopeElements="0" RopeMass="0.0" />
+      </Link>
+
+    </LINKS>
+
+  </HULL>
+
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0" SacredPositionOffsetZ="0" />
+  <AutoDestruction Distance="0"
+                   SpawnerType="0" />
+  <!--***************************************************************************************************************-->
+
+</TOTEM>

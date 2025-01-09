@@ -1,0 +1,261 @@
+<?xml version="1.0" ?>
+<TOTEM>
+  <!--***************************************************************************************************************-->
+  <PROMPTER HullIndex="0"
+            LocalPositionX="0" LocalPositionY="0.85" LocalPositionZ="0"
+            FontName="Latin" MaterialSchemeName="Glow" CharacterHeight="0.0005" IsUsedAsBillboard="0" IsCursorUsed="0" IsShadowUsed="1"/>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="300" InitialScaleY="300" InitialScaleZ="300"
+           DestructionDelay="1" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="3">
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="14">
+          <!--Pillars tops ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.717984" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.717984" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.717984" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.717984" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Pillars bases ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.183397" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.183397" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.183397" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.040526" ComponentScaleY="0.024831" ComponentScaleZ="0.040526"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.183397" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Pillars bodies ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.024316" ComponentScaleY="0.242463" ComponentScaleZ="0.024316"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.450691" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.024316" ComponentScaleY="0.242463" ComponentScaleZ="0.024316"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.450691" ComponentLocalPositionZ="0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.024316" ComponentScaleY="0.242463" ComponentScaleZ="0.024316"
+                                    ComponentLocalPositionX="0.202632" ComponentLocalPositionY="0.450691" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.024316" ComponentScaleY="0.242463" ComponentScaleZ="0.024316"
+                                    ComponentLocalPositionX="-0.202632" ComponentLocalPositionY="0.450691" ComponentLocalPositionZ="-0.202632"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Cylinders #1 / #8 ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.473406" ComponentScaleY="0.058425" ComponentScaleZ="0.473406"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.100141" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.062531" ComponentScaleY="0.022528" ComponentScaleZ="0.062531"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.720287" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000001000000000000000010110" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+     <MarkersSets Number="2">
+        <MarkersSet>
+          <Markers Number="1">
+            <MarkerData ModelFileName="skyaltar0.mesh" LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+          </Markers>
+        </MarkersSet>
+        <MarkersSet>
+          <Markers Number="1">
+            <MarkerData ModelFileName="skyaltar1.mesh" LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+    </Hull>
+
+
+
+
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="3">
+
+          <!--Cylinders #2 / #4 / #6 ********************************************************************************************************-->
+
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.331384" ComponentScaleY="0.054747" ComponentScaleZ="0.331384"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.01303" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.260547" ComponentScaleY="0.058537" ComponentScaleZ="0.260547"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.232152" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.062531" ComponentScaleY="0.063078" ComponentScaleZ="0.062531"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.526548" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000001000000000000000010110" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+     <MarkersSets Number="1">
+        <MarkersSet>
+          <Markers Number="1">
+            <MarkerData ModelFileName="skyaltar10.mesh" LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+    </Hull>
+
+
+
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="3">
+          <!--Cylinders #3 / #5 / #7 ********************************************************************************************************-->
+
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.167018" ComponentScaleY="0.052919" ComponentScaleZ="0.167018"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.120696" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.104199" ComponentScaleY="0.08639" ComponentScaleZ="0.104199"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.377079" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CYLINDER"
+                                    ComponentScaleX="0.167959" ComponentScaleY="0.054067" ComponentScaleZ="0.167959"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.643692" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000001000000000000000010110" EffectsMaskDestroy="00000000011000000000000000010110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+     <MarkersSets Number="1">
+        <MarkersSet>
+          <Markers Number="1">
+            <MarkerData ModelFileName="skyaltar11.mesh" LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+    </Hull>
+
+
+
+
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="2">
+
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="0" HullIndexSecond="1" 
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="0" LinkMovementFunctionType="1" LinkMovementControlState="1"
+                         MovementDistancePositive="-1" MovementDistanceNegative="-1" MovementSpeed="60" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="1" MovementAxisZ="0" />
+      </Link>
+
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="0" HullIndexSecond="2" 
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="0" LinkMovementFunctionType="1" LinkMovementControlState="1"
+                         MovementDistancePositive="-1" MovementDistanceNegative="-1" MovementSpeed="60" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="-1" MovementAxisZ="0" />
+      </Link>
+
+    </LINKS>
+
+
+
+
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <TotemData SacredPositionOffsetX="0" SacredPositionOffsetY="0.5f" SacredPositionOffsetZ="0" />
+  <!--***************************************************************************************************************-->
+</TOTEM>
